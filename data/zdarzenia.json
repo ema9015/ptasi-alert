@@ -1,26 +1,9 @@
 {
- "aktualizacja": "2026-11-05T14:31+01:00",
+ "aktualizacja": "2026-11-05T15:33+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "https://bip.wetgiw.gov.pl/nd/mapa/: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
-  "https://www.piwjarocin.pl/Analiza_grypa ptakow_PIWet_14_grudnia.pdf: URL can't contain control characters. '/Analiza_grypa ptakow_PIWet_14_grudnia.pdf' (found at least ' ')",
-  "https://www.piwjarocin.pl/20170405140728_rozp.zdnia4kwietnia2017wsprawiezarzdzeniarodkwzwizanychzwystpieniemwysocezjadliwejgrypyptakw.pdf: HTTP Error 404: Not Found",
-  "http://www.wetgiw.gov.pl/694---kategoria_komunikaty-prasowe-i-aktualnosci---wolny-wybieg-a-grypa-ptakow: HTTP Error 500: Internal Server Error",
-  "http://piwkonin.pl/wp-content/uploads/2023/06/Rozporządzenie-nr-2-z-26-06-2023.pdf: 'ascii' codec can't encode character '\\u0105' in position 39: ordinal not in range(128)",
-  "http://piwkonin.pl/wp-content/uploads/2023/06/Zasady-ochrony-drobiu-przed-chorobą.pdf: 'ascii' codec can't encode character '\\u0105' in position 66: ordinal not in range(128)",
-  "http://piwkonin.pl/wp-content/uploads/2023/06/Wykaz-gatunków-dzikich-ptaków-podlegających-monitorowaniu-w-kierunku-wysoce-zjadliwej-grypy-ptaków.pdf: 'ascii' codec can't encode character '\\xf3' in position 44: ordinal not in range(128)",
-  "http://piwkonin.pl/wp-content/uploads/2023/06/Rozporządzenie-nr-1-z-13-06-2023.pdf: 'ascii' codec can't encode character '\\u0105' in position 39: ordinal not in range(128)",
-  "http://piwkonin.pl/wp-content/uploads/2023/01/Rozporządzenie-w-sprawie-zwalczania-wysoce-zjadliwej-grypy-ptaków-HPAI.pdf: 'ascii' codec can't encode character '\\u0105' in position 39: ordinal not in range(128)",
-  "http://piwkonin.pl/wp-content/uploads/2020/12/Zasady-Ochrony-Drobiu-Przed-Chorobą-.docx: 'ascii' codec can't encode character '\\u0105' in position 66: ordinal not in range(128)",
-  "http://piwkonin.pl/wp-content/uploads/2020/11/Analiza_grypa-ptaków_PIWet_12-listopada-2020.pdf: 'ascii' codec can't encode character '\\xf3' in position 50: ordinal not in range(128)",
-  "https://www.piw-szamotuly.pl/39.html: HTTP Error 404: Not Found",
-  "https://www.piw-szamotuly.pl/43.html: HTTP Error 404: Not Found",
-  "https://piw-srem.biuletyn.net/?bip=2&amp;cid=33&amp;id=357: HTTP Error 404: Not Found",
-  "https://piw-srem.biuletyn.net/?bip=2&amp;cid=33&amp;id=355: HTTP Error 404: Not Found",
-  "https://piw-srem.biuletyn.net/?bip=2&amp;cid=33&amp;id=354: HTTP Error 404: Not Found",
-  "https://piw-srem.biuletyn.net/?bip=2&amp;cid=33&amp;id=352: HTTP Error 404: Not Found"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {

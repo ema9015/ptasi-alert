@@ -1,0 +1,60 @@
+name: Ptasi Alert - aktualizacja
+
+on:
+  schedule:
+    # co 15 minut, całą dobę (GitHub potrafi opóźnić start o kilka–kilkanaście minut)
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}     # przycisk „Run workflow”
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ptasi-alert
+  cancel-in-progress: false
+
+jobs:
+  aktualizuj:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj czytnik PDF
+        run: pip install pypdf
+
+      - name: Pobierz komunikaty i zaktualizuj dane
+        env:
+          WOJEWODZTWA: ${{ vars.WOJEWODZTWA }}
+          NTFY_TEMAT: ${{ secrets.NTFY_TEMAT }}
+          STRONA_URL: ${{ vars.STRONA_URL }}
+          DNI_AKTYWNE: ${{ vars.DNI_AKTYWNE }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python skrypt/aktualizuj.py
+
+      - name: Zapisz dane w repozytorium
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Aktualizacja danych" || echo "Bez zmian"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4

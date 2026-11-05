@@ -1,10 +1,12 @@
 {
- "aktualizacja": "2026-11-05T18:53+01:00",
+ "aktualizacja": "2026-11-05T19:49+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "WIW (podkarpackie): <urlopen error timed out>"
+  "https://bip.piwwschowa.pl/system/pobierz.php?plik=rozporzadzenie.pdf&amp;id=116&amp;stats=true: HTTP Error 404: Not Found",
+  "https://bip.piwwschowa.pl/system/pobierz.php?plik=poz722_z_dnia_5kwietnia2017.pdf&amp;id=e928f78564aef6144f9c24dda4f1b733&amp;stats=true: HTTP Error 404: Not Found",
+  "https://bip.piwwschowa.pl/system/pobierz.php?plik=ulotka.pdf&amp;id=54c7185e99d8e1af9a13db8c52556eb8&amp;stats=true: HTTP Error 404: Not Found"
  ],
  "zdarzenia": [
   {
@@ -3796,6 +3798,96 @@
    "powiat": "inspektorat",
    "woj": "cała Polska",
    "liczba": null,
+   "ptaki": "różne gatunki drobiu oddzielnie",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI - grypa ptaków",
+   "zrodlo": "https://bip.piwkrosnoodrz.pl/10036/HPAI_-_grypa_ptakow/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI - grypa ptaków",
+     "u": "https://bip.piwkrosnoodrz.pl/10036/HPAI_-_grypa_ptakow/",
+     "typ": "PIW Krosno Odrzańskie"
+    }
+   ],
+   "id": "reg-6cfbc699fa-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T19:49+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "różne gatunki drobiu oddzielnie",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI - Powiatowy Inspektorat Weterynarii w Żaganiu \r",
+   "zrodlo": "https://bip.piw.zagan.pl/10034/HPAI/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI - Powiatowy Inspektorat Weterynarii w Żaganiu \r",
+     "u": "https://bip.piw.zagan.pl/10034/HPAI/",
+     "typ": "PIW Żagań"
+    }
+   ],
+   "id": "reg-7044294ed8-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T19:49+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "w SPRAWIE ZAGRO Ż ENIA WYSOKOZJADLIW Ą GRYP Ą PTAKÓW",
+   "zrodlo": "https://bip.piwwschowa.pl/system/pobierz.php?id=184",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "w SPRAWIE ZAGRO Ż ENIA WYSOKOZJADLIW Ą GRYP Ą PTAKÓW",
+     "u": "https://bip.piwwschowa.pl/system/pobierz.php?id=184",
+     "typ": "PIW Wschowa"
+    }
+   ],
+   "id": "reg-f197f722cf-1",
+   "lat": 52.298329,
+   "lon": 17.8552928,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T19:49+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
    "ptaki": null,
    "nr": null,
    "data": "2026-11-04",
@@ -5817,6 +5909,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-08",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rzekomy pomór drobiu (ND)",
+   "zrodlo": "https://bip.piw.zagan.pl/10044/Rzekomy_pomor_drobiu__28ND_29/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rzekomy pomór drobiu (ND)",
+     "u": "https://bip.piw.zagan.pl/10044/Rzekomy_pomor_drobiu__28ND_29/",
+     "typ": "PIW Żagań"
+    }
+   ],
+   "id": "reg-a24acf6656-1",
+   "lat": 51.94,
+   "lon": 15.51,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T19:49+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "zielonogórski",
    "woj": "lubuskie",
    "liczba": null,
@@ -7206,6 +7328,39 @@
    "lon": 17.09559,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": "Konotop",
+   "gmina": "Sława",
+   "powiat": "wschowski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": "kury nioski",
+   "nr": null,
+   "data": "2025-10-21",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie WL z dnia 21.10.2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów wschowskiego, nowosolskiego i zielonogórskiego",
+   "zrodlo": "https://bip.piwwschowa.pl/system/pobierz.php?id=235",
+   "rodzaj": "komunikat",
+   "strefy": {
+    "zagrozony": "1) w powiecie wschowskim, w gminie Sława, miejscowości: Łupice, Spokojna, Bagno, Szreniawa, Ciosaniec, Droniki; 2) w powiecie nowosolskim, w gminie Kolsko, miejscowości: Uście, Tatarki, Jesiona, Sławo cin, Tyrszeliny, Kolsko, część miejscowości Konotop na północ od drogi leśnej łączącej m. Głuszyca z drogą pożarową nr 6; 3) w powiecie zielonogórskim: a) w gminie Kargowa, miejscowości: Obra Dolna, Nowy Jaromierz, Stary Jaromierz, część miejscowości Karszyn na wschód od drogi gminnej z miejscowości Kargowa do miejscowości Siadcza, b) w gminie Bojadła, część miejscowości Susłów, na wschód od drogi pożarowej nr 18"
+   },
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie WL z dnia 21.10.2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów wschowskiego, nowosolskiego i zielonogórskiego",
+     "u": "https://bip.piwwschowa.pl/system/pobierz.php?id=235",
+     "typ": "PIW Wschowa"
+    }
+   ],
+   "id": "reg-3428a7789d-1",
+   "lat": 51.9313035,
+   "lon": 15.9029475,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T19:49+01:00",
    "status": "zniesione"
   },
   {

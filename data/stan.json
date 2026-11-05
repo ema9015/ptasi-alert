@@ -1,5 +1,5 @@
 {
- "piw_offset": 0,
+ "piw_offset": 29,
  "przetworzone": [],
  "adresy": [
   "http://bialystok.wiw.gov.pl/a,27,nowe-zalecenia-dla-drobiarzy",
@@ -167,6 +167,9 @@
   "https://bip.piw-miedzychod.pl/109.html",
   "https://bip.piw-miedzychod.pl/72.html",
   "https://bip.piw.ostrowwlkp.pl/informacje/drob",
+  "https://bip.piw.powiat-miedzyrzecki.pl/strona_glowna/10000/195/Apel_Powiatowego_Lekarza_Weterynarii_w_Miedzyrzeczu_do_hodowcow_drobiu_oraz_osob_utrzymujacych_drob_przyzagrodowy_0D_0A/rejestr/",
+  "https://bip.piw.zagan.pl/10034/HPAI/",
+  "https://bip.piw.zagan.pl/10044/Rzekomy_pomor_drobiu__28ND_29/",
   "https://bip.piwcieszyn.pl/102.html?file=137",
   "https://bip.piwcieszyn.pl/102.html?file=318",
   "https://bip.piwcieszyn.pl/102.html?file=319",
@@ -181,6 +184,7 @@
   "https://bip.piwkalisz.pl/pik/aktualnosci/22369,Komunikat-obowiazek-przestrzegania-zasad-bioasekuracji-HPAI.html",
   "https://bip.piwkalisz.pl/pik/batony/468,1-HPAI.html",
   "https://bip.piwkalisz.pl/pik/hpai-ptasia-grypa",
+  "https://bip.piwkrosnoodrz.pl/10036/HPAI_-_grypa_ptakow/",
   "https://bip.piwturek.pl/wt/grypa-ptakow",
   "https://bip.piwturek.pl/wt/komunikaty-plw/aktualne/17996,Powiatowy-Lekarz-Weterynarii-w-Turku-przypomina-o-obowiazku-przestrzegania-bioas.html",
   "https://bip.piwturek.pl/wt/komunikaty-plw/aktualne/18020,KOMUNIKAT-POWIATOWEGO-LEKARZA-WETERYNRII-W-TURKU-W-SPRAWIE-NOWYCH-AKTOW-PRAWNYCH.html",
@@ -189,6 +193,16 @@
   "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18084,Ochrona-drobiu-przed-ptasia-grypa-najwazniejsze-zasady.html",
   "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18085,Zapobiegaj-rozprzestrzenianiu-sie-ptasiej-grypy.html",
   "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18088,Rozpoznaj-objawy-ptasiej-grypy.html",
+  "https://bip.piwwschowa.pl/system/pobierz.php?id=148",
+  "https://bip.piwwschowa.pl/system/pobierz.php?id=162",
+  "https://bip.piwwschowa.pl/system/pobierz.php?id=165",
+  "https://bip.piwwschowa.pl/system/pobierz.php?id=184",
+  "https://bip.piwwschowa.pl/system/pobierz.php?id=207",
+  "https://bip.piwwschowa.pl/system/pobierz.php?id=211",
+  "https://bip.piwwschowa.pl/system/pobierz.php?id=235",
+  "https://bip.piwwschowa.pl/system/pobierz.php?plik=poz722_z_dnia_5kwietnia2017.pdf&amp;id=e928f78564aef6144f9c24dda4f1b733&amp;stats=true",
+  "https://bip.piwwschowa.pl/system/pobierz.php?plik=rozporzadzenie.pdf&amp;id=116&amp;stats=true",
+  "https://bip.piwwschowa.pl/system/pobierz.php?plik=ulotka.pdf&amp;id=54c7185e99d8e1af9a13db8c52556eb8&amp;stats=true",
   "https://bip.wetgiw.gov.pl/nd/mapa/",
   "https://docs.google.com/a/www.piw-zary.4bip.pl/viewer?url=https://www.piw-zary.4bip.pl/upload/plik,20260929123322,komunikat_uwaga_hpai_i_nd_kupowanie_ze_sprawdzonych_zrodel.png",
   "https://docs.google.com/forms/d/e/1FAIpQLSdCgeK6ZLhMFJHHE1uTT0lNxQ00oLVLEAKSTap9sVWzvdpnEQ/viewform",
@@ -552,5 +566,5 @@
   "CBMijwFBVV95cUxPbkg5M1otb250UmpIcmp2YWxxQkxKOHJUR0tKYkNTYkxYQkZOSVN6X2JfQldpcW02dnRzanM3ellIY2p6WGUtaUtzdkRNb0xfVFJZSFJZbUw3SFFBTlNtRGhrUl9LaG5WdXAtYko5VDNJU3N0bGlDQjNvQ1piRmREUXAtWmtPbUhaVjBQRG9aWQ",
   "CBMiogFBVV95cUxNYVUxSGxFUDBld3RYYnRYX1dfcXk0SGtCT01OQURCdXJvblFMa3NkX0JXT3IzRjFlV0t0cUZMTmVDWG5YdW1JQTZad2lBdHlTVFlsUkk2ZzBmQTgyOWVNXzVrR0x5X0dPa0tpVzVWZ2NtSDk1YVFNWHV2T3E2UWdpelU5RG1BcVdKWG5uMEY3S3RHamF1a3FFSk12d3VSckdwcGc"
  ],
- "ostatnie_uruchomienie": "2026-11-05T18:53+01:00"
+ "ostatnie_uruchomienie": "2026-11-05T19:49+01:00"
 }

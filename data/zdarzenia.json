@@ -1,10 +1,10 @@
 {
- "aktualizacja": "2026-11-05T17:47+01:00",
+ "aktualizacja": "2026-11-05T18:53+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "WIW (podkarpackie): <urlopen error _ssl.c:994: The handshake operation timed out>"
+  "WIW (podkarpackie): <urlopen error timed out>"
  ],
  "zdarzenia": [
   {
@@ -5003,6 +5003,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-01",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "01 . 10.2026\n Komunikat - obowiązek przestrzegania zasad bioasekuracji (HPAI)",
+   "zrodlo": "https://www.bip.piwkalisz.pl/pik/aktualnosci/22369,Komunikat-obowiazek-przestrzegania-zasad-bioasekuracji-HPAI.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "01 . 10.2026\n Komunikat - obowiązek przestrzegania zasad bioasekuracji (HPAI)",
+     "u": "https://www.bip.piwkalisz.pl/pik/aktualnosci/22369,Komunikat-obowiazek-przestrzegania-zasad-bioasekuracji-HPAI.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kaliszu"
+    }
+   ],
+   "id": "reg-80fe9497ef-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T18:53+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": null,
    "woj": "cała Polska",
    "liczba": null,
@@ -5358,6 +5388,36 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-07-01",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "01 . 07.2026\n Komunikat - Rzekomy Pomór Drobiu i Ptasia Grypa",
+   "zrodlo": "https://www.bip.piwkalisz.pl/pik/aktualnosci/21564,Komunikat-Rzekomy-Pomor-Drobiu-i-Ptasia-Grypa.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "01 . 07.2026\n Komunikat - Rzekomy Pomór Drobiu i Ptasia Grypa",
+     "u": "https://www.bip.piwkalisz.pl/pik/aktualnosci/21564,Komunikat-Rzekomy-Pomor-Drobiu-i-Ptasia-Grypa.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kaliszu"
+    }
+   ],
+   "id": "reg-ef20e66b8b-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T18:53+01:00",
    "status": "zniesione"
   },
   {

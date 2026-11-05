@@ -198,5 +198,105 @@
   49.9897524,
   18.8912467,
   "województwo śląskie"
- ]
+ ],
+ "powiat lekarzy": [
+  51.6698156,
+  16.5273286,
+  "województwo dolnośląskie"
+ ],
+ "powiat lekarza, województwo wielkopolskie": null,
+ "powiat gnieźnieński": [
+  52.5535891,
+  17.5868304,
+  "województwo wielkopolskie"
+ ],
+ "Borów, gmina Opatówek, powiat kaliski, województwo wielkopolskie": [
+  51.7569828,
+  18.2330026,
+  "województwo wielkopolskie"
+ ],
+ "Półkoty, gmina Sejny, powiat sejneński, województwo podlaskie": [
+  54.0966322,
+  23.4424662,
+  "województwo podlaskie"
+ ],
+ "Kaczory, powiat pilski, województwo wielkopolskie": [
+  53.1020938,
+  16.8843061,
+  "województwo wielkopolskie"
+ ],
+ "powiat gostyński, województwo wielkopolskie": [
+  51.8377719,
+  17.09559,
+  "województwo wielkopolskie"
+ ],
+ "Świętno, gmina Wolsztyn, powiat wolsztyński, województwo wielkopolskie": [
+  52.0090209,
+  16.0507342,
+  "województwo wielkopolskie"
+ ],
+ "Redaki, gmina Susz, powiat iławski, województwo warmińsko-mazurskie": [
+  53.6691231,
+  19.4005254,
+  "województwo warmińsko-mazurskie"
+ ],
+ "Susz, powiat iławski, województwo warmińsko-mazurskie": [
+  53.7166619,
+  19.3385289,
+  "województwo warmińsko-mazurskie"
+ ],
+ "Kaczagórka, gmina Pogorzela, powiat inspektorat, województwo wielkopolskie": null,
+ "Kaczagórka, województwo wielkopolskie": [
+  51.8344445,
+  17.3203376,
+  "województwo wielkopolskie"
+ ],
+ "gmina Rakoniewice \r\n Ogłoszenie, województwo wielkopolskie": null,
+ "Wroniawy, gmina Wolsztyn, powiat wolsztyński, województwo wielkopolskie": [
+  52.0580339,
+  16.1535546,
+  "województwo wielkopolskie"
+ ],
+ "gmina Kępno, województwo wielkopolskie": [
+  51.3308533,
+  18.0048963,
+  "województwo wielkopolskie"
+ ],
+ "Bieczyny, gmina Czempiń, powiat lekarz, województwo wielkopolskie": null,
+ "Bieczyny, województwo wielkopolskie": [
+  52.1897153,
+  16.752532,
+  "województwo wielkopolskie"
+ ],
+ "gmina Międzychód, województwo wielkopolskie": [
+  52.5864067,
+  15.9087417,
+  "województwo wielkopolskie"
+ ],
+ "powiat pleszewski": [
+  51.9254229,
+  17.8248007,
+  "województwo wielkopolskie"
+ ],
+ "gmina Raszków, województwo wielkopolskie": [
+  51.7365393,
+  17.7380268,
+  "województwo wielkopolskie"
+ ],
+ "powiat lekarz, województwo wielkopolskie": null,
+ "gmina Wągrowiec\n Powiatowy Lekarz Weterynarii": null,
+ "Buchowo, gmina Debrzno, powiat inspektorat, województwo pomorskie": null,
+ "Buchowo, województwo pomorskie": [
+  53.58156,
+  17.19777,
+  "województwo pomorskie"
+ ],
+ "Kaczenice, powiat lekarz, województwo wielkopolskie": null,
+ "Kaczenice, województwo wielkopolskie": null,
+ "gmina Tarnówka": [
+  53.3259444,
+  16.8570391,
+  "województwo wielkopolskie"
+ ],
+ "gmina Okonek \n Powiatowy Inspektorat Weterynarii, województwo wielkopolskie": null
 }

@@ -1,9 +1,26 @@
 {
- "aktualizacja": "2026-11-05T13:09+01:00",
+ "aktualizacja": "2026-11-05T14:31+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
+  "https://bip.wetgiw.gov.pl/nd/mapa/: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+  "https://www.piwjarocin.pl/Analiza_grypa ptakow_PIWet_14_grudnia.pdf: URL can't contain control characters. '/Analiza_grypa ptakow_PIWet_14_grudnia.pdf' (found at least ' ')",
+  "https://www.piwjarocin.pl/20170405140728_rozp.zdnia4kwietnia2017wsprawiezarzdzeniarodkwzwizanychzwystpieniemwysocezjadliwejgrypyptakw.pdf: HTTP Error 404: Not Found",
+  "http://www.wetgiw.gov.pl/694---kategoria_komunikaty-prasowe-i-aktualnosci---wolny-wybieg-a-grypa-ptakow: HTTP Error 500: Internal Server Error",
+  "http://piwkonin.pl/wp-content/uploads/2023/06/Rozporządzenie-nr-2-z-26-06-2023.pdf: 'ascii' codec can't encode character '\\u0105' in position 39: ordinal not in range(128)",
+  "http://piwkonin.pl/wp-content/uploads/2023/06/Zasady-ochrony-drobiu-przed-chorobą.pdf: 'ascii' codec can't encode character '\\u0105' in position 66: ordinal not in range(128)",
+  "http://piwkonin.pl/wp-content/uploads/2023/06/Wykaz-gatunków-dzikich-ptaków-podlegających-monitorowaniu-w-kierunku-wysoce-zjadliwej-grypy-ptaków.pdf: 'ascii' codec can't encode character '\\xf3' in position 44: ordinal not in range(128)",
+  "http://piwkonin.pl/wp-content/uploads/2023/06/Rozporządzenie-nr-1-z-13-06-2023.pdf: 'ascii' codec can't encode character '\\u0105' in position 39: ordinal not in range(128)",
+  "http://piwkonin.pl/wp-content/uploads/2023/01/Rozporządzenie-w-sprawie-zwalczania-wysoce-zjadliwej-grypy-ptaków-HPAI.pdf: 'ascii' codec can't encode character '\\u0105' in position 39: ordinal not in range(128)",
+  "http://piwkonin.pl/wp-content/uploads/2020/12/Zasady-Ochrony-Drobiu-Przed-Chorobą-.docx: 'ascii' codec can't encode character '\\u0105' in position 66: ordinal not in range(128)",
+  "http://piwkonin.pl/wp-content/uploads/2020/11/Analiza_grypa-ptaków_PIWet_12-listopada-2020.pdf: 'ascii' codec can't encode character '\\xf3' in position 50: ordinal not in range(128)",
+  "https://www.piw-szamotuly.pl/39.html: HTTP Error 404: Not Found",
+  "https://www.piw-szamotuly.pl/43.html: HTTP Error 404: Not Found",
+  "https://piw-srem.biuletyn.net/?bip=2&amp;cid=33&amp;id=357: HTTP Error 404: Not Found",
+  "https://piw-srem.biuletyn.net/?bip=2&amp;cid=33&amp;id=355: HTTP Error 404: Not Found",
+  "https://piw-srem.biuletyn.net/?bip=2&amp;cid=33&amp;id=354: HTTP Error 404: Not Found",
+  "https://piw-srem.biuletyn.net/?bip=2&amp;cid=33&amp;id=352: HTTP Error 404: Not Found"
  ],
  "zdarzenia": [
   {
@@ -34,6 +51,36 @@
    "lon": 21.01,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2027-01-01",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zapobieganie grypie ptaków – kampania EFSA #No bird flu (Stop grypie ptaków – chroń swoje gospodarstwo)",
+   "zrodlo": "https://piwgostyn.pl/zapobieganie-grypie-ptakow-kampania-efsa-no-bird-flu-stop-grypie-ptakow-chron-swoje-gospodarstwo/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zapobieganie grypie ptaków – kampania EFSA #No bird flu (Stop grypie ptaków – chroń swoje gospodarstwo)",
+     "u": "https://piwgostyn.pl/zapobieganie-grypie-ptakow-kampania-efsa-no-bird-flu-stop-grypie-ptakow-chron-swoje-gospodarstwo/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-3ece2fc0aa-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
    "status": "aktywne"
   },
   {
@@ -2229,6 +2276,1719 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Materiał informacyjny — dostosuj zalecenia do warunków własnego gospodarstwa i konsultuj z lekarzem weterynarii ",
+   "zrodlo": "http://www.piw-czarnkow.pl/images/stories/Aktualnosci/ulotka_upaly_drob.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Materiał informacyjny — dostosuj zalecenia do warunków własnego gospodarstwa i konsultuj z lekarzem weterynarii ",
+     "u": "http://www.piw-czarnkow.pl/images/stories/Aktualnosci/ulotka_upaly_drob.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Czarnkowie"
+    }
+   ],
+   "id": "reg-564b3e8f74-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Wzór p lanu bioasekuracji gospodarstw utrzymujących drób",
+   "zrodlo": "https://www.piw-czarnkow.pl/images/stories/Aktualnosci/plan_bio_pusty_wzor.docx",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Wzór p lanu bioasekuracji gospodarstw utrzymujących drób",
+     "u": "https://www.piw-czarnkow.pl/images/stories/Aktualnosci/plan_bio_pusty_wzor.docx",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Czarnkowie"
+    }
+   ],
+   "id": "reg-f93918b474-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków (HPAI)",
+   "zrodlo": "https://piw.gniezno.pl/?page_id=402",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków (HPAI)",
+     "u": "https://piw.gniezno.pl/?page_id=402",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-7d9ec2accb-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "CHROŃ SWOJE PT ACTWO. CHROŃ SWOJE GOSPODARSTWO.",
+   "zrodlo": "https://piw.gniezno.pl/wp-content/uploads/2026/10/Infografika_chron_przed_ptasia_grypa.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "CHROŃ SWOJE PT ACTWO. CHROŃ SWOJE GOSPODARSTWO.",
+     "u": "https://piw.gniezno.pl/wp-content/uploads/2026/10/Infografika_chron_przed_ptasia_grypa.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-9d79356b79-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Chroń swoje gospodarstwo",
+   "zrodlo": "https://piw.gniezno.pl/wp-content/uploads/2026/10/plakat_chron_przed_ptasia_grypa.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Chroń swoje gospodarstwo",
+     "u": "https://piw.gniezno.pl/wp-content/uploads/2026/10/plakat_chron_przed_ptasia_grypa.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-ef6f71d626-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Postępowanie z drobiem w okresie upałów Praktyczne zasady ograniczające stres cieplny i śmiertelność w stadzie – wersja PDF",
+   "zrodlo": "https://piw.gniezno.pl/wp-content/uploads/2026/07/ulotka_upaly_drob.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Postępowanie z drobiem w okresie upałów Praktyczne zasady ograniczające stres cieplny i śmiertelność w stadzie – wersja PDF",
+     "u": "https://piw.gniezno.pl/wp-content/uploads/2026/07/ulotka_upaly_drob.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-cf6290a6a0-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Powiatowego Lekarza Weterynarii w Gnieźnie do Hodowców Drobiu Powiatu Gnieźnieńskiego.",
+   "zrodlo": "https://piw.gniezno.pl/wp-content/uploads/2026/01/komunikat-PLW.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Powiatowego Lekarza Weterynarii w Gnieźnie do Hodowców Drobiu Powiatu Gnieźnieńskiego.",
+     "u": "https://piw.gniezno.pl/wp-content/uploads/2026/01/komunikat-PLW.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-9805b2968c-1",
+   "lat": 52.298329,
+   "lon": 17.8552928,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gnieźnieński",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacja do Kół Łowieckich powiatu gnieźnieńskiego w sprawie monitoringu biernego HPAI",
+   "zrodlo": "https://piw.gniezno.pl/wp-content/uploads/2025/10/informacja-do-Kola-lowieckiego-w-sprawie-monitoringu-biernego-HPAI-1.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Informacja do Kół Łowieckich powiatu gnieźnieńskiego w sprawie monitoringu biernego HPAI",
+     "u": "https://piw.gniezno.pl/wp-content/uploads/2025/10/informacja-do-Kola-lowieckiego-w-sprawie-monitoringu-biernego-HPAI-1.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-0d337131a8-1",
+   "lat": 52.5535891,
+   "lon": 17.5868304,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Pismo Powiatowego Lekarza Weterynarii w Gnieźnie do hodowców drobiu – link",
+   "zrodlo": "https://piw.gniezno.pl/wp-content/uploads/2025/10/pismo-do-hodowcow-drobiu.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Pismo Powiatowego Lekarza Weterynarii w Gnieźnie do hodowców drobiu – link",
+     "u": "https://piw.gniezno.pl/wp-content/uploads/2025/10/pismo-do-hodowcow-drobiu.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-15a9889d87-1",
+   "lat": 52.298329,
+   "lon": 17.8552928,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "świętokrzyskie",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/zasady-ochrony-drobiu-przed-grypa-ptakow",
+   "zrodlo": "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/zasady-ochrony-drobiu-przed-grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/zasady-ochrony-drobiu-przed-grypa-ptakow",
+     "u": "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/zasady-ochrony-drobiu-przed-grypa-ptakow",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-a9aea09219-1",
+   "lat": 50.87,
+   "lon": 20.63,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gnieźnieński",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Uwaga – Hodowcy drobiu powiatu gnieźnieńskiego – link",
+   "zrodlo": "http://piw.gniezno.pl/wp-content/uploads/2024/08/HPAI-HODOWCY-DROBIU.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Uwaga – Hodowcy drobiu powiatu gnieźnieńskiego – link",
+     "u": "http://piw.gniezno.pl/wp-content/uploads/2024/08/HPAI-HODOWCY-DROBIU.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-e92259a481-1",
+   "lat": 52.5535891,
+   "lon": 17.5868304,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://piwgostyn.pl/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://piwgostyn.pl/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-4a347bde42-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Powiatowego Lekarza Weterynarii w Gostyniu – Uwaga HPAI !!!",
+   "zrodlo": "https://piwgostyn.pl/komunikat-powiatowego-lekarza-weterynarii-w-gostyniu-uwaga-hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Powiatowego Lekarza Weterynarii w Gostyniu – Uwaga HPAI !!!",
+     "u": "https://piwgostyn.pl/komunikat-powiatowego-lekarza-weterynarii-w-gostyniu-uwaga-hpai/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-498b4d9156-1",
+   "lat": 52.298329,
+   "lon": 17.8552928,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Ulotka informacyjna dla hodowców drobiu przyzagrodowego",
+   "zrodlo": "https://piwgostyn.pl/ulotka-informacyjna-dla-hodowcow-drobiu-przyzagrodowego/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Ulotka informacyjna dla hodowców drobiu przyzagrodowego",
+     "u": "https://piwgostyn.pl/ulotka-informacyjna-dla-hodowcow-drobiu-przyzagrodowego/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-2df1222e3b-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Pełna mobilizacja służb w celu przerwania zakażeń wirusami grypy ptaków u drobiu",
+   "zrodlo": "https://piwgostyn.pl/pelna-mobilizacja-sluzb-w-celu-przerwania-zakazen-wirusami-grypy-ptakow-u-drobiu/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Pełna mobilizacja służb w celu przerwania zakażeń wirusami grypy ptaków u drobiu",
+     "u": "https://piwgostyn.pl/pelna-mobilizacja-sluzb-w-celu-przerwania-zakazen-wirusami-grypy-ptakow-u-drobiu/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-8a4d9e07f6-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "drob",
+   "tytul_zrodla": "Komunikat Powiatowego Lekarza Weterynarii w Gostyniu dotyczący sytuacji epizootycznej związanej z występowaniem ognisk ptasiej grypy (HPAI) w Wielkopolsce",
+   "zrodlo": "https://piwgostyn.pl/komunikat-powiatowego-lekarza-weterynarii-w-gostyniu-dotyczacy-sytuacji-epizootycznej-zwiazanej-z-wystepowaniem-ognisk-ptasiej-grypy-hpai-w-wielkopolsce/",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Powiatowego Lekarza Weterynarii w Gostyniu dotyczący sytuacji epizootycznej związanej z występowaniem ognisk ptasiej grypy (HPAI) w Wielkopolsce",
+     "u": "https://piwgostyn.pl/komunikat-powiatowego-lekarza-weterynarii-w-gostyniu-dotyczacy-sytuacji-epizootycznej-zwiazanej-z-wystepowaniem-ognisk-ptasiej-grypy-hpai-w-wielkopolsce/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-6b27b9ae69-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Sytuacja epizootyczna w UE dotycząca grypy ptaków",
+   "zrodlo": "https://piwgostyn.pl/sytuacja-epizootyczna-w-ue-dotyczaca-grypy-ptakow/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Sytuacja epizootyczna w UE dotycząca grypy ptaków",
+     "u": "https://piwgostyn.pl/sytuacja-epizootyczna-w-ue-dotyczaca-grypy-ptakow/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-f2a7416f43-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków – Powiatowy Inspektorat Weterynarii w Gostyniu ",
+   "zrodlo": "https://piwgostyn.pl/grypa-ptakow/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków – Powiatowy Inspektorat Weterynarii w Gostyniu ",
+     "u": "https://piwgostyn.pl/grypa-ptakow/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-ed067cc4d2-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Rakoniewice \r\n Ogłoszenie",
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://piwgrodzisk.com.pl/?p=1470",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://piwgrodzisk.com.pl/?p=1470",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Grodzisku Wlkp."
+    }
+   ],
+   "id": "reg-fb3051e329-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "GRYPA PTAKÓW - zasady bioasekuracji",
+   "zrodlo": "https://www.piwjarocin.pl/doc07456520241003074009.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "GRYPA PTAKÓW - zasady bioasekuracji",
+     "u": "https://www.piwjarocin.pl/doc07456520241003074009.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Jarocinie"
+    }
+   ],
+   "id": "reg-0304b47880-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacja Powiatowego Lekarza Weterynarii dla hodowców trzody chlewnej i drobiu z powiatu jarocińskiego",
+   "zrodlo": "https://www.piwjarocin.pl/doc03871720211206134116.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Informacja Powiatowego Lekarza Weterynarii dla hodowców trzody chlewnej i drobiu z powiatu jarocińskiego",
+     "u": "https://www.piwjarocin.pl/doc03871720211206134116.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Jarocinie"
+    }
+   ],
+   "id": "reg-f57fa31424-1",
+   "lat": 52.298329,
+   "lon": 17.8552928,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacja dotycząca HPAI",
+   "zrodlo": "https://www.piwjarocin.pl/doc03464720211020062241.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Informacja dotycząca HPAI",
+     "u": "https://www.piwjarocin.pl/doc03464720211020062241.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Jarocinie"
+    }
+   ],
+   "id": "reg-2e6c0c2442-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zasady ochrony drobiu przed HPAI",
+   "zrodlo": "https://www.piwjarocin.pl/Zasady_ochrony_drobiu.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zasady ochrony drobiu przed HPAI",
+     "u": "https://www.piwjarocin.pl/Zasady_ochrony_drobiu.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Jarocinie"
+    }
+   ],
+   "id": "reg-5e792bff1a-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI - Ptasia grypa",
+   "zrodlo": "https://bip.piwkalisz.pl/pik/hpai-ptasia-grypa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI - Ptasia grypa",
+     "u": "https://bip.piwkalisz.pl/pik/hpai-ptasia-grypa",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kaliszu"
+    }
+   ],
+   "id": "reg-1e92aea942-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI - Ptasia grypa Powiatowy Inspektorat Weterynarii w Kaliszu \r",
+   "zrodlo": "https://bip.piwkalisz.pl/pik/batony/468,1-HPAI.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI - Ptasia grypa Powiatowy Inspektorat Weterynarii w Kaliszu \r",
+     "u": "https://bip.piwkalisz.pl/pik/batony/468,1-HPAI.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kaliszu"
+    }
+   ],
+   "id": "reg-57e331df92-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Kępno",
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zarządzenia środków związanych z wystąpieniem wysoce zjadliwej grypy ptaków HPAI",
+   "zrodlo": "https://www.bip.piwkepno.pl/p,28,zarzadzenia-srodkow-zwiazanych-z-wystapieniem-wysoce-zjadliwej-grypy-ptakow-hpai",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zarządzenia środków związanych z wystąpieniem wysoce zjadliwej grypy ptaków HPAI",
+     "u": "https://www.bip.piwkepno.pl/p,28,zarzadzenia-srodkow-zwiazanych-z-wystapieniem-wysoce-zjadliwej-grypy-ptakow-hpai",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kępnie"
+    }
+   ],
+   "id": "reg-55209d3aac-1",
+   "lat": 51.3308533,
+   "lon": 18.0048963,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Kępno",
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI - Wysoce Zjadliwa Grypa Ptaków",
+   "zrodlo": "https://www.bip.piwkepno.pl/p,40,hpai-wysoce-zjadliwa-grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI - Wysoce Zjadliwa Grypa Ptaków",
+     "u": "https://www.bip.piwkepno.pl/p,40,hpai-wysoce-zjadliwa-grypa-ptakow",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kępnie"
+    }
+   ],
+   "id": "reg-45e95c0356-1",
+   "lat": 51.3308533,
+   "lon": 18.0048963,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Kępno",
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "#NoBirdFlu („Stop grypie ptaków – chroń swoje gospodarstwo!”)",
+   "zrodlo": "https://www.bip.piwkepno.pl/index.php?c=article&amp;id=274",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "#NoBirdFlu („Stop grypie ptaków – chroń swoje gospodarstwo!”)",
+     "u": "https://www.bip.piwkepno.pl/index.php?c=article&amp;id=274",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kępnie"
+    }
+   ],
+   "id": "reg-c27529d537-1",
+   "lat": 51.3308533,
+   "lon": 18.0048963,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Kępno",
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://www.bip.piwkepno.pl/index.php?c=article&amp;id=273",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://www.bip.piwkepno.pl/index.php?c=article&amp;id=273",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kępnie"
+    }
+   ],
+   "id": "reg-af7688f906-1",
+   "lat": 51.3308533,
+   "lon": 18.0048963,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI-grypa ptaków",
+   "zrodlo": "https://piwkolo.info/hpai-",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI-grypa ptaków",
+     "u": "https://piwkolo.info/hpai-",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kole"
+    }
+   ],
+   "id": "reg-30b5633d59-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków.PDF",
+   "zrodlo": "https://fs.siteor.com/piwkolo/files/Downloads/20230424081757/Grypa_ptak%C3%B3w.PDF?1727766454",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków.PDF",
+     "u": "https://fs.siteor.com/piwkolo/files/Downloads/20230424081757/Grypa_ptak%C3%B3w.PDF?1727766454",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kole"
+    }
+   ],
+   "id": "reg-38f17e1aac-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "materiały z kampanii EFSA dotyczącej HPAI zostały zaktualizowane.",
+   "zrodlo": "https://piwkoscian.pl/?p=1661",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "materiały z kampanii EFSA dotyczącej HPAI zostały zaktualizowane.",
+     "u": "https://piwkoscian.pl/?p=1661",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kościanie"
+    }
+   ],
+   "id": "reg-74be62299e-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Kampania EFSA dotycząca HPAI",
+   "zrodlo": "https://piwkoscian.pl/?p=1647",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Kampania EFSA dotycząca HPAI",
+     "u": "https://piwkoscian.pl/?p=1647",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kościanie"
+    }
+   ],
+   "id": "reg-18df8f3fc4-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Chroń przed ptasią grypą. Chroń swoją fermę już dziś.",
+   "zrodlo": "https://piwkoscian.pl/wp-content/uploads/2026/10/Chron-przed-ptasia-grypa.-Chron-swoja-ferme-juz-dzis.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Chroń przed ptasią grypą. Chroń swoją fermę już dziś.",
+     "u": "https://piwkoscian.pl/wp-content/uploads/2026/10/Chron-przed-ptasia-grypa.-Chron-swoja-ferme-juz-dzis.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kościanie"
+    }
+   ],
+   "id": "reg-2872451917-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Chroń przed ptasią grypą. Zapobiegaj rozprzestrzenianiu się ptasiej grypy.",
+   "zrodlo": "https://piwkoscian.pl/wp-content/uploads/2026/10/Chron-przed-ptasia-grypa.-Zapobiegaj-rozprzestrzenianiu-sie-ptasiej-grypy.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Chroń przed ptasią grypą. Zapobiegaj rozprzestrzenianiu się ptasiej grypy.",
+     "u": "https://piwkoscian.pl/wp-content/uploads/2026/10/Chron-przed-ptasia-grypa.-Zapobiegaj-rozprzestrzenianiu-sie-ptasiej-grypy.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kościanie"
+    }
+   ],
+   "id": "reg-b7a83e9588-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa.",
+   "zrodlo": "https://piwkoscian.pl/?p=1636",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa.",
+     "u": "https://piwkoscian.pl/?p=1636",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kościanie"
+    }
+   ],
+   "id": "reg-ea834b5d7a-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Wysoce Zjadliwa Grypa Ptaków",
+   "zrodlo": "https://www.piw.krotoszyn.pl/p,84,wysoce-zjadliwa-grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Wysoce Zjadliwa Grypa Ptaków",
+     "u": "https://www.piw.krotoszyn.pl/p,84,wysoce-zjadliwa-grypa-ptakow",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Krotoszynie"
+    }
+   ],
+   "id": "reg-cc49355256-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Wysoce Zjadliwa Grypa Ptaków",
+   "zrodlo": "http://piw.krotoszyn.pl/p,84,ptasia-grypa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Wysoce Zjadliwa Grypa Ptaków",
+     "u": "http://piw.krotoszyn.pl/p,84,ptasia-grypa",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Krotoszynie"
+    }
+   ],
+   "id": "reg-329b6d385b-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Stop grypie ptaków: chroń swoje gospodarstwo!",
+   "zrodlo": "https://www.piw.krotoszyn.pl/a,275,stop-grypie-ptakow-chron-swoje-gospodarstwo",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Stop grypie ptaków: chroń swoje gospodarstwo!",
+     "u": "https://www.piw.krotoszyn.pl/a,275,stop-grypie-ptakow-chron-swoje-gospodarstwo",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Krotoszynie"
+    }
+   ],
+   "id": "reg-1fc4418724-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://www.piw.krotoszyn.pl/a,274,komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://www.piw.krotoszyn.pl/a,274,komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Krotoszynie"
+    }
+   ],
+   "id": "reg-a953a4f3eb-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa.",
+   "zrodlo": "https://wetleszno.pl/?p=2261",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa.",
+     "u": "https://wetleszno.pl/?p=2261",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Lesznie"
+    }
+   ],
+   "id": "reg-9df434a4b1-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "DRÓB ",
+   "zrodlo": "https://bip.piw.ostrowwlkp.pl/informacje/drob",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "DRÓB ",
+     "u": "https://bip.piw.ostrowwlkp.pl/informacje/drob",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Ostrowie Wlkp."
+    }
+   ],
+   "id": "reg-05348e5366-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://piwpleszew.pl/ple/aktualnosci/23074,Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiaz.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://piwpleszew.pl/ple/aktualnosci/23074,Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiaz.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Pleszewie"
+    }
+   ],
+   "id": "reg-9b7b50812a-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "APEL ",
+   "zrodlo": "https://www.piw.poznan.pl/wp-content/uploads/2018/11/ULOTKA-HPAI.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "APEL ",
+     "u": "https://www.piw.poznan.pl/wp-content/uploads/2018/11/ULOTKA-HPAI.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Poznaniu"
+    }
+   ],
+   "id": "reg-dd1b81e81e-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zapobieganie grypie ptaków kampania EPSA",
+   "zrodlo": "https://piwwolsztyn.pl/aktualnosci/zapobieganie-grypie-ptakow-kampania-epsa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zapobieganie grypie ptaków kampania EPSA",
+     "u": "https://piwwolsztyn.pl/aktualnosci/zapobieganie-grypie-ptakow-kampania-epsa",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Wolsztynie"
+    }
+   ],
+   "id": "reg-484c9f6972-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Stop grypie ptaków – chroń swoje gospodarstwo! #NoBirdFlu",
+   "zrodlo": "https://piwwolsztyn.pl/aktualnosci/stop-grypie-ptakow-chron-swoje-gospodarstwo-nobirdflu",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Stop grypie ptaków – chroń swoje gospodarstwo! #NoBirdFlu",
+     "u": "https://piwwolsztyn.pl/aktualnosci/stop-grypie-ptakow-chron-swoje-gospodarstwo-nobirdflu",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Wolsztynie"
+    }
+   ],
+   "id": "reg-0bb64b57d0-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": "Buchowo",
+   "gmina": "Debrzno",
+   "powiat": "inspektorat",
+   "woj": "pomorskie",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Powiatowy Inspektorat Weterynarii w Złotowie \r",
+   "zrodlo": "https://piwzlotow.nbip.pl/?id=108",
+   "rodzaj": "komunikat",
+   "strefy": {
+    "zagrozony": "Debrzno Wieś, Lipka, Smolnica, Trudna, Laskowo, Scholastykowo, Łąkie oraz obszar leśny w obrębie miejscowości Potulice. W związku z zaistniała sytuacją Powiatowy Lekarz Weterynarii w Złotowie apeluje o przestrzeganie zasad mających na celu ochronę gospodarstwa przed wirusem zjadliwej grypy ptaków (HPAI). Drób w chowie przydomowym oraz w celach komercyjnych: zgłoś fakt posiadania drobiu lub innych ptaków powiatowemu lekarzowi weterynarii z wyłączeniem ptaków utrzymywanych stale w pomieszczeniach mieszkalnych; sporządź rejestr posiadanego drobiu lub innych ptaków i dokonuj codziennego przeglądu stada wraz z aktualizacja danych karm drób lub inne ptaki w pomieszczeniach zamkniętych, do których …"
+   },
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Powiatowy Inspektorat Weterynarii w Złotowie \r",
+     "u": "https://piwzlotow.nbip.pl/?id=108",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Złotowie"
+    }
+   ],
+   "id": "reg-95b3543f55-1",
+   "lat": 53.58156,
+   "lon": 17.19777,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Stop grypie ptaków. Chroń swoje gospodarstwo!",
+   "zrodlo": "https://piwzlotow.nbip.pl/?n_id=192&amp;id=99",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Stop grypie ptaków. Chroń swoje gospodarstwo!",
+     "u": "https://piwzlotow.nbip.pl/?n_id=192&amp;id=99",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Złotowie"
+    }
+   ],
+   "id": "reg-a4dd57c058-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dot. zagrożenia grypą ptaków",
+   "zrodlo": "https://piwzlotow.nbip.pl/?n_id=191&amp;id=99",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dot. zagrożenia grypą ptaków",
+     "u": "https://piwzlotow.nbip.pl/?n_id=191&amp;id=99",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Złotowie"
+    }
+   ],
+   "id": "reg-b3ae08c23d-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Tarnówka",
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rzekomy pomór drobiu (Newcastle disease – ND)",
+   "zrodlo": "https://piwzlotow.nbip.pl/?n_id=184&amp;id=99",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rzekomy pomór drobiu (Newcastle disease – ND)",
+     "u": "https://piwzlotow.nbip.pl/?n_id=184&amp;id=99",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Złotowie"
+    }
+   ],
+   "id": "reg-2f1c3d6864-1",
+   "lat": 53.3259444,
+   "lon": 16.8570391,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Okonek \n Powiatowy Inspektorat Weterynarii",
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "ptaki dzikie",
+   "tytul_zrodla": "Wysoce zjadliwa grypa ptaków (HPAI) u dzikich ptaków – Zalew Grudniański, gmina Okonek",
+   "zrodlo": "https://piwzlotow.nbip.pl/?n_id=183&amp;id=99",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Wysoce zjadliwa grypa ptaków (HPAI) u dzikich ptaków – Zalew Grudniański, gmina Okonek",
+     "u": "https://piwzlotow.nbip.pl/?n_id=183&amp;id=99",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Złotowie"
+    }
+   ],
+   "id": "reg-f878c267d3-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-04",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "04 . 11.2026\n Rozpoznaj objawy ptasiej grypy",
+   "zrodlo": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18088,Rozpoznaj-objawy-ptasiej-grypy.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "04 . 11.2026\n Rozpoznaj objawy ptasiej grypy",
+     "u": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18088,Rozpoznaj-objawy-ptasiej-grypy.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Turku"
+    }
+   ],
+   "id": "reg-d3dd679290-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-04",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "04 . 11.2026\n Zapobiegaj rozprzestrzenianiu się ptasiej grypy",
+   "zrodlo": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18085,Zapobiegaj-rozprzestrzenianiu-sie-ptasiej-grypy.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "04 . 11.2026\n Zapobiegaj rozprzestrzenianiu się ptasiej grypy",
+     "u": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18085,Zapobiegaj-rozprzestrzenianiu-sie-ptasiej-grypy.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Turku"
+    }
+   ],
+   "id": "reg-ca1f16d1de-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-04",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "04 . 11.2026\n Ochrona drobiu przed ptasią grypą – najważniejsze zasady",
+   "zrodlo": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18084,Ochrona-drobiu-przed-ptasia-grypa-najwazniejsze-zasady.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "04 . 11.2026\n Ochrona drobiu przed ptasią grypą – najważniejsze zasady",
+     "u": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18084,Ochrona-drobiu-przed-ptasia-grypa-najwazniejsze-zasady.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Turku"
+    }
+   ],
+   "id": "reg-33aac41bcb-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-04",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "04 . 11.2026\n Chroń gospodarstwo przed ptasią grypą",
+   "zrodlo": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18083,Chron-gospodarstwo-przed-ptasia-grypa.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "04 . 11.2026\n Chroń gospodarstwo przed ptasią grypą",
+     "u": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18083,Chron-gospodarstwo-przed-ptasia-grypa.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Turku"
+    }
+   ],
+   "id": "reg-08815f1dad-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-04",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "04 . 11.2026\n Kampania #NoBirdFlu – chroń drób przed ptasią grypą",
+   "zrodlo": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18082,Kampania-NoBirdFlu-chron-drob-przed-ptasia-grypa.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "04 . 11.2026\n Kampania #NoBirdFlu – chroń drób przed ptasią grypą",
+     "u": "https://bip.piwturek.pl/wt/zespol-ds-zdrowia-i-och/aktualnosci/18082,Kampania-NoBirdFlu-chron-drob-przed-ptasia-grypa.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Turku"
+    }
+   ],
+   "id": "reg-dacd28cc85-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-04",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "28 . 10.2026\n #NoBirdFlu - Europejski Urząd ds. Bezpieczeństwa Żywności (EFSA) i Komisja Europejska prowadzą wspólną kampanię skierowaną do hodowców i osób pracujących z drobiem",
+   "zrodlo": "https://piwetwrzesnia.pl/iiw/aktualnosci/22988,NoBirdFlu-Europejski-Urzad-ds-Bezpieczenstwa-Zywnosci-EFSA-i-Komisja-Europejska-.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "28 . 10.2026\n #NoBirdFlu - Europejski Urząd ds. Bezpieczeństwa Żywności (EFSA) i Komisja Europejska prowadzą wspólną kampanię skierowaną do hodowców i osób pracujących z drobiem",
+     "u": "https://piwetwrzesnia.pl/iiw/aktualnosci/22988,NoBirdFlu-Europejski-Urzad-ds-Bezpieczenstwa-Zywnosci-EFSA-i-Komisja-Europejska-.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu we Wrześni"
+    }
+   ],
+   "id": "reg-67319e0b00-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "inspektorat",
    "woj": "cała Polska",
    "liczba": null,
@@ -2479,6 +4239,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-28",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Nie ptasia grypa: chroń swoją farmę!",
+   "zrodlo": "https://piwpleszew.pl/ple/aktualnosci/22995,Nie-ptasia-grypa-chron-swoja-farme.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Nie ptasia grypa: chroń swoją farmę!",
+     "u": "https://piwpleszew.pl/ple/aktualnosci/22995,Nie-ptasia-grypa-chron-swoja-farme.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Pleszewie"
+    }
+   ],
+   "id": "reg-78c07f6078-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": null,
    "woj": "lubelskie",
    "liczba": null,
@@ -2599,6 +4389,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "pleszewski",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-27",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Szkolenie dla hodowców drobiu z terenu powiatu pleszewskiego",
+   "zrodlo": "https://piwpleszew.pl/ple/aktualnosci/22914,Szkolenie-dla-hodowcow-drobiu-z-terenu-powiatu-pleszewskiego.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Szkolenie dla hodowców drobiu z terenu powiatu pleszewskiego",
+     "u": "https://piwpleszew.pl/ple/aktualnosci/22914,Szkolenie-dla-hodowcow-drobiu-z-terenu-powiatu-pleszewskiego.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Pleszewie"
+    }
+   ],
+   "id": "reg-6501d07e83-1",
+   "lat": 51.9254229,
+   "lon": 17.8248007,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "inspektorat",
    "woj": "cała Polska",
    "liczba": null,
@@ -2654,6 +4474,36 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-23",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zagrożenie wystąpienia HPAI i ND",
+   "zrodlo": "https://www.piw.poznan.pl/index.php/2026/10/23/zagrozenie-wystapienia-hpai-i-nd/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zagrożenie wystąpienia HPAI i ND",
+     "u": "https://www.piw.poznan.pl/index.php/2026/10/23/zagrozenie-wystapienia-hpai-i-nd/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Poznaniu"
+    }
+   ],
+   "id": "reg-c1be8663b6-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
    "status": "aktywne"
   },
   {
@@ -2779,6 +4629,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "lekarz",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-10-21",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Powiatowy Lekarz Weterynarii w Turku przypomina o obowiązku przestrzegania bioasekuracji w gospodarstwach utrzymujących drób.",
+   "zrodlo": "https://bip.piwturek.pl/wt/komunikaty-plw/aktualne/17996,Powiatowy-Lekarz-Weterynarii-w-Turku-przypomina-o-obowiazku-przestrzegania-bioas.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Powiatowy Lekarz Weterynarii w Turku przypomina o obowiązku przestrzegania bioasekuracji w gospodarstwach utrzymujących drób.",
+     "u": "https://bip.piwturek.pl/wt/komunikaty-plw/aktualne/17996,Powiatowy-Lekarz-Weterynarii-w-Turku-przypomina-o-obowiazku-przestrzegania-bioas.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Turku"
+    }
+   ],
+   "id": "reg-6fb802c598-1",
+   "lat": 52.1080323,
+   "lon": 19.9415837,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": null,
    "woj": "cała Polska",
    "liczba": null,
@@ -2834,6 +4714,36 @@
    "lon": null,
    "dokladnosc": null,
    "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-19",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "19 . 10.2026\n Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://piwetwrzesnia.pl/iiw/aktualnosci/22888,Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiaz.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "19 . 10.2026\n Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://piwetwrzesnia.pl/iiw/aktualnosci/22888,Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiaz.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu we Wrześni"
+    }
+   ],
+   "id": "reg-97afab7012-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
    "status": "aktywne"
   },
   {
@@ -2989,6 +4899,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-12",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://piwpleszew.pl/ple/aktualnosci/22831,Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiaz.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://piwpleszew.pl/ple/aktualnosci/22831,Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiaz.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Pleszewie"
+    }
+   ],
+   "id": "reg-7a25083819-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "lekarz",
    "woj": "cała Polska",
    "liczba": null,
@@ -3044,6 +4984,36 @@
    "lon": null,
    "dokladnosc": null,
    "dodano": "2026-11-05T11:06+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-01",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "01 . 10.2026\n Komunikat - obowiązek przestrzegania zasad bioasekuracji (HPAI)",
+   "zrodlo": "https://bip.piwkalisz.pl/pik/aktualnosci/22369,Komunikat-obowiazek-przestrzegania-zasad-bioasekuracji-HPAI.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "01 . 10.2026\n Komunikat - obowiązek przestrzegania zasad bioasekuracji (HPAI)",
+     "u": "https://bip.piwkalisz.pl/pik/aktualnosci/22369,Komunikat-obowiazek-przestrzegania-zasad-bioasekuracji-HPAI.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kaliszu"
+    }
+   ],
+   "id": "reg-7fe99a8035-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
    "status": "wygasa"
   },
   {
@@ -3134,6 +5104,36 @@
    "lon": 15.51,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T11:06+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": "Półkoty",
+   "gmina": "Sejny",
+   "powiat": "sejneński",
+   "woj": "podlaskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-09-17",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Aktualna sytuacja epizootyczna w Polsce dotycząca HPAI, ND, ASF, BT",
+   "zrodlo": "https://piwgostyn.pl/aktualna-sytuacja-epizootyczna-w-polsce-dotyczaca-hpai-nd-asf-bt/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Aktualna sytuacja epizootyczna w Polsce dotycząca HPAI, ND, ASF, BT",
+     "u": "https://piwgostyn.pl/aktualna-sytuacja-epizootyczna-w-polsce-dotyczaca-hpai-nd-asf-bt/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-be27075991-2",
+   "lat": 54.0966322,
+   "lon": 23.4424662,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T14:30+01:00",
    "status": "wygasa"
   },
   {
@@ -3260,6 +5260,156 @@
    "miejscowosc": null,
    "gmina": null,
    "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-07-15",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa – PIW Środa Wlkp ",
+   "zrodlo": "https://piwsrodawlkp.pl/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa – PIW Środa Wlkp ",
+     "u": "https://piwsrodawlkp.pl/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Środzie Wlkp."
+    }
+   ],
+   "id": "reg-e6108c18fd-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-07-15",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Postępowanie z drobiem w okresie upałów – PIW Środa Wlkp ",
+   "zrodlo": "https://piwsrodawlkp.pl/postepowanie-z-drobiem-w-okresie-upalow/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Postępowanie z drobiem w okresie upałów – PIW Środa Wlkp ",
+     "u": "https://piwsrodawlkp.pl/postepowanie-z-drobiem-w-okresie-upalow/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Środzie Wlkp."
+    }
+   ],
+   "id": "reg-b5766f1392-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-07-14",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Materiał informacyjny dla hodowców drobiu",
+   "zrodlo": "https://piwpleszew.pl/ple/aktualnosci/21683,Material-informacyjny-dla-hodowcow-drobiu.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Materiał informacyjny dla hodowców drobiu",
+     "u": "https://piwpleszew.pl/ple/aktualnosci/21683,Material-informacyjny-dla-hodowcow-drobiu.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Pleszewie"
+    }
+   ],
+   "id": "reg-28dc820078-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-07-01",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "01 . 07.2026\n Komunikat - Rzekomy Pomór Drobiu i Ptasia Grypa",
+   "zrodlo": "https://bip.piwkalisz.pl/pik/aktualnosci/21564,Komunikat-Rzekomy-Pomor-Drobiu-i-Ptasia-Grypa.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "01 . 07.2026\n Komunikat - Rzekomy Pomór Drobiu i Ptasia Grypa",
+     "u": "https://bip.piwkalisz.pl/pik/aktualnosci/21564,Komunikat-Rzekomy-Pomor-Drobiu-i-Ptasia-Grypa.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kaliszu"
+    }
+   ],
+   "id": "reg-7c3bad7d14-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-06-29",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI - Wysoce zjadliwa grypa ptaków",
+   "zrodlo": "https://piwetwrzesnia.pl/iiw/hpai-wysoce-zjadliwa-gr",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI - Wysoce zjadliwa grypa ptaków",
+     "u": "https://piwetwrzesnia.pl/iiw/hpai-wysoce-zjadliwa-gr",
+     "typ": "Strona internetowa Powiatowego Inspektoratu we Wrześni"
+    }
+   ],
+   "id": "reg-ecd9824a8d-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
    "woj": "kujawsko-pomorskie",
    "liczba": null,
    "ptaki": null,
@@ -3314,6 +5464,36 @@
    "lon": 18.01,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": "Borów",
+   "gmina": "Opatówek",
+   "powiat": "kaliski",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-27",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Aktualna sytuacja epizootyczna w Polsce dotycząca HPAI, ND, ASF, BT",
+   "zrodlo": "https://piwgostyn.pl/aktualna-sytuacja-epizootyczna-w-polsce-dotyczaca-hpai-nd-asf-bt/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Aktualna sytuacja epizootyczna w Polsce dotycząca HPAI, ND, ASF, BT",
+     "u": "https://piwgostyn.pl/aktualna-sytuacja-epizootyczna-w-polsce-dotyczaca-hpai-nd-asf-bt/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-be27075991-1",
+   "lat": 51.7569828,
+   "lon": 18.2330026,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T14:30+01:00",
    "status": "zniesione"
   },
   {
@@ -3473,6 +5653,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-15",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zakup drobiu z nielegalnych i niesprawdzonych źródeł za pośrednictwem platform internetowych",
+   "zrodlo": "https://piwgostyn.pl/zakup-drobiu-z-nielegalnych-i-niesprawdzonych-zrodel-za-posrednictwem-platform-internetowych/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zakup drobiu z nielegalnych i niesprawdzonych źródeł za pośrednictwem platform internetowych",
+     "u": "https://piwgostyn.pl/zakup-drobiu-z-nielegalnych-i-niesprawdzonych-zrodel-za-posrednictwem-platform-internetowych/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-ea878ace76-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "zielonogórski",
    "woj": "lubuskie",
    "liczba": null,
@@ -3588,6 +5798,36 @@
    "lon": 15.7634801,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Raszków",
+   "powiat": "lekarz",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-02",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI – PIW Środa Wlkp ",
+   "zrodlo": "https://piwsrodawlkp.pl/dane/hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI – PIW Środa Wlkp ",
+     "u": "https://piwsrodawlkp.pl/dane/hpai/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Środzie Wlkp."
+    }
+   ],
+   "id": "reg-e2b3f51586-1",
+   "lat": 51.7365393,
+   "lon": 17.7380268,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-05T14:31+01:00",
    "status": "zniesione"
   },
   {
@@ -3803,6 +6043,66 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-20",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "GRYPA PTAKÓW / RZEKOMY POMÓR DROBIU",
+   "zrodlo": "https://wetleszno.pl/?cat=29",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "GRYPA PTAKÓW / RZEKOMY POMÓR DROBIU",
+     "u": "https://wetleszno.pl/?cat=29",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Lesznie"
+    }
+   ],
+   "id": "reg-6e417d63c6-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Międzychód",
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-16",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Ptasia grypa (HPAI)",
+   "zrodlo": "https://bip.piw-miedzychod.pl/72.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Ptasia grypa (HPAI)",
+     "u": "https://bip.piw-miedzychod.pl/72.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Międzychodzie"
+    }
+   ],
+   "id": "reg-d0ca20e12b-1",
+   "lat": 52.5864067,
+   "lon": 15.9087417,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "krośnieński",
    "woj": "lubuskie",
    "liczba": null,
@@ -3861,6 +6161,66 @@
    "lon": 19.91749,
    "dokladnosc": "miejscowosc",
    "dodano": "2026-11-05T12:11+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": "Kaczenice",
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": "32/2026",
+   "data": "2026-04-04",
+   "choroba": "HPAI",
+   "typ": "drob",
+   "tytul_zrodla": "KOMUNIKAT ognisko rzekomego pomoru drobiu (ND)",
+   "zrodlo": "https://piwzlotow.nbip.pl/?n_id=186&amp;id=99",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "KOMUNIKAT ognisko rzekomego pomoru drobiu (ND)",
+     "u": "https://piwzlotow.nbip.pl/?n_id=186&amp;id=99",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Złotowie"
+    }
+   ],
+   "id": "reg-12e50c92dc-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gostyński",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-30",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie Wojewody Wielkopolskiego z dnia 30 marca 2026 r. w sprawie zwalczania rzekomego pomoru drobiu na terenie powiatów gostyńskiego i leszczyńskiego",
+   "zrodlo": "https://piwgostyn.pl/rozporzadzenie-wojewody-wielkopolskiego-z-dnia-30-marca-2026-r-w-sprawie-zwalczania-rzekomego-pomoru-drobiu-na-terenie-powiatow-gostynskiego-i-leszczynskiego/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie Wojewody Wielkopolskiego z dnia 30 marca 2026 r. w sprawie zwalczania rzekomego pomoru drobiu na terenie powiatów gostyńskiego i leszczyńskiego",
+     "u": "https://piwgostyn.pl/rozporzadzenie-wojewody-wielkopolskiego-z-dnia-30-marca-2026-r-w-sprawie-zwalczania-rzekomego-pomoru-drobiu-na-terenie-powiatow-gostynskiego-i-leszczynskiego/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-84efea3918-1",
+   "lat": 51.8377719,
+   "lon": 17.09559,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
    "status": "zniesione"
   },
   {
@@ -3956,6 +6316,126 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-11",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Archiwum Ptasia grypa HPAI",
+   "zrodlo": "https://www.piwoborniki.pl/archiwum-ptasia-grypa-hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Archiwum Ptasia grypa HPAI",
+     "u": "https://www.piwoborniki.pl/archiwum-ptasia-grypa-hpai/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Obrnikach"
+    }
+   ],
+   "id": "reg-cb7bb02402-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-11",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Ptasia grypa HPAI",
+   "zrodlo": "https://www.piwoborniki.pl/category/choroby-zakazne-zwierzat/ptasia-grypa-hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Ptasia grypa HPAI",
+     "u": "https://www.piwoborniki.pl/category/choroby-zakazne-zwierzat/ptasia-grypa-hpai/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Obrnikach"
+    }
+   ],
+   "id": "reg-ee3e3d7702-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-11",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rzekomy pomór drobiu ND",
+   "zrodlo": "https://www.piwoborniki.pl/category/choroby-zakazne-zwierzat/rzekomy-pomor-drobiu-nd/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rzekomy pomór drobiu ND",
+     "u": "https://www.piwoborniki.pl/category/choroby-zakazne-zwierzat/rzekomy-pomor-drobiu-nd/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Obrnikach"
+    }
+   ],
+   "id": "reg-af54b49e67-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-11",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "KOMUNIKAT POWIATOWEGO LEKARZA WETERYNRII W TURKU W SPRAWIE NOWYCH AKTÓW PRAWNYCH WYDANYCH W CELU ZAPOBIEGANIA WYSTĄPIENIA CHORÓB DROBIU",
+   "zrodlo": "https://bip.piwturek.pl/wt/komunikaty-plw/aktualne/18020,KOMUNIKAT-POWIATOWEGO-LEKARZA-WETERYNRII-W-TURKU-W-SPRAWIE-NOWYCH-AKTOW-PRAWNYCH.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "KOMUNIKAT POWIATOWEGO LEKARZA WETERYNRII W TURKU W SPRAWIE NOWYCH AKTÓW PRAWNYCH WYDANYCH W CELU ZAPOBIEGANIA WYSTĄPIENIA CHORÓB DROBIU",
+     "u": "https://bip.piwturek.pl/wt/komunikaty-plw/aktualne/18020,KOMUNIKAT-POWIATOWEGO-LEKARZA-WETERYNRII-W-TURKU-W-SPRAWIE-NOWYCH-AKTOW-PRAWNYCH.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Turku"
+    }
+   ],
+   "id": "reg-824bc5c451-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "lekarza",
    "woj": "kujawsko-pomorskie",
    "liczba": null,
@@ -4014,6 +6494,36 @@
    "status": "zniesione"
   },
   {
+   "miejscowosc": "Kaczory",
+   "gmina": "Kaczory",
+   "powiat": "pilski",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-02",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Aktualna sytuacja epizootyczna w Polsce dotycząca HPAI, ND, ASF, BT",
+   "zrodlo": "https://piwgostyn.pl/aktualna-sytuacja-epizootyczna-w-polsce-dotyczaca-hpai-nd-asf-bt/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Aktualna sytuacja epizootyczna w Polsce dotycząca HPAI, ND, ASF, BT",
+     "u": "https://piwgostyn.pl/aktualna-sytuacja-epizootyczna-w-polsce-dotyczaca-hpai-nd-asf-bt/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-be27075991-3",
+   "lat": 53.1020938,
+   "lon": 16.8843061,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
    "miejscowosc": null,
    "gmina": null,
    "powiat": "inspektorat",
@@ -4041,6 +6551,36 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-02-20",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rzekomy pomór drobiu (ND)",
+   "zrodlo": "https://bip.piw-miedzychod.pl/109.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rzekomy pomór drobiu (ND)",
+     "u": "https://bip.piw-miedzychod.pl/109.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Międzychodzie"
+    }
+   ],
+   "id": "reg-faf8edc8ad-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:31+01:00",
    "status": "zniesione"
   },
   {
@@ -4137,6 +6677,36 @@
    "status": "zniesione"
   },
   {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gostyński",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-02-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie Wojewody Wielkopolskiego z dnia 5 lutego 2026 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów gostyńskiego, leszczyńskiego i m. Leszno.",
+   "zrodlo": "https://piwgostyn.pl/rozporzadzenie-wojewody-wielkopolskiego-z-dnia-5-lutego-2026-r-w-sprawie-zwalczania-rzekomego-pomoru-drobiu-nd-na-terenie-powiatow-gostynskiego-leszczynskiego-i-m-leszno/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie Wojewody Wielkopolskiego z dnia 5 lutego 2026 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów gostyńskiego, leszczyńskiego i m. Leszno.",
+     "u": "https://piwgostyn.pl/rozporzadzenie-wojewody-wielkopolskiego-z-dnia-5-lutego-2026-r-w-sprawie-zwalczania-rzekomego-pomoru-drobiu-nd-na-terenie-powiatow-gostynskiego-leszczynskiego-i-m-leszno/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-2568dc680e-1",
+   "lat": 51.8377719,
+   "lon": 17.09559,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
    "miejscowosc": "Wisła Mała",
    "gmina": "Chybie",
    "powiat": "bielski",
@@ -4173,6 +6743,96 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "lekarza",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": "zwierzęta z gatunków wrażliwych",
+   "nr": null,
+   "data": "2026-01-30",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY WIELKOPOLSKIEGO z dnia 30 stycznia 2026 r.\nw sprawie przeciwdziałania rozprzestrzenianiu się wysoce zjadliwej grypy ptaków (HPAI) oraz rzekomego pomoru drobiu (ND) na terenie województwa wielkopolskiego.",
+   "zrodlo": "https://piw.gniezno.pl/wp-content/uploads/2026/02/rozporzadzenie_wojewody_wielkopolskiego_z_dnia_30.01.2026_r._hpai_i_nd.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY WIELKOPOLSKIEGO z dnia 30 stycznia 2026 r.\nw sprawie przeciwdziałania rozprzestrzenianiu się wysoce zjadliwej grypy ptaków (HPAI) oraz rzekomego pomoru drobiu (ND) na terenie w",
+     "u": "https://piw.gniezno.pl/wp-content/uploads/2026/02/rozporzadzenie_wojewody_wielkopolskiego_z_dnia_30.01.2026_r._hpai_i_nd.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-3e30f2f1e7-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": "zwierzęta z gatunków wrażliwych",
+   "nr": null,
+   "data": "2026-01-30",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie Wojewody Wielkopolskiego z dnia 30 stycznia 2026 r. w sprawie przeciwdziałania rozprzestrzenianiu się wysoce zjadliwej grypy ptaków (HPAI) oraz rzekomego pomoru drobiu (ND) na terenie województwa wielkopolskiego.",
+   "zrodlo": "https://piwgostyn.pl/rozporzadzenie-wojewody-wielkopolskiego-z-dnia-30-stycznia-2026-r-w-sprawie-przeciwdzialania-rozprzestrzenianiu-sie-wysoce-zjadliwej-grypy-ptakow-hpai-oraz-rzekomego-pomoru-drobiu-nd-na-terenie-w/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie Wojewody Wielkopolskiego z dnia 30 stycznia 2026 r. w sprawie przeciwdziałania rozprzestrzenianiu się wysoce zjadliwej grypy ptaków (HPAI) oraz rzekomego pomoru drobiu (ND) na terenie w",
+     "u": "https://piwgostyn.pl/rozporzadzenie-wojewody-wielkopolskiego-z-dnia-30-stycznia-2026-r-w-sprawie-przeciwdzialania-rozprzestrzenianiu-sie-wysoce-zjadliwej-grypy-ptakow-hpai-oraz-rzekomego-pomoru-drobiu-nd-na-terenie-w/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-729899fb66-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gostyński",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-01-28",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie Wojewody Wielkopolskiego z dnia 28 stycznia 2026 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów gostyńskiego, krotoszyńskiego i rawickiego.",
+   "zrodlo": "https://piwgostyn.pl/rozporzadzenie-wojewody-wielkopolskiego-z-dnia-28-stycznia-2026-r-w-sprawie-zwalczania-rzekomego-pomoru-drobiu-nd-na-terenie-powiatow-gostynskiego-krotoszynskiego-i-rawickiego/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie Wojewody Wielkopolskiego z dnia 28 stycznia 2026 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów gostyńskiego, krotoszyńskiego i rawickiego.",
+     "u": "https://piwgostyn.pl/rozporzadzenie-wojewody-wielkopolskiego-z-dnia-28-stycznia-2026-r-w-sprawie-zwalczania-rzekomego-pomoru-drobiu-nd-na-terenie-powiatow-gostynskiego-krotoszynskiego-i-rawickiego/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-9e21137290-1",
+   "lat": 51.8377719,
+   "lon": 17.09559,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "inspektorat",
    "woj": "kujawsko-pomorskie",
    "liczba": null,
@@ -4198,6 +6858,96 @@
    "lon": 18.01,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gostyński",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2025-12-16",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Publikacja w Dzienniku Urzędowym oraz na stronie Wojewódzkiego Urzędu Wielkopolskiego w Poznaniu Rozporządzenia Wojewody Wielkopolskiego z dnia 16 grudnia 2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów gostyńskiego i rawickiego",
+   "zrodlo": "https://piwgostyn.pl/2123-2/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Publikacja w Dzienniku Urzędowym oraz na stronie Wojewódzkiego Urzędu Wielkopolskiego w Poznaniu Rozporządzenia Wojewody Wielkopolskiego z dnia 16 grudnia 2025 r. w sprawie zwalczania rzekomego pomoru",
+     "u": "https://piwgostyn.pl/2123-2/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-6df5359a6e-1",
+   "lat": 51.8377719,
+   "lon": 17.09559,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-12-16",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Powiatowego Lekarza Weterynarii w Gostyniu dotyczący rzekomego pomoru drobiu oraz wysoce zjadliwej grypy ptaków",
+   "zrodlo": "https://piwgostyn.pl/komunikat-powiatowego-lekarza-weterynarii-w-gostyniu-dotyczacy-rzekomego-pomoru-drobiu-oraz-wysoce-zjadliwej-grypy-ptakow/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Powiatowego Lekarza Weterynarii w Gostyniu dotyczący rzekomego pomoru drobiu oraz wysoce zjadliwej grypy ptaków",
+     "u": "https://piwgostyn.pl/komunikat-powiatowego-lekarza-weterynarii-w-gostyniu-dotyczacy-rzekomego-pomoru-drobiu-oraz-wysoce-zjadliwej-grypy-ptakow/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-2467c95a04-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-12-15",
+   "choroba": "ND",
+   "typ": "drob",
+   "tytul_zrodla": "Komunikat PLW w Koninie.",
+   "zrodlo": "http://piwkonin.pl/wp-content/uploads/2025/12/KOMUNIKAT-POWIATOWEGO-LEKARZA-WETERYNARII-W-Koninie-ryzyko-ND-sig.pdf",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat PLW w Koninie.",
+     "u": "http://piwkonin.pl/wp-content/uploads/2025/12/KOMUNIKAT-POWIATOWEGO-LEKARZA-WETERYNARII-W-Koninie-ryzyko-ND-sig.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Koninie"
+    }
+   ],
+   "id": "reg-65f6ac29e7-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:30+01:00",
    "status": "zniesione"
   },
   {
@@ -4292,6 +7042,96 @@
    "lon": 14.9663609,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": "zwierzęta z gatunków wrażliwych",
+   "nr": null,
+   "data": "2025-10-31",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY WIELKOPOLSKIEGO z dnia 31 października 2025 r.\nw sprawie przeciwdziałania rozprzestrzenianiu się wysoce zjadliwej grypy ptaków\n(HPAI) oraz rzekomego pomoru drobiu (ND) na terenie województwa wielkopolskiego.",
+   "zrodlo": "https://piw.gniezno.pl/wp-content/uploads/2025/11/rozporzadzenie_wojewody_wielkopolskiego_z_31.10.2025_r.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY WIELKOPOLSKIEGO z dnia 31 października 2025 r.\nw sprawie przeciwdziałania rozprzestrzenianiu się wysoce zjadliwej grypy ptaków\n(HPAI) oraz rzekomego pomoru drobiu (ND) na teren",
+     "u": "https://piw.gniezno.pl/wp-content/uploads/2025/11/rozporzadzenie_wojewody_wielkopolskiego_z_31.10.2025_r.pdf",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+    }
+   ],
+   "id": "reg-8ed16a9aed-1",
+   "lat": 52.41,
+   "lon": 16.93,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T14:29+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gostyński",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-10-22",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Powiat gostyński obszarem wysokiego ryzyka wirusa wysoce zjadliwej grypy ptaków (HPAI)",
+   "zrodlo": "https://piwgostyn.pl/powiat-gostynski-obszarem-wysokiego-ryzyka-wirusa-wysoce-zjadliwej-grypy-ptakow-hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Powiat gostyński obszarem wysokiego ryzyka wirusa wysoce zjadliwej grypy ptaków (HPAI)",
+     "u": "https://piwgostyn.pl/powiat-gostynski-obszarem-wysokiego-ryzyka-wirusa-wysoce-zjadliwej-grypy-ptakow-hpai/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-3b0c46849b-1",
+   "lat": 51.8377719,
+   "lon": 17.09559,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": "Świętno",
+   "gmina": "Wolsztyn",
+   "powiat": "wolsztyński",
+   "woj": "wielkopolskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-10-17",
+   "choroba": "HPAI",
+   "typ": "drob",
+   "tytul_zrodla": "Rzekomy pomór drobiu (ND) – potwierdzone pierwsze ognisko w stadzie wielkotowarowym w Wielkopolsce w 2025 roku",
+   "zrodlo": "https://piwgostyn.pl/rzekomy-pomor-drobiu-nd-potwierdzone-pierwsze-ognisko-w-stadzie-wielkotowarowym-w-wielkopolsce-w-2025-roku/",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rzekomy pomór drobiu (ND) – potwierdzone pierwsze ognisko w stadzie wielkotowarowym w Wielkopolsce w 2025 roku",
+     "u": "https://piwgostyn.pl/rzekomy-pomor-drobiu-nd-potwierdzone-pierwsze-ognisko-w-stadzie-wielkotowarowym-w-wielkopolsce-w-2025-roku/",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+    }
+   ],
+   "id": "reg-bd228d4d77-1",
+   "lat": 52.0090209,
+   "lon": 16.0507342,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T14:30+01:00",
    "status": "zniesione"
   }
  ]

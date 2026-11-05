@@ -1,0 +1,57 @@
+name: Aplikacja Android
+
+on:
+  workflow_dispatch: {}          # przycisk „Run workflow”
+  push:
+    paths: ["android/**"]        # automatycznie po każdej zmianie w aplikacji
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.7"
+
+      - name: Klucz podpisu aplikacji
+        env:
+          KEYSTORE_B64: ${{ secrets.KEYSTORE_B64 }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/klucz.p12"
+            echo "KEYSTORE_FILE=$RUNNER_TEMP/klucz.p12" >> "$GITHUB_ENV"
+          else
+            echo "::warning::Brak sekretu KEYSTORE_B64 – aplikacja zostanie podpisana kluczem testowym (aktualizacje będą wymagały odinstalowania poprzedniej wersji)."
+          fi
+
+      - name: Zbuduj aplikację (APK)
+        env:
+          STRONA_URL: ${{ vars.STRONA_URL }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ptasialert
+        run: |
+          if [ -z "$STRONA_URL" ]; then echo "::error::Ustaw zmienną STRONA_URL (Settings → Secrets and variables → Actions → Variables)"; exit 1; fi
+          gradle -p android :app:assembleRelease --no-daemon
+          cp android/app/build/outputs/apk/release/app-release.apk ptasi-alert.apk
+
+      - name: Opublikuj do pobrania
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: android-${{ github.run_number }}
+          name: Ptasi Alert – Android (wersja 1.${{ github.run_number }})
+          body: |
+            Aplikacja na Androida (8.0 lub nowszy). Pobierz plik **ptasi-alert.apk** poniżej i otwórz go w telefonie.
+            Stały link do najnowszej wersji: https://github.com/${{ github.repository }}/releases/latest/download/ptasi-alert.apk
+          files: ptasi-alert.apk
+          make_latest: true

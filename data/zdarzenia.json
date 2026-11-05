@@ -1,12 +1,9 @@
 {
- "aktualizacja": "2026-11-05T19:49+01:00",
+ "aktualizacja": "2026-11-05T20:49+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "https://bip.piwwschowa.pl/system/pobierz.php?plik=rozporzadzenie.pdf&amp;id=116&amp;stats=true: HTTP Error 404: Not Found",
-  "https://bip.piwwschowa.pl/system/pobierz.php?plik=poz722_z_dnia_5kwietnia2017.pdf&amp;id=e928f78564aef6144f9c24dda4f1b733&amp;stats=true: HTTP Error 404: Not Found",
-  "https://bip.piwwschowa.pl/system/pobierz.php?plik=ulotka.pdf&amp;id=54c7185e99d8e1af9a13db8c52556eb8&amp;stats=true: HTTP Error 404: Not Found"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {

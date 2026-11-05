@@ -1,0 +1,2012 @@
+{
+ "aktualizacja": "2026-11-05T11:07+01:00",
+ "dni_aktywne": 45,
+ "bledy": [
+  "nie znaleziono strony WIW: lubelskie",
+  "nie znaleziono strony WIW: łódzkie",
+  "nie znaleziono strony WIW: małopolskie",
+  "nie znaleziono strony WIW: świętokrzyskie",
+  "nie znaleziono strony WIW: zachodniopomorskie",
+  "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
+  "https://edzienniki.bydgoszcz.uw.gov.pl/WDU_C/2026/4957/akt.pdf: <urlopen error timed out>",
+  "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/rzekomy-pomor-drobiu-nd: HTTP Error 503: Service Unavailable",
+  "https://gdansk.wiw.gov.pl/wysoce-zjadliwa-grypa-ptakow-(hpai): <urlopen error [Errno -2] Name or service not known>",
+  "https://gdansk.wiw.gov.pl/wysoce-zjadliwa-grypa-ptakow-ulotki: <urlopen error [Errno -2] Name or service not known>",
+  "https://olsztyn.wiw.gov.pl/upload/AKTUALNOSCI/2026/INFORMACJA_DLA_HODOWC&Oacute;W_DROBIU.pdf: HTTP Error 400: Bad Request",
+  "https://piwnowasol.pl/grypa-ptaków.html: 'ascii' codec can't encode character '\\xf3' in position 15: ordinal not in range(128)",
+  "https://piwnowasol.pl/rzekomy-pomór-drobiu.html: 'ascii' codec can't encode character '\\xf3' in position 16: ordinal not in range(128)",
+  "https://piwnowasol.pl/news/96/61/Komunikat-Głównego-Lekarza-Weterynarii-dotyczący-zagrożenia-grypą-ptaków-w-związku-z-jesiennymi-migracjami-dzikiego-ptactwa..html: 'ascii' codec can't encode characters in position 27-28: ordinal not in range(128)",
+  "https://piwnowasol.pl/news/95/61/Komunikat-Lubuskiego-Wojewódzkiego-Lekarza-Weterynarii-dotyczący-zagrożenia-grypą-ptaków-oraz-rzekomym-pomorem-drobiu-ND.html: 'ascii' codec can't encode character '\\xf3' in position 42: ordinal not in range(128)",
+  "wiadomości: HTTP Error 503: Service Unavailable",
+  "wiadomości: HTTP Error 503: Service Unavailable",
+  "wiadomości: HTTP Error 503: Service Unavailable",
+  "wiadomości: HTTP Error 503: Service Unavailable"
+ ],
+ "zdarzenia": [
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "świętokrzyskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://www.wetgiw.gov.pl/main/komunikaty/Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa-/idn:3250",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://www.wetgiw.gov.pl/main/komunikaty/Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa-/idn:3250",
+     "typ": "WIW (kujawsko-pomorskie)"
+    }
+   ],
+   "id": "reg-42972fe621-1",
+   "lat": 50.87,
+   "lon": 20.63,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "świętokrzyskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacje o HPAI",
+   "zrodlo": "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Informacje o HPAI",
+     "u": "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/grypa-ptakow",
+     "typ": "WIW (kujawsko-pomorskie)"
+    }
+   ],
+   "id": "reg-46a934b155-1",
+   "lat": 50.87,
+   "lon": 20.63,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacje dla hodowców",
+   "zrodlo": "https://www.wiw.bydgoszcz.pl/115-lewe-menu/389-informacja-dla-hodowcow-drobiu",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Informacje dla hodowców",
+     "u": "https://www.wiw.bydgoszcz.pl/115-lewe-menu/389-informacja-dla-hodowcow-drobiu",
+     "typ": "WIW (kujawsko-pomorskie)"
+    }
+   ],
+   "id": "reg-394f6f0965-1",
+   "lat": 54.35,
+   "lon": 18.65,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków AI Wojewódzki Inspektorat Weterynarii z siedzibą w Siedlcach \r",
+   "zrodlo": "https://mazowsze.wiw.gov.pl/wiw/informacje-weterynaryjne/zdrowie-i-ochrona-zwierzat/grypa-ptakow-ai",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków AI Wojewódzki Inspektorat Weterynarii z siedzibą w Siedlcach \r",
+     "u": "https://mazowsze.wiw.gov.pl/wiw/informacje-weterynaryjne/zdrowie-i-ochrona-zwierzat/grypa-ptakow-ai",
+     "typ": "WIW (mazowieckie)"
+    }
+   ],
+   "id": "reg-c6c8a79979-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "podkarpackie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Dostawy testów diagnostycznych (w tym testów do wykrywania RNA wirusa grypy ptaków typu A), odczynników, wzorców, szczepów oraz suplementów i pożywek.",
+   "zrodlo": "https://krosno.wiw.gov.pl/596/dostawy-testow-diagnostycznych-w-tym-testow-do-wykrywania-rna-wirusa-grypy-ptakow-typu-a-odczynnikow-wzorcow-szczepow-oraz-suplementow-i-pozywek.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Dostawy testów diagnostycznych (w tym testów do wykrywania RNA wirusa grypy ptaków typu A), odczynników, wzorców, szczepów oraz suplementów i pożywek.",
+     "u": "https://krosno.wiw.gov.pl/596/dostawy-testow-diagnostycznych-w-tym-testow-do-wykrywania-rna-wirusa-grypy-ptakow-typu-a-odczynnikow-wzorcow-szczepow-oraz-suplementow-i-pozywek.html",
+     "typ": "WIW (podkarpackie)"
+    }
+   ],
+   "id": "reg-8192cd52d1-1",
+   "lat": 50.04,
+   "lon": 22.0,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Kampania EFSA #No bird flu (Stop grypie ptaków - chroń swoje gospodarstwo)",
+   "zrodlo": "https://www.efsa.europa.eu/pl/no-bird-flu",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Kampania EFSA #No bird flu (Stop grypie ptaków - chroń swoje gospodarstwo)",
+     "u": "https://www.efsa.europa.eu/pl/no-bird-flu",
+     "typ": "WIW (wielkopolskie)"
+    }
+   ],
+   "id": "reg-5450cc51e4-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków (HPAI) | Biuletyn Informacji Publicznej Wojewódzki Inspektorat Weterynarii w Poznaniu ",
+   "zrodlo": "https://www.wiw.poznan.pl/zespoly-merytoryczne/hpai",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków (HPAI) | Biuletyn Informacji Publicznej Wojewódzki Inspektorat Weterynarii w Poznaniu ",
+     "u": "https://www.wiw.poznan.pl/zespoly-merytoryczne/hpai",
+     "typ": "WIW (wielkopolskie)"
+    }
+   ],
+   "id": "reg-556642b11c-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE NR 19/2025 WOJEWODY KUJAWSKO-POMORSKIEGO\nz dnia 5 listopada 2025 r. w sprawie zarządzania środków podejmowanych\nw związku z ryzykiem wystąpienia\nwysoce zjadliwej grypy ptaków i rzekomego pomoru drobiu \nna terenie województwa kujawsko-pomorskiego",
+   "zrodlo": "http://www.piw-aleksakuj.naszbip.pl/pliki/plik/rozporzadzenie-nr-19-2025-1762409499.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE NR 19/2025 WOJEWODY KUJAWSKO-POMORSKIEGO\nz dnia 5 listopada 2025 r. w sprawie zarządzania środków podejmowanych\nw związku z ryzykiem wystąpienia\nwysoce zjadliwej grypy ptaków i rzekomeg",
+     "u": "http://www.piw-aleksakuj.naszbip.pl/pliki/plik/rozporzadzenie-nr-19-2025-1762409499.pdf",
+     "typ": "piw-aleksakuj.naszbip.pl"
+    }
+   ],
+   "id": "reg-734e3ceb66-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "aleksandrowski",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE NR 17/2025 WOJEWODY KUJAWSKO-POMORSKIEGO\nz dnia 24 października 2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND)\nna terenie powiatów aleksandrowskiego, toruńskiego,\nradziejowskiego, włocławskiego i inowrocławskiego",
+   "zrodlo": "http://piw-aleksakuj.naszbip.pl/pliki/plik/rozporzadzenie-nr-17-2025-nd-1761636609.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE NR 17/2025 WOJEWODY KUJAWSKO-POMORSKIEGO\nz dnia 24 października 2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND)\nna terenie powiatów aleksandrowskiego, toruńskiego,\nradziejowsk",
+     "u": "http://piw-aleksakuj.naszbip.pl/pliki/plik/rozporzadzenie-nr-17-2025-nd-1761636609.pdf",
+     "typ": "piw-aleksakuj.naszbip.pl"
+    }
+   ],
+   "id": "reg-7fbba5011d-1",
+   "lat": 52.7855681,
+   "lon": 18.7794991,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "aleksandrowski",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE NR 16/2025 WOJEWODY KUJAWSKO-POMORSKIEGO\nz dnia 17 października 2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND)\nna terenie powiatów aleksandrowskiego i toruńskiego",
+   "zrodlo": "http://www.piw-aleksakuj.naszbip.pl/pliki/plik/rozporzadzenie-wojewody-kujawsko-pomorskiego-1761121397.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE NR 16/2025 WOJEWODY KUJAWSKO-POMORSKIEGO\nz dnia 17 października 2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND)\nna terenie powiatów aleksandrowskiego i toruńskiego",
+     "u": "http://www.piw-aleksakuj.naszbip.pl/pliki/plik/rozporzadzenie-wojewody-kujawsko-pomorskiego-1761121397.pdf",
+     "typ": "piw-aleksakuj.naszbip.pl"
+    }
+   ],
+   "id": "reg-f17303055d-1",
+   "lat": 52.7855681,
+   "lon": 18.7794991,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "ptaki dzikie",
+   "tytul_zrodla": "INFORMACJA DLA HODOWCÓW DROBIU ",
+   "zrodlo": "http://www.piw-aleksakuj.naszbip.pl/pliki/plik/informacja-dla-hodowcow-drobiu-1730363079.pdf",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "INFORMACJA DLA HODOWCÓW DROBIU ",
+     "u": "http://www.piw-aleksakuj.naszbip.pl/pliki/plik/informacja-dla-hodowcow-drobiu-1730363079.pdf",
+     "typ": "piw-aleksakuj.naszbip.pl"
+    }
+   ],
+   "id": "reg-f13b306375-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacje dla hodowców",
+   "zrodlo": "https://www.piwinowroclaw.pl/115-lewe-menu/389-informacja-dla-hodowcow-drobiu",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Informacje dla hodowców",
+     "u": "https://www.piwinowroclaw.pl/115-lewe-menu/389-informacja-dla-hodowcow-drobiu",
+     "typ": "https://www.piwinowroclaw.pl/"
+    }
+   ],
+   "id": "reg-775c34e1b2-1",
+   "lat": 54.35,
+   "lon": 18.65,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoratu",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Materiały informacyjne dotyczące Ptasiej Grypy",
+   "zrodlo": "http://www.piwmogilno.pl/index.php/398-materialy-informacyjne-dotyczace-ptasiej-grypy",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Materiały informacyjne dotyczące Ptasiej Grypy",
+     "u": "http://www.piwmogilno.pl/index.php/398-materialy-informacyjne-dotyczace-ptasiej-grypy",
+     "typ": "www.piwmogilno.pl"
+    }
+   ],
+   "id": "reg-1c309d8f89-1",
+   "lat": 50.2341176,
+   "lon": 21.7697417,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoratu",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "http://www.piwmogilno.pl/index.php/397-komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "http://www.piwmogilno.pl/index.php/397-komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+     "typ": "www.piwmogilno.pl"
+    }
+   ],
+   "id": "reg-d9ae9f2e71-1",
+   "lat": 50.2341176,
+   "lon": 21.7697417,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków | Powiatowy Inspektorat Weterynarii w Żninie ",
+   "zrodlo": "http://www.piwznin.pl/?page_id=31",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków | Powiatowy Inspektorat Weterynarii w Żninie ",
+     "u": "http://www.piwznin.pl/?page_id=31",
+     "typ": "piwznin.pl"
+    }
+   ],
+   "id": "reg-5d081853ce-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "lubelskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Drób - Państwowy Instytut Weterynaryjny - Państwowy Instytut Badawczy ",
+   "zrodlo": "https://www.piwet.pulawy.pl/drob/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Drób - Państwowy Instytut Weterynaryjny - Państwowy Instytut Badawczy ",
+     "u": "https://www.piwet.pulawy.pl/drob/",
+     "typ": "PIWet"
+    }
+   ],
+   "id": "reg-2873461c32-1",
+   "lat": 51.25,
+   "lon": 22.57,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "rejestr zmian publikacji: Zapobieganie grypie ptaków - kampania EFSA #No bird flu (Stop grypie ptaków - chroń swoje gospodarstwo)",
+   "zrodlo": "https://www.piw-zielonagora.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=188",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "rejestr zmian publikacji: Zapobieganie grypie ptaków - kampania EFSA #No bird flu (Stop grypie ptaków - chroń swoje gospodarstwo)",
+     "u": "https://www.piw-zielonagora.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=188",
+     "typ": "PIW Zielona Góra"
+    }
+   ],
+   "id": "reg-9450dc8e41-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "rejestr zmian publikacji: KOMUNIKAT dotyczący HPAI i ND",
+   "zrodlo": "https://www.piw-zielonagora.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=187",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "rejestr zmian publikacji: KOMUNIKAT dotyczący HPAI i ND",
+     "u": "https://www.piw-zielonagora.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=187",
+     "typ": "PIW Zielona Góra"
+    }
+   ],
+   "id": "reg-6a46b563e5-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "rejestr zmian publikacji: APEL DO WSZYSTKICH HODOWCÓW - POSIADACZY DROBIU!",
+   "zrodlo": "https://www.piw-zielonagora.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=174",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "rejestr zmian publikacji: APEL DO WSZYSTKICH HODOWCÓW - POSIADACZY DROBIU!",
+     "u": "https://www.piw-zielonagora.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=174",
+     "typ": "PIW Zielona Góra"
+    }
+   ],
+   "id": "reg-8839f9f14f-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gorzowski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "GRYPA PTAKÓW 2024 (HPAI)",
+   "zrodlo": "https://piw.gorzow.com/strona/130,l.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "GRYPA PTAKÓW 2024 (HPAI)",
+     "u": "https://piw.gorzow.com/strona/130,l.html",
+     "typ": "PIW Gorzów Wielkopolski"
+    }
+   ],
+   "id": "reg-0296b710d8-1",
+   "lat": 52.7386246,
+   "lon": 14.9663609,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "rejestr zmian publikacji: Zapobieganie grypie ptaków - kampania EFSA #No bird flu (Stop grypie ptaków - chroń swoje gospodarstwo)",
+   "zrodlo": "https://www.piw-zary.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=337",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "rejestr zmian publikacji: Zapobieganie grypie ptaków - kampania EFSA #No bird flu (Stop grypie ptaków - chroń swoje gospodarstwo)",
+     "u": "https://www.piw-zary.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=337",
+     "typ": "PIW Żary z/s w Lubsku"
+    }
+   ],
+   "id": "reg-58acae5d1a-1",
+   "lat": 51.94,
+   "lon": 15.51,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "komunikat_uwaga_hpai_i_nd_kupowanie_ze_sprawdzonych_zrodel.png",
+   "zrodlo": "https://www.piw-zary.4bip.pl/upload/plik,20260929123322,komunikat_uwaga_hpai_i_nd_kupowanie_ze_sprawdzonych_zrodel.png",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "komunikat_uwaga_hpai_i_nd_kupowanie_ze_sprawdzonych_zrodel.png",
+     "u": "https://www.piw-zary.4bip.pl/upload/plik,20260929123322,komunikat_uwaga_hpai_i_nd_kupowanie_ze_sprawdzonych_zrodel.png",
+     "typ": "PIW Żary z/s w Lubsku"
+    }
+   ],
+   "id": "reg-5d5e4fb765-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Otwórz plik w Google Docs - Viewer",
+   "zrodlo": "https://docs.google.com/a/www.piw-zary.4bip.pl/viewer?url=https://www.piw-zary.4bip.pl/upload/plik,20260929123322,komunikat_uwaga_hpai_i_nd_kupowanie_ze_sprawdzonych_zrodel.png",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Otwórz plik w Google Docs - Viewer",
+     "u": "https://docs.google.com/a/www.piw-zary.4bip.pl/viewer?url=https://www.piw-zary.4bip.pl/upload/plik,20260929123322,komunikat_uwaga_hpai_i_nd_kupowanie_ze_sprawdzonych_zrodel.png",
+     "typ": "PIW Żary z/s w Lubsku"
+    }
+   ],
+   "id": "reg-d45942f7d0-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "rejestr zmian publikacji: Postępowanie z drobiem w okresie upałów",
+   "zrodlo": "https://www.piw-zary.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=328",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "rejestr zmian publikacji: Postępowanie z drobiem w okresie upałów",
+     "u": "https://www.piw-zary.4bip.pl/index.php?job=rejestr_pub&amp;idg=1&amp;id=1&amp;x=0&amp;y=&amp;z=&amp;n_id=328",
+     "typ": "PIW Żary z/s w Lubsku"
+    }
+   ],
+   "id": "reg-cc424be66c-1",
+   "lat": 51.94,
+   "lon": 15.51,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Bartoszyce",
+   "powiat": "bartoszycki",
+   "woj": "warmińsko-mazurskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-30",
+   "choroba": "ND",
+   "typ": "drob",
+   "tytul_zrodla": "Komunikat Warmińsko-Mazurskiego Wojewódzkiego Lekarza Weterynarii o stwierdzeniu w 2026 r. pierwszego ogniska rzekomego pomoru drobiu na terenie województwa warmińsko-mazurskiego",
+   "zrodlo": "https://olsztyn.wiw.gov.pl/wiadomosc/komunikat-warminsko-mazurskiego-wojewodzkiego-lekarza-weterynarii-o-stwierdzeniu-w-2026-r-pierwszego-ogniska-rzekomego-pomoru-drobiu-na-terenie-wojewodztwa-warminsko-mazurskiego-39c0",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Warmińsko-Mazurskiego Wojewódzkiego Lekarza Weterynarii o stwierdzeniu w 2026 r. pierwszego ogniska rzekomego pomoru drobiu na terenie województwa warmińsko-mazurskiego",
+     "u": "https://olsztyn.wiw.gov.pl/wiadomosc/komunikat-warminsko-mazurskiego-wojewodzkiego-lekarza-weterynarii-o-stwierdzeniu-w-2026-r-pierwszego-ogniska-rzekomego-pomoru-drobiu-na-terenie-wojewodztwa-warminsko-mazurskiego-39c0",
+     "typ": "WIW (warmińsko-mazurskie)"
+    }
+   ],
+   "id": "reg-40f9496643-1",
+   "lat": 54.2436042,
+   "lon": 20.6760816,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": "Mieroszów \n Archiwa",
+   "powiat": "inspektoraty",
+   "woj": "dolnośląskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-28",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zagrożenie grypą ptaków",
+   "zrodlo": "https://wroc.wiw.gov.pl/?p=5841",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Zagrożenie grypą ptaków",
+     "u": "https://wroc.wiw.gov.pl/?p=5841",
+     "typ": "WIW (dolnośląskie)"
+    }
+   ],
+   "id": "reg-ce5e22da2c-1",
+   "lat": 51.11,
+   "lon": 17.03,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-28",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Czytaj więcej o informacji: Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "http://piwlipno.pl/artykul/127/140/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Czytaj więcej o informacji: Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "http://piwlipno.pl/artykul/127/140/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+     "typ": "piwlipno.pl"
+    }
+   ],
+   "id": "reg-b3dd1ad0cf-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "lubelskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-27",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "Europejski Dzień Wiedzy o Antybiotykach oraz Światowy Tydzień Wiedzy o Oporności na Środki Przeciwdrobnoustrojowe 2026",
+   "zrodlo": "https://www.gov.pl/web/uw-lubelski/europejski-dzien-wiedzy-o-antybiotykach-oraz-swiatowy-tydzien-wiedzy-o-opornosci-na-srodki-przeciwdrobnoustrojowe-2026",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "Europejski Dzień Wiedzy o Antybiotykach oraz Światowy Tydzień Wiedzy o Oporności na Środki Przeciwdrobnoustrojowe 2026",
+     "u": "https://www.gov.pl/web/uw-lubelski/europejski-dzien-wiedzy-o-antybiotykach-oraz-swiatowy-tydzien-wiedzy-o-opornosci-na-srodki-przeciwdrobnoustrojowe-2026",
+     "typ": "Urząd Wojewódzki Lublin"
+    }
+   ],
+   "id": "reg-2b3fac3d86-1",
+   "lat": 51.25,
+   "lon": 22.57,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-26",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Czytaj więcej o informacji: Stop grypie ptaków: chroń swoje gospodarstwo!",
+   "zrodlo": "http://bip.piwradziejow.pl/artykul/49/169/stop-grypie-ptakow-chron-swoje-gospodarstwo",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Czytaj więcej o informacji: Stop grypie ptaków: chroń swoje gospodarstwo!",
+     "u": "http://bip.piwradziejow.pl/artykul/49/169/stop-grypie-ptakow-chron-swoje-gospodarstwo",
+     "typ": "bip.piwradziejow.pl/"
+    }
+   ],
+   "id": "reg-86a9a6698a-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-26",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Czytaj więcej o informacji: Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "http://piw.wloclawek.pl/artykul/69/169/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Czytaj więcej o informacji: Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "http://piw.wloclawek.pl/artykul/69/169/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+     "typ": "www.piw.wloclawek.pl"
+    }
+   ],
+   "id": "reg-c4784ff0d0-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-21",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Aktualności -HPAI ",
+   "zrodlo": "https://www.wiw.bydgoszcz.pl/aktualnosci-hpai",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Aktualności -HPAI ",
+     "u": "https://www.wiw.bydgoszcz.pl/aktualnosci-hpai",
+     "typ": "WIW (kujawsko-pomorskie)"
+    }
+   ],
+   "id": "reg-f1aaaa956c-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": "różne gatunki drobiu oddzielnie",
+   "nr": null,
+   "data": "2026-10-21",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "„Zapobieganie grypie ptaków zaczyna się od codziennego bezpieczeństwa biologicznego” - podkreśla Nikolaus Kriz, dyrektor zarządzający EFSA.",
+   "zrodlo": "https://zgora.wiw.gov.pl/zapobieganie-grypie-ptakow-zaczyna-sie-od-codziennego-bezpieczenstwa-biologicznego-podkresla-nikolaus-kriz-dyrektor-zarzadzajacy-efsa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "„Zapobieganie grypie ptaków zaczyna się od codziennego bezpieczeństwa biologicznego” - podkreśla Nikolaus Kriz, dyrektor zarządzający EFSA.",
+     "u": "https://zgora.wiw.gov.pl/zapobieganie-grypie-ptakow-zaczyna-sie-od-codziennego-bezpieczenstwa-biologicznego-podkresla-nikolaus-kriz-dyrektor-zarzadzajacy-efsa",
+     "typ": "WIW (lubuskie)"
+    }
+   ],
+   "id": "reg-f86901f8bd-1",
+   "lat": 51.94,
+   "lon": 15.51,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "różne gatunki drobiu oddzielnie",
+   "nr": null,
+   "data": "2026-10-21",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "21 . 10.2026\n Zapobieganie grypie ptaków - kampania EFSA #No bird flu (Stop grypie ptaków - chroń swoje gospodarstwo)",
+   "zrodlo": "https://katowice.wiw.gov.pl/wk/aktualnosci/22919,Zapobieganie-grypie-ptakow-kampania-EFSA-No-bird-flu-Stop-grypie-ptakow-chron-sw.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "21 . 10.2026\n Zapobieganie grypie ptaków - kampania EFSA #No bird flu (Stop grypie ptaków - chroń swoje gospodarstwo)",
+     "u": "https://katowice.wiw.gov.pl/wk/aktualnosci/22919,Zapobieganie-grypie-ptakow-kampania-EFSA-No-bird-flu-Stop-grypie-ptakow-chron-sw.html",
+     "typ": "WIW (śląskie)"
+    }
+   ],
+   "id": "reg-9470aa9535-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-21",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE NR 48/2026 WOJEWODY KUJAWSKO-POMORSKIEGO",
+   "zrodlo": "http://piw.naklo.pl/strona/index.php?option=com_content&amp;view=article&amp;id=145:rozporzadzenie-nr-48-2026-wojewody-kujawsko-pomorskiego&amp;catid=2&amp;Itemid=130",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE NR 48/2026 WOJEWODY KUJAWSKO-POMORSKIEGO",
+     "u": "http://piw.naklo.pl/strona/index.php?option=com_content&amp;view=article&amp;id=145:rozporzadzenie-nr-48-2026-wojewody-kujawsko-pomorskiego&amp;catid=2&amp;Itemid=130",
+     "typ": "piw.naklo.pl"
+    }
+   ],
+   "id": "reg-c491600676-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-20",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacje o grypie ptaków",
+   "zrodlo": "https://wiw.opole.pl/category/aktualnoci/hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Informacje o grypie ptaków",
+     "u": "https://wiw.opole.pl/category/aktualnoci/hpai/",
+     "typ": "WIW (opolskie)"
+    }
+   ],
+   "id": "reg-75b9e55f57-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-19",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://www.wiw.poznan.pl/informacje-podstawowe/aktualnosci/Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa-/idn:548",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://www.wiw.poznan.pl/informacje-podstawowe/aktualnosci/Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa-/idn:548",
+     "typ": "WIW (wielkopolskie)"
+    }
+   ],
+   "id": "reg-9a95febdba-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-14",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://zgora.wiw.gov.pl/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://zgora.wiw.gov.pl/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+     "typ": "WIW (lubuskie)"
+    }
+   ],
+   "id": "reg-2026f115db-1",
+   "lat": 51.94,
+   "lon": 15.51,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-06",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "WYSOCE ZJADLIWA GRYPA PTAKÓW - Ulotka informacyjna",
+   "zrodlo": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=318:2026-10-06-14-26-48&amp;catid=27:hpai&amp;Itemid=37",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "WYSOCE ZJADLIWA GRYPA PTAKÓW - Ulotka informacyjna",
+     "u": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=318:2026-10-06-14-26-48&amp;catid=27:hpai&amp;Itemid=37",
+     "typ": "www.piwrypin.pl"
+    }
+   ],
+   "id": "reg-249d79f211-1",
+   "lat": 52.1080323,
+   "lon": 19.9415837,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-01",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "01 . 10.2026\n HPAI (wysoce zjadliwa grypa ptaków) zagrożenie wystąpieniem",
+   "zrodlo": "https://katowice.wiw.gov.pl/wk/aktualnosci/22384,HPAI-wysoce-zjadliwa-grypa-ptakow-zagrozenie-wystapieniem.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "01 . 10.2026\n HPAI (wysoce zjadliwa grypa ptaków) zagrożenie wystąpieniem",
+     "u": "https://katowice.wiw.gov.pl/wk/aktualnosci/22384,HPAI-wysoce-zjadliwa-grypa-ptakow-zagrozenie-wystapieniem.html",
+     "typ": "WIW (śląskie)"
+    }
+   ],
+   "id": "reg-54c35366ff-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-09-30",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "INFORMACJA DLA HODOWCÓW DROBIU",
+   "zrodlo": "https://olsztyn.wiw.gov.pl/wiadomosc/informacja-dla-hodowcow-drobiu-wzmozone-zasady-bioasekuracji-w-zwiazku-z-sezonowa-migracja-dzikich-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "INFORMACJA DLA HODOWCÓW DROBIU",
+     "u": "https://olsztyn.wiw.gov.pl/wiadomosc/informacja-dla-hodowcow-drobiu-wzmozone-zasady-bioasekuracji-w-zwiazku-z-sezonowa-migracja-dzikich-ptakow",
+     "typ": "WIW (warmińsko-mazurskie)"
+    }
+   ],
+   "id": "reg-e043778d20-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-09-29",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Lubuskiego Wojewódzkiego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków oraz rzekomym pomorem drobiu (ND)",
+   "zrodlo": "https://zgora.wiw.gov.pl/2komunikat-lubuskiego-wojewodzkiego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-oraz-rzekomym-pomorem-drobiu-nd",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Lubuskiego Wojewódzkiego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków oraz rzekomym pomorem drobiu (ND)",
+     "u": "https://zgora.wiw.gov.pl/2komunikat-lubuskiego-wojewodzkiego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-oraz-rzekomym-pomorem-drobiu-nd",
+     "typ": "WIW (lubuskie)"
+    }
+   ],
+   "id": "reg-7f6107ff08-1",
+   "lat": 51.94,
+   "lon": 15.51,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "wrocławski",
+   "woj": "dolnośląskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-09-11",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa Ptaków\n Rzekomy Pomór Drobiu\n Wścieklizna\n Pryszczyca\n Choroba Niebieskiego Języka\n Choroby zakaźne zwierząt",
+   "zrodlo": "https://wroc.wiw.gov.pl/?p=633",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Grypa Ptaków\n Rzekomy Pomór Drobiu\n Wścieklizna\n Pryszczyca\n Choroba Niebieskiego Języka\n Choroby zakaźne zwierząt",
+     "u": "https://wroc.wiw.gov.pl/?p=633",
+     "typ": "WIW (dolnośląskie)"
+    }
+   ],
+   "id": "reg-aa610a83f6-1",
+   "lat": 51.043121,
+   "lon": 16.8730785,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": "Przyczyna Dolna",
+   "gmina": "Wschowa",
+   "powiat": "inspektoraty",
+   "woj": "lubuskie",
+   "liczba": 78673,
+   "ptaki": "kury nieśne",
+   "nr": null,
+   "data": "2026-09-11",
+   "choroba": "ND",
+   "typ": "drob",
+   "tytul_zrodla": "Komunikat Lubuskiego Wojewódzkiego Lekarza Weterynarii dotyczący stwierdzenia ogniska rzekomego pomoru drobiu (ND) na terenie województwa lubuskiego w 2026 r.",
+   "zrodlo": "https://zgora.wiw.gov.pl/komunikat-lubuskiego-wojewodzkiego-lekarza-weterynarii-dotyczacy-stwierdzenia-ogniska-rzekomego-pomoru-drobiu-nd-na-terenie-wojewodztwa-lubuskiego-w-2026-r",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Lubuskiego Wojewódzkiego Lekarza Weterynarii dotyczący stwierdzenia ogniska rzekomego pomoru drobiu (ND) na terenie województwa lubuskiego w 2026 r.",
+     "u": "https://zgora.wiw.gov.pl/komunikat-lubuskiego-wojewodzkiego-lekarza-weterynarii-dotyczacy-stwierdzenia-ogniska-rzekomego-pomoru-drobiu-nd-na-terenie-wojewodztwa-lubuskiego-w-2026-r",
+     "typ": "WIW (lubuskie)"
+    }
+   ],
+   "id": "reg-ccc2455c44-1",
+   "lat": 51.8021397,
+   "lon": 16.3331334,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-06-17",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI - Grypa ptaków",
+   "zrodlo": "http://bip.piwgolubdob.pl/artykuly/69/hpai-grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI - Grypa ptaków",
+     "u": "http://bip.piwgolubdob.pl/artykuly/69/hpai-grypa-ptakow",
+     "typ": "bip.piwgolubdob.pl"
+    }
+   ],
+   "id": "reg-2fe82b8e0c-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-06-17",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Powiatowy Inspektorat Weterynarii w Toruniu - Ptasia Grypa ",
+   "zrodlo": "http://www.piw.torun.pl/index.php/121-ptasia-grypa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Powiatowy Inspektorat Weterynarii w Toruniu - Ptasia Grypa ",
+     "u": "http://www.piw.torun.pl/index.php/121-ptasia-grypa",
+     "typ": "www.piw.torun.pl"
+    }
+   ],
+   "id": "reg-05fe6fe64d-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "sulęciński",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-20",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu sulęcińskiego oraz powiatu gorzowskiego",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/317",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu sulęcińskiego o",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/317",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-cb1337c0ac-1",
+   "lat": 52.4273975,
+   "lon": 15.1803156,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "nowosolski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-18",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu nowosolskiego, powiatu sulęcińskiego, powiatu gorzowskiego oraz w mieś",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/316",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu nowosolskiego, ",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/316",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-fc67e6cd0e-1",
+   "lat": 51.8422184,
+   "lon": 15.7035308,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "zielonogórski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-15",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, powiatu",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/314",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskieg",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/314",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-ef32057b45-1",
+   "lat": 51.9757079,
+   "lon": 15.7634801,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "zielonogórski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-13",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, świebod",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/313",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskieg",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/313",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-2b55b549d9-1",
+   "lat": 51.9757079,
+   "lon": 15.7634801,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-11",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE Nr 28/2026 WOJEWODY KUJAWSKO-POMORSKIEGO z dnia 11 maja 2026 r.",
+   "zrodlo": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=312:rozporzdzenie-nr-282026-wojewody-kujawsko-pomorskiego-z-dnia-11-maja-2026-r&amp;catid=27:hpai&amp;Itemid=37",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE Nr 28/2026 WOJEWODY KUJAWSKO-POMORSKIEGO z dnia 11 maja 2026 r.",
+     "u": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=312:rozporzdzenie-nr-282026-wojewody-kujawsko-pomorskiego-z-dnia-11-maja-2026-r&amp;catid=27:hpai&amp;Itemid=37",
+     "typ": "www.piwrypin.pl"
+    }
+   ],
+   "id": "reg-c2162415de-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "zielonogórski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-08",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, świebod",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/312",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskieg",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/312",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-31b4e04b98-1",
+   "lat": 51.9757079,
+   "lon": 15.7634801,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "zielonogórski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-05-06",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, powiatu",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/311",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskieg",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/311",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-f803d739f8-1",
+   "lat": 51.9757079,
+   "lon": 15.7634801,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "zielonogórski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-30",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, powiatu",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/310",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskieg",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/310",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-0b2a9241dc-1",
+   "lat": 51.9757079,
+   "lon": 15.7634801,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "brodnicki",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-30",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Wysoce zjadliwa grypa ptaków HPAI",
+   "zrodlo": "http://piwbrodnica.pl/index.php/ogloszenia/wysoce-zjadliwa-grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Wysoce zjadliwa grypa ptaków HPAI",
+     "u": "http://piwbrodnica.pl/index.php/ogloszenia/wysoce-zjadliwa-grypa-ptakow",
+     "typ": "piwbrodnica.pl"
+    }
+   ],
+   "id": "reg-addd848e2a-1",
+   "lat": 53.2696512,
+   "lon": 19.4129035,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-30",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE NR 23/2026 WOJEWODY KUJAWSKO-POMORSKIEGO z dnia 30 kwietnia 2026 r.",
+   "zrodlo": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=309:rozporzdzenie-nr-232026-wojewody-kujawsko-pomorskiego-z-dnia-30-kwietnia-2026-r&amp;catid=27:hpai&amp;Itemid=37",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE NR 23/2026 WOJEWODY KUJAWSKO-POMORSKIEGO z dnia 30 kwietnia 2026 r.",
+     "u": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=309:rozporzdzenie-nr-232026-wojewody-kujawsko-pomorskiego-z-dnia-30-kwietnia-2026-r&amp;catid=27:hpai&amp;Itemid=37",
+     "typ": "www.piwrypin.pl"
+    }
+   ],
+   "id": "reg-e7d963cf54-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "zielonogórski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-28",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, powiatu",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/309",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania zakażenia wirusem rzekomego pomoru drobiu (Infection with Newcastle disease virus) na terenie powiatu zielonogórskieg",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/309",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-2b17c7a02f-1",
+   "lat": 51.9757079,
+   "lon": 15.7634801,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "słubicki",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-24",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatu słubickiego, powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, powiatu żagańskiego, powiatu żarskiego,",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/308",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatu słubickiego, powiatu zielonogórskiego, powiatu nowosolskiego, powiatu",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/308",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-1a3a5ba978-1",
+   "lat": 52.3231951,
+   "lon": 14.738732,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-23",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI -grypa ptaków",
+   "zrodlo": "http://bip.piwradziejow.pl/artykuly/49/hpai-grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI -grypa ptaków",
+     "u": "http://bip.piwradziejow.pl/artykuly/49/hpai-grypa-ptakow",
+     "typ": "bip.piwradziejow.pl/"
+    }
+   ],
+   "id": "reg-3034f8cbe1-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "słubicki",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-20",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatu słubickiego, powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, powiatu żagańskiego, powiatu żarskiego,",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/305",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatu słubickiego, powiatu zielonogórskiego, powiatu nowosolskiego, powiatu",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/305",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-4dfbfe4095-1",
+   "lat": 52.3231951,
+   "lon": 14.738732,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "krośnieński",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-15",
+   "choroba": "ND",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatu krośnieńskiego, powiatu słubickiego, powiatu zielonogórskiego, powiatu nowosolskiego, powiatu wschowskiego, powiatu żagański",
+   "zrodlo": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/304",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "regionalne",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE WOJEWODY LUBUSKIEGO zmieniające rozporządzenie w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatu krośnieńskiego, powiatu słubickiego, powiatu zielonogórskiego, powiat",
+     "u": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody/304",
+     "typ": "Wojewoda Lubuski – rozporządzenia"
+    }
+   ],
+   "id": "reg-c32206f2f4-1",
+   "lat": 52.0092938,
+   "lon": 14.9934378,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-09",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków (HPAI)",
+   "zrodlo": "http://www.piwmogilno.pl/index.php/grypa-ptakow-hpai",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków (HPAI)",
+     "u": "http://www.piwmogilno.pl/index.php/grypa-ptakow-hpai",
+     "typ": "www.piwmogilno.pl"
+    }
+   ],
+   "id": "reg-f3de587788-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lipnowski",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-03",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie Nr 9/2026 Wojewody Kujawsko-Pomorskiego z dnia 3 marca 2026 r.",
+   "zrodlo": "https://www.piwinowroclaw.pl/111-aktualnosci/581-rozporzadzenie-nr-9-2026-wojewody-kujawsko-pomorskiego-z-dnia-3-marca-2026-r",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie Nr 9/2026 Wojewody Kujawsko-Pomorskiego z dnia 3 marca 2026 r.",
+     "u": "https://www.piwinowroclaw.pl/111-aktualnosci/581-rozporzadzenie-nr-9-2026-wojewody-kujawsko-pomorskiego-z-dnia-3-marca-2026-r",
+     "typ": "https://www.piwinowroclaw.pl/"
+    }
+   ],
+   "id": "reg-66acc90403-1",
+   "lat": 52.8156762,
+   "lon": 19.1696989,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-02-25",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków / Rzekomy pomór drobiu(ND)",
+   "zrodlo": "http://www.piw-aleksakuj.naszbip.pl/grypa-ptakow-rzekomy-pomor-drobiund",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków / Rzekomy pomór drobiu(ND)",
+     "u": "http://www.piw-aleksakuj.naszbip.pl/grypa-ptakow-rzekomy-pomor-drobiund",
+     "typ": "piw-aleksakuj.naszbip.pl"
+    }
+   ],
+   "id": "reg-278d24c7a7-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:06+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "kujawsko-pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-01-19",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rzekomy pomór drobiu (ND)",
+   "zrodlo": "http://bip.piwradziejow.pl/artykuly/84/rzekomy-pomor-drobiu-nd",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rzekomy pomór drobiu (ND)",
+     "u": "http://bip.piwradziejow.pl/artykuly/84/rzekomy-pomor-drobiu-nd",
+     "typ": "bip.piwradziejow.pl/"
+    }
+   ],
+   "id": "reg-4fff8ace36-1",
+   "lat": 53.12,
+   "lon": 18.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": "Boguszewiec",
+   "gmina": "Lutocin",
+   "powiat": "żuromiński",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-11-21",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie Nr 3/2026 Powiatowego Lekarza Weterynarii w Rypinie z dnia 28 kwietnia 2026 r.",
+   "zrodlo": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=307:rozporzdzenie-nr-32026-powiatowego-lekarza-weterynarii-w-rypinie-z-dnia-28-kwietnia-2026-r-&amp;catid=27:hpai&amp;Itemid=37",
+   "rodzaj": "komunikat",
+   "strefy": {
+    "zapowietrzony": "1) w powiecie rypińskim, w gminie Skrwilno, miejscowości: Czarnia Duża; 3. Transport zwierząt i produktów pochodzących od zwierząt lub ze zwierząt wrażliwych na wysoce zjadliwą grypę ptaków przez obszar, o którym mowa w ust. 1 i ust. 2, jest realizowany: 1) bez zatrzymywania lub rozładunku na obszarze objętym ograniczeniami; 2) w pierwszej kolejności z wykorzystaniem głównych autostrad lub głównych połączeń kolejowych; 3) unikając przejazdu w pobliżu zakładów, w których utrzymywane są ptaki. 4. Na obszarze, o którym mowa w ust. 1 i ust. 2, nakazuje się wprowadzić dodatkowe środki bezpieczeństwa biologicznego polegające na niezwłocznym przeprowadzeniu dodatkowej dezynfekcji zakładu, w którym …",
+    "zagrozony": "w powiecie rypińskim, w gminie Skrwilno, miejscowości: Czarnia Mała, Zambrzyca, Rak, Ruda, Otocznia, Mościska, Skrwilno, Baba, Urszulewo, Szczawno, Szucie, Okalewo, Szustek; 2. Za obszar zapowietrzony wystąpieniem wysoce zjadliwej grypy ptaków (HPAI), zwany dalej obszarem zapowietrzonym, uznaje się teren obejmujący: 1) w powiecie rypińskim, w gminie Skrwilno, miejscowości: Czarnia Duża; 3. Transport zwierząt i produktów pochodzących od zwierząt lub ze zwierząt wrażliwych na wysoce zjadliwą grypę ptaków przez obszar, o którym mowa w ust. 1 i ust. 2, jest realizowany: 1) bez zatrzymywania lub rozładunku na obszarze objętym ograniczeniami; 2) w pierwszej kolejności z wykorzystaniem głównych aut…"
+   },
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie Nr 3/2026 Powiatowego Lekarza Weterynarii w Rypinie z dnia 28 kwietnia 2026 r.",
+     "u": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=307:rozporzdzenie-nr-32026-powiatowego-lekarza-weterynarii-w-rypinie-z-dnia-28-kwietnia-2026-r-&amp;catid=27:hpai&amp;Itemid=37",
+     "typ": "www.piwrypin.pl"
+    }
+   ],
+   "id": "reg-7046fc2d2c-1",
+   "lat": 52.9802778,
+   "lon": 19.72,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "gorzowski",
+   "woj": "lubuskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "GRYPA PTAKÓW 2025",
+   "zrodlo": "https://piw.gorzow.com/strona/146,l.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "GRYPA PTAKÓW 2025",
+     "u": "https://piw.gorzow.com/strona/146,l.html",
+     "typ": "PIW Gorzów Wielkopolski"
+    }
+   ],
+   "id": "reg-63de49d6e6-1",
+   "lat": 52.7386246,
+   "lon": 14.9663609,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  }
+ ]
+}

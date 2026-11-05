@@ -1,0 +1,642 @@
+{
+ "wiw": [
+  {
+   "woj": "dolnośląskie",
+   "url": "https://wroc.wiw.gov.pl/",
+   "nazwa": "WIW (dolnośląskie)"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "https://www.wiw.bydgoszcz.pl/",
+   "nazwa": "WIW (kujawsko-pomorskie)"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://zgora.wiw.gov.pl/",
+   "nazwa": "WIW (lubuskie)"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "https://mazowsze.wiw.gov.pl/",
+   "nazwa": "WIW (mazowieckie)"
+  },
+  {
+   "woj": "opolskie",
+   "url": "https://www.wiw.opole.pl/",
+   "nazwa": "WIW (opolskie)"
+  },
+  {
+   "woj": "podkarpackie",
+   "url": "https://krosno.wiw.gov.pl/",
+   "nazwa": "WIW (podkarpackie)"
+  },
+  {
+   "woj": "podlaskie",
+   "url": "https://bialystok.wiw.gov.pl/",
+   "nazwa": "WIW (podlaskie)"
+  },
+  {
+   "woj": "pomorskie",
+   "url": "https://gdansk.wiw.gov.pl/",
+   "nazwa": "WIW (pomorskie)"
+  },
+  {
+   "woj": "śląskie",
+   "url": "https://katowice.wiw.gov.pl/",
+   "nazwa": "WIW (śląskie)"
+  },
+  {
+   "woj": "warmińsko-mazurskie",
+   "url": "https://olsztyn.wiw.gov.pl/",
+   "nazwa": "WIW (warmińsko-mazurskie)"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://wiw.poznan.pl/",
+   "nazwa": "WIW (wielkopolskie)"
+  }
+ ],
+ "piw": [
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://www.piw-aleksakuj.naszbip.pl/",
+   "nazwa": "piw-aleksakuj.naszbip.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://piwbrodnica.pl/",
+   "nazwa": "piwbrodnica.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://piwbydgoszcz.idsl.pl/",
+   "nazwa": "piwbydgoszcz.idsl.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "https://bip.piwchelmno.pl/",
+   "nazwa": "bip.piwchelmno.pl/"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://bip.piwgolubdob.pl/",
+   "nazwa": "bip.piwgolubdob.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "https://www.piwinowroclaw.pl/",
+   "nazwa": "https://www.piwinowroclaw.pl/"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://piwlipno.pl/",
+   "nazwa": "piwlipno.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://www.piwmogilno.pl/",
+   "nazwa": "www.piwmogilno.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://piw.naklo.pl/",
+   "nazwa": "piw.naklo.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://bip.piwradziejow.pl/",
+   "nazwa": "bip.piwradziejow.pl/"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://www.piwrypin.pl/",
+   "nazwa": "www.piwrypin.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://sepolno.piwet.org/",
+   "nazwa": "sepolno.piwet.org"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://www.piw.torun.pl/",
+   "nazwa": "www.piw.torun.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://www.piw.wloclawek.pl/",
+   "nazwa": "www.piw.wloclawek.pl"
+  },
+  {
+   "woj": "kujawsko-pomorskie",
+   "url": "http://piwznin.pl/",
+   "nazwa": "piwznin.pl"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://www.piwet.pulawy.pl/",
+   "nazwa": "PIWet"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "http://www.lilwet.pl/",
+   "nazwa": "LILWET"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://www.piw-zielonagora.4bip.pl/",
+   "nazwa": "PIW Zielona Góra"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://piw.gorzow.com/",
+   "nazwa": "PIW Gorzów Wielkopolski"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://bip.piwkrosnoodrz.pl/",
+   "nazwa": "PIW Krosno Odrzańskie"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://bip.piw.powiat-miedzyrzecki.pl/",
+   "nazwa": "PIW Międzyrzecz"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://www.piwnowasol.pl/",
+   "nazwa": "PIW Nowa Sól"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://bip.piwslubice.e-line.pl/",
+   "nazwa": "PIW Słubice z/s w Ośnie Lubuskim"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "http://piwstrzelce.pl/",
+   "nazwa": "PIW Strzelce Krajeńskie"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "http://www.piw-sulecin.4bip.pl/",
+   "nazwa": "PIW Sulęcin"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://www.piw-swiebodzin.4bip.pl/",
+   "nazwa": "PIW Świebodzin"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://bip.piw.zagan.pl/",
+   "nazwa": "PIW Żagań"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://www.piw-zary.4bip.pl/",
+   "nazwa": "PIW Żary z/s w Lubsku"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://www.bip.piwwschowa.pl/",
+   "nazwa": "PIW Wschowa"
+  },
+  {
+   "woj": "lubuskie",
+   "url": "https://bip.wet.zgora.pl/",
+   "nazwa": "bip.wet.zgora.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwbialobrzegi.com.pl/",
+   "nazwa": "www.piwbialobrzegi.com.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piw-ciechanow.pl/",
+   "nazwa": "www.piw-ciechanow.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://piwgarwolin.pl/",
+   "nazwa": "piwgarwolin.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "https://piwgrojec.pl/",
+   "nazwa": "piwgrojec.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwkozienice.pl/",
+   "nazwa": "www.piwkozienice.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piw-lipsko.pl/",
+   "nazwa": "www.piw-lipsko.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwlosice.pl/",
+   "nazwa": "www.piwlosice.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "https://piwmakow.pl/",
+   "nazwa": "piwmakow.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwmlawa.pl/",
+   "nazwa": "www.piwmlawa.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwndm.pl/",
+   "nazwa": "www.piwndm.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.ostrowmaz.piw.gov.pl/",
+   "nazwa": "www.ostrowmaz.piw.gov.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piw.ostroleka.pl/",
+   "nazwa": "www.piw.ostroleka.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.otwock.piw.gov.pl/",
+   "nazwa": "www.otwock.piw.gov.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwpiaseczno.pl/",
+   "nazwa": "www.piwpiaseczno.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwplock.pl/",
+   "nazwa": "www.piwplock.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://piw-plonsk.mojbip.pl/",
+   "nazwa": "piw-plonsk.mojbip.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwprzasnysz.pl/",
+   "nazwa": "www.piwprzasnysz.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "https://www.wiw.mazowsze.pl/",
+   "nazwa": "bip.piwprzysucha.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwprzysucha.pl/",
+   "nazwa": "www.piwprzysucha.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwpultusk.pl/",
+   "nazwa": "www.piwpultusk.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piw.radom.pl/",
+   "nazwa": "www.piw.radom.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "https://siedlce.piwet.pl/",
+   "nazwa": "https://siedlce.piwet.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "https://sierpcpiw.eu/",
+   "nazwa": "sierpcpiw.eu"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwsochaczew.pl/",
+   "nazwa": "www.piwsochaczew.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwsokolow.com/",
+   "nazwa": "www.piwsokolow.com"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piw-szydlowiec.pl/",
+   "nazwa": "www.piw-szydlowiec.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.wawa.piw.gov.pl/",
+   "nazwa": "www.wawa.piw.gov.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://piw-wawazach.pl/",
+   "nazwa": "www.piw-wawazach.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "https://wegrow.piw.gov.pl/",
+   "nazwa": "wegrow.piw.gov.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwwyszkow.pl/",
+   "nazwa": "www.piwwyszkow.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piw-zwolen.pl/",
+   "nazwa": "www.piw-zwolen.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwzuromin.pl/",
+   "nazwa": "www.piwzuromin.pl"
+  },
+  {
+   "woj": "mazowieckie",
+   "url": "http://www.piwzyrardow.pl/",
+   "nazwa": "www.piwzyrardow.pl"
+  },
+  {
+   "woj": "opolskie",
+   "url": "http://www.piw-brzeg.pl/",
+   "nazwa": "www.piw-brzeg.pl"
+  },
+  {
+   "woj": "opolskie",
+   "url": "http://www.piwkluczbork.pl/",
+   "nazwa": "www.piwkluczbork.pl"
+  },
+  {
+   "woj": "opolskie",
+   "url": "http://bip.piw.namyslow.pl/",
+   "nazwa": "bip.piw.namyslow.pl"
+  },
+  {
+   "woj": "opolskie",
+   "url": "http://www.piwolesno.pl/",
+   "nazwa": "www.piwolesno.pl"
+  },
+  {
+   "woj": "opolskie",
+   "url": "http://www.piw.opole.pl/",
+   "nazwa": "www.piw.opole.pl"
+  },
+  {
+   "woj": "pomorskie",
+   "url": "http://www.piwet.pulawy.pl/",
+   "nazwa": "piwet.pulawy.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.piw-bedzin.pl/",
+   "nazwa": "www.piw-bedzin.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "https://piw.bielsko.pl/",
+   "nazwa": "piw.bielsko.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "https://bip.piwcieszyn.pl/",
+   "nazwa": "bip.piwcieszyn.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.piw-czestochowa.pl/",
+   "nazwa": "www.piw-czestochowa.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://piw-gliwice.pl/",
+   "nazwa": "piw-gliwice.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.bip.piw.katowice.pl/",
+   "nazwa": "www.bip.piw.katowice.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://bip.piwklobuck.pl/",
+   "nazwa": "bip.piwklobuck.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://lubliniec.piw.gov.pl/",
+   "nazwa": "lubliniec.piw.gov.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.myszkow.piw.gov.pl/",
+   "nazwa": "www.myszkow.piw.gov.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.piwetpszczyna.pl/",
+   "nazwa": "www.piwetpszczyna.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.piw-raciborz.pl/",
+   "nazwa": "www.piw-raciborz.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "https://piwrybnik.mojbip.pl/",
+   "nazwa": "piwrybnik.mojbip.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.tarnowskiegory.piw.gov.pl/",
+   "nazwa": "www.tarnowskiegory.piw.gov.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.tychy.piw.gov.pl/",
+   "nazwa": "www.tychy.piw.gov.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.piw.wodzislaw.pl/",
+   "nazwa": "www.piw.wodzislaw.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "http://www.piwzawiercie.av1.pl/",
+   "nazwa": "www.piwzawiercie.av1.pl"
+  },
+  {
+   "woj": "śląskie",
+   "url": "https://www.piwzywiec.1bip.pl/",
+   "nazwa": "www.piwzywiec.1bip.pl"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.piw-chodziez.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Chodzieży"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.piw-czarnkow.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Czarnkowie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piw.gniezno.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Gnieźnie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwgostyn.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwgrodzisk.com.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Grodzisku Wlkp."
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.piwjarocin.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Jarocinie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://bip.piwkalisz.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Kaliszu"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.bip.piwkepno.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Kępnie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwkolo.info/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Kole"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwkonin.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Koninie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwkoscian.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Kościanie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.piw.krotoszyn.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Krotoszynie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://wetleszno.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Lesznie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://bip.piw-miedzychod.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Międzychodzie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwnowytomysl.nbip.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Nowym Tomyślu"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.piwoborniki.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Obrnikach"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://bip.piw.ostrowwlkp.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Ostrowie Wlkp."
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.bip.piwostrzeszow.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Ostrzeszowie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "http://www.bip.piw.pila.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Pile"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwpleszew.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Pleszewie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.piw.poznan.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Poznaniu"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://bip.piwrawicz.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Rawiczu"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://www.piw-szamotuly.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Szamotułach"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwsrodawlkp.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Środzie Wlkp."
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piw-srem.biuletyn.net/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Śremie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://bip.piwturek.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Turku"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://wagrowiec-piw.nowybip.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Wągrowcu"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwwolsztyn.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Wolsztynie"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwetwrzesnia.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu we Wrześni"
+  },
+  {
+   "woj": "wielkopolskie",
+   "url": "https://piwzlotow.nbip.pl/",
+   "nazwa": "Strona internetowa Powiatowego Inspektoratu w Złotowie"
+  }
+ ],
+ "odkryto": "2026-11-05T10:59+01:00"
+}

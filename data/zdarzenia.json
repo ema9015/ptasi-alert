@@ -1,9 +1,10 @@
 {
- "aktualizacja": "2026-11-05T15:33+01:00",
+ "aktualizacja": "2026-11-05T16:41+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
+  "WIW (podkarpackie): The read operation timed out"
  ],
  "zdarzenia": [
   {
@@ -6901,6 +6902,66 @@
    "lon": 16.93,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T14:30+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-12-16",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Czytaj Komunikat",
+   "zrodlo": "https://piwsokolow.com/ogloszenia/450,chron-przed-ptasia-grypa.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Czytaj Komunikat",
+     "u": "https://piwsokolow.com/ogloszenia/450,chron-przed-ptasia-grypa.html",
+     "typ": "www.piwsokolow.com"
+    }
+   ],
+   "id": "reg-6d76b2f4ed-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T16:41+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-12-16",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Chroń przed ptasią grypą",
+   "zrodlo": "http://www.piwsokolow.com/ogloszenia/450,chron-przed-ptasia-grypa.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Chroń przed ptasią grypą",
+     "u": "http://www.piwsokolow.com/ogloszenia/450,chron-przed-ptasia-grypa.html",
+     "typ": "www.piwsokolow.com"
+    }
+   ],
+   "id": "reg-d07590f9fa-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T16:41+01:00",
    "status": "zniesione"
   },
   {

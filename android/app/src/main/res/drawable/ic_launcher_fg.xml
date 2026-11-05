@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Trójkąt ostrzegawczy z sylwetką ptaka; obszar bezpieczny 66dp w środku 108dp -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M54,26 L82,76 L26,76 Z" />
+    <path android:fillColor="#0D6A5A"
+        android:pathData="M54,36 L73,70 L35,70 Z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M45,63 C47,56 54,53 60,56 C57,56 56,57 56,58 C59,59 59,62 58,63 C54,64 49,64 45,63 Z" />
+    <path android:fillColor="#E9504C"
+        android:pathData="M60,56 L64,55 L61,58 Z" />
+</vector>

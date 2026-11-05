@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ptasi Alert</title>
+<meta name="description" content="Mapa ognisk grypy ptaków i rzekomego pomoru drobiu w Polsce ze strefami zapowietrzonymi i zagrożonymi.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#EEF2F0; --surface:#FFFFFF; --surface-2:#F6F8F7; --ink:#14201C; --muted:#56655F; --line:#D3DCD8;
+  --accent:#0D6A5A; --on-accent:#FFFFFF;
+  --red:#C2302E; --red-soft:rgba(194,48,46,.16); --orange:#C9701C; --orange-soft:rgba(217,130,43,.16);
+  --amber:#B88A12; --amber-soft:rgba(220,170,40,.22); --blue:#2C5DA6; --grey:#7C8985;
+  --f-display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace; --r:10px; color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0E1412; --surface:#161F1C; --surface-2:#1B2522; --ink:#E4ECE9; --muted:#97A7A1; --line:#2B3833;
+  --accent:#43B79F; --on-accent:#08201A; --red:#F06A66; --red-soft:rgba(240,106,102,.22); --orange:#EFA04C; --orange-soft:rgba(239,160,76,.16);
+  --amber:#E2BC4A; --amber-soft:rgba(226,188,74,.20); --blue:#86A9E6; --grey:#7F8D88; color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg)}
+body{color:var(--ink);font:400 15px/1.45 var(--f-body);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)} button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[hidden]{display:none!important}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+.top{position:sticky;top:0;z-index:1000;background:var(--surface);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.top .wrap{display:flex;align-items:center;gap:12px;padding-block:10px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto;min-width:0}
+.brand h1{font:700 26px/1 var(--f-display);letter-spacing:.01em;margin:0;text-transform:uppercase}
+.brand small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.stamp{font:400 12px/1.3 var(--f-mono);color:var(--muted);text-align:right}
+.stamp b{color:var(--ink);font-weight:500}
+.areabtn{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface-2);border-radius:999px;padding:7px 14px;cursor:pointer;font-weight:600;max-width:100%}
+.areabtn span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.panel{background:var(--surface);border-bottom:1px solid var(--line)}
+.panel .wrap{padding-block:14px 16px;display:grid;gap:12px}
+.panel h2{font:600 18px/1.2 var(--f-display);text-transform:uppercase;letter-spacing:.04em;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;cursor:pointer;font-size:14px}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.chip .n{font:500 11px var(--f-mono);margin-left:6px;opacity:.8}
+.btn{border:0;background:var(--accent);color:var(--on-accent);border-radius:8px;padding:8px 16px;font-weight:600;cursor:pointer}
+.note{color:var(--muted);font-size:13px;margin:0}
+.apk{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:14px;text-decoration:none;background:var(--accent);color:var(--on-accent);border-radius:999px;padding:7px 14px}
+.appset{display:grid;gap:10px;border-top:1px solid var(--line);padding-top:12px}
+.appset h3{font:600 16px/1.2 var(--f-display);text-transform:uppercase;letter-spacing:.04em;margin:0}
+.switch{display:flex;align-items:center;gap:10px;font-size:15px;cursor:pointer}
+.switch input{width:20px;height:20px;accent-color:var(--accent)}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--line)}
+.warn{color:var(--red);font-size:13px;margin:0}
+.summary{display:flex;gap:10px;flex-wrap:wrap;padding-block:16px 4px;align-items:center}
+.sum{display:flex;align-items:baseline;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:8px 14px}
+.sum b{font:700 26px/1 var(--f-display);font-variant-numeric:tabular-nums}
+.sum span{font-size:13px;color:var(--muted)}
+.sum.hot b{color:var(--red)}
+.newbadge{background:var(--red);color:#fff;border-radius:999px;padding:4px 10px;font-weight:600;font-size:13px}
+.main{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:18px;padding-block:12px 40px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:minmax(0,1fr)}}
+.mapcard{position:sticky;top:84px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+@media (max-width:860px){.mapcard{position:relative;top:0}}
+#map{height:min(72vh,640px);min-height:340px;background:var(--surface-2)}
+@media (max-width:860px){#map{height:60vh}}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;padding:10px 14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:-2px;margin-right:6px}
+.legend .zap{background:var(--red-soft);border:2px solid var(--red)}
+.legend .zag{background:var(--orange-soft);border:2px dashed var(--orange)}
+.legend .dz{background:var(--blue);border:2px solid var(--surface)}
+.legend .uc{background:transparent;border:2px dashed var(--grey)}
+.maphint{padding:0 14px 12px;font-size:12px;color:var(--muted);margin:0}
+.feedhead{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.feedhead h2{font:600 20px/1 var(--f-display);text-transform:uppercase;letter-spacing:.04em;margin:0;margin-right:auto}
+.feedhead label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center;cursor:pointer}
+.feed{display:grid;gap:10px}
+.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px 12px 18px;min-width:0}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;border-radius:var(--r) 0 0 var(--r);background:var(--sev,var(--grey))}
+.card.sel{border-color:var(--sev);box-shadow:0 0 0 1px var(--sev)}
+.card.k-hpai{--sev:var(--red)} .card.k-nd{--sev:var(--orange)} .card.k-dz{--sev:var(--blue)} .card.k-info{--sev:var(--amber)} .card.k-off{--sev:var(--grey)}
+.tags{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:6px}
+.tag{font:500 11px/1 var(--f-mono);letter-spacing:.04em;text-transform:uppercase;padding:4px 7px;border-radius:5px;background:var(--surface-2);border:1px solid var(--line);color:var(--muted)}
+.tag.dz{color:var(--sev);border-color:var(--sev);font-weight:600}
+.tag.new{background:var(--red);color:#fff;border-color:transparent}
+.tag.st-aktywne{background:var(--red-soft);color:var(--red);border-color:transparent}
+.tag.st-wygasa{background:var(--amber-soft);color:var(--amber);border-color:transparent}
+.tag.c-GIW{color:var(--accent);border-color:var(--accent)}
+.tag.c-media{border-style:dashed}
+.card.unconf{background:repeating-linear-gradient(135deg,var(--surface) 0 14px,var(--surface-2) 14px 15px)}
+.zones{display:grid;gap:6px;margin-top:8px;font-size:14px}
+.zone{border-radius:8px;padding:8px 10px;background:var(--surface-2)}
+.zone b{display:block;font:600 11px/1.2 var(--f-mono);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.zone.z1 b{color:var(--red)} .zone.z2 b{color:var(--orange)} .zone.z3 b{color:var(--amber)}
+.srcs{display:flex;flex-direction:column;gap:2px;font-size:13px;margin-top:8px}
+.srcs a{overflow-wrap:anywhere}
+details.more summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent);margin-top:8px}
+.date{font:400 12px/1 var(--f-mono);color:var(--muted);margin-left:auto}
+.card h3{font:600 20px/1.15 var(--f-display);margin:0 0 2px}
+.place{color:var(--muted);font-size:14px;margin:0}
+.facts{display:flex;flex-wrap:wrap;gap:4px 14px;margin:8px 0 0;font-size:14px}
+.facts dt{display:inline;color:var(--muted)} .facts dd{display:inline;margin:0;font-weight:500}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.actions button,.actions a{font-size:13px;font-weight:600;padding:6px 11px;border-radius:7px;border:1px solid var(--line);background:var(--surface-2);cursor:pointer;text-decoration:none;color:var(--ink)}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:22px 18px;color:var(--muted)}
+.empty b{display:block;color:var(--ink);font:600 18px/1.2 var(--f-display);text-transform:uppercase;margin-bottom:4px}
+.foot{font-size:12px;color:var(--muted);padding-block:0 32px;max-width:85ch}
+.leaflet-container{font:inherit}
+.leaflet-popup-content{font:14px/1.4 var(--f-body);margin:10px 12px}
+.leaflet-popup-content b{font-family:var(--f-display);font-size:17px}
+.wlabel{background:none;border:0;box-shadow:none;font:600 11px var(--f-body);color:#3a4a44;text-shadow:0 0 3px #fff,0 0 3px #fff}
+.wlabel::before{display:none}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><path d="M17 2 32 30H2Z" fill="none" stroke="var(--red)" stroke-width="3" stroke-linejoin="round"/><path d="M12 22c2-5 7-7 11-5-2 0-3 1-3 2 2 1 2 3 1 4-3 1-6 0-9-1Z" fill="var(--ink)"/></svg>
+      <div><h1>Ptasi Alert</h1><small>Grypa ptaków i rzekomy pomór drobiu w Polsce</small></div>
+    </div>
+    <button class="areabtn" id="areaBtn" aria-expanded="false" aria-controls="areaPanel"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M7 1a4.5 4.5 0 0 0-4.5 4.5C2.5 9 7 13 7 13s4.5-4 4.5-7.5A4.5 4.5 0 0 0 7 1Zm0 6.2a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4Z" fill="currentColor"/></svg><span id="areaLabel">Cała Polska</span></button>
+    <a class="apk" id="apkLink" href="#" hidden>Aplikacja na Androida</a>
+    <div class="stamp" id="stamp">Wczytywanie…</div>
+  </div>
+</header>
+<section class="panel" id="areaPanel" hidden>
+  <div class="wrap">
+    <h2>Monitorowany obszar</h2>
+    <div class="chips" id="chips"></div>
+    <div class="appset" id="appSet" hidden>
+      <h3>Powiadomienia w telefonie</h3>
+      <label class="switch"><input type="checkbox" id="appNotify"> Powiadamiaj o nowych ogniskach w wybranym obszarze</label>
+      <label class="switch"><input type="checkbox" id="appMedia"> Także o niepotwierdzonych (z wiadomości)</label>
+      <p class="warn" id="appPerm" hidden>Powiadomienia są zablokowane w ustawieniach telefonu. Włącz je: Ustawienia → Aplikacje → Ptasi Alert → Powiadomienia.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn ghost" id="appTest">Wyślij powiadomienie testowe</button><button class="btn ghost" id="appCheck">Sprawdź teraz</button></div>
+      <p class="note">Aplikacja sprawdza nowe zdarzenia w tle co około 15 minut, także gdy jest zamknięta. <span id="appVer"></span></p>
+    </div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <button class="btn" id="closeArea">Gotowe</button>
+      <p class="note">Województwo możesz też kliknąć na mapie. Wybór zapamiętuje ta przeglądarka.</p>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="summary" id="summary"></div>
+  <div class="main">
+    <section class="mapcard" aria-label="Mapa">
+      <div id="map"></div>
+      <div class="legend">
+        <span><i class="zap"></i>Strefa zapowietrzona (min. 3 km)</span>
+        <span><i class="zag"></i>Strefa zagrożona (min. 10 km)</span>
+        <span><i class="dz"></i>Przypadek u dzikich ptaków</span>
+        <span><i class="uc"></i>Niepotwierdzone (wiadomości)</span>
+      </div>
+      <p class="maphint">Koła to minimalny zasięg stref wg przepisów UE. Dokładne granice (listy miejscowości) są w rozporządzeniu wojewody. Status „aktywne” jest liczony od daty ogniska, więc jest szacunkowy.</p>
+    </section>
+    <section aria-label="Zdarzenia">
+      <div class="feedhead">
+        <h2>Zdarzenia</h2>
+        <label><input type="checkbox" id="showMedia"> niepotwierdzone</label>
+        <label><input type="checkbox" id="showOff"> pokaż starsze</label>
+      </div>
+      <div class="feed" id="feed"><div class="empty"><b>Wczytywanie</b>Pobieram najnowsze dane…</div></div>
+    </section>
+  </div>
+  <p class="foot" id="srcinfo"></p>
+  <p class="foot">Dane pobierane automatycznie z komunikatów Głównego Inspektoratu Weterynarii (wetgiw.gov.pl), stron inspektoratów i urzędów wojewódzkich (także rozporządzeń w PDF) oraz z wiadomości lokalnych. Oznaczenia: <b>GIW</b> – potwierdzone komunikatem GIW; <b>regionalne</b> – z urzędowej strony regionalnej; <b>niepotwierdzone</b> – tylko z mediów, sprawdź u powiatowego lekarza weterynarii. Położenie ognisk ustalane jest z nazwy miejscowości w OpenStreetMap i może być przybliżone. Wiążące są rozporządzenia wojewody i decyzje powiatowego lekarza weterynarii. Mapa © współtwórcy OpenStreetMap.</p>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function(){
+"use strict";
+const WOJ=["dolnośląskie","kujawsko-pomorskie","lubelskie","lubuskie","łódzkie","małopolskie","mazowieckie","opolskie","podkarpackie","podlaskie","pomorskie","śląskie","świętokrzyskie","warmińsko-mazurskie","wielkopolskie","zachodniopomorskie"];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fold=s=>String(s||"").toLowerCase().replace(/ł/g,"l").normalize("NFKD").replace(/[̀-ͯ]/g,"");
+const fmtDate=d=>{const t=new Date((d||"")+"T12:00:00");return isNaN(t)?(d||""):t.toLocaleDateString("pl-PL")};
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const store={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+let events=[], area=store.get("pa_area",[]).filter(w=>WOJ.includes(w)), showOff=store.get("pa_off",false), showMedia=store.get("pa_media",true), selected=null;
+const lastVisit=store.get("pa_last_visit",null);
+const seenIds=new Set(store.get("pa_seen",[]));
+$("showOff").checked=showOff;$("showMedia").checked=showMedia;
+
+// ---- map
+const map=L.map("map",{zoomSnap:0.5,attributionControl:true}).setView([52.0,19.4],6);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+const wojLayer=L.layerGroup().addTo(map), zoneLayer=L.layerGroup().addTo(map), pinLayer=L.layerGroup().addTo(map);
+const wojPolys={};
+function wojFromProps(p){
+  for(const k in p){const v=fold(p[k]);if(typeof p[k]!=="string")continue;
+    for(const w of WOJ){const fw=fold(w);if(v===fw||v.endsWith(" "+fw)||v.startsWith(fw+" ")||v===("wojewodztwo "+fw))return w}}
+  return null;
+}
+fetch("data/wojewodztwa.geojson").then(r=>r.ok?r.json():null).then(g=>{
+  if(!g)return;
+  L.geoJSON(g,{style:()=>baseStyle(),onEachFeature:(f,layer)=>{
+    const w=wojFromProps(f.properties||{});if(!w)return;
+    (wojPolys[w]=wojPolys[w]||[]).push(layer);
+    layer.bindTooltip(w,{sticky:true});
+    layer.on("click",()=>toggleArea(w));
+  }}).addTo(wojLayer);
+  styleWoj();
+}).catch(()=>{});
+function baseStyle(){return{color:"#5b6b65",weight:1.2,fillColor:"#0D6A5A",fillOpacity:0.02}}
+function styleWoj(){
+  const counts=countByWoj(true);
+  for(const w in wojPolys){const sel=area.includes(w),n=counts[w]||0;
+    for(const l of wojPolys[w])l.setStyle({color:sel?"#0D6A5A":"#5b6b65",weight:sel?3:1.2,fillColor:n?"#C2302E":"#0D6A5A",fillOpacity:n?Math.min(0.08+n*0.05,0.3):(sel?0.08:0.02)})}
+}
+
+// ---- logic
+function kind(e){if(e.status==="zniesione")return"off";if(e.rodzaj==="komunikat")return"info";if(e.typ==="ptaki dzikie")return"dz";return e.choroba==="ND"?"nd":"hpai"}
+function inArea(e){return!area.length||e.woj==="cała Polska"||!e.woj||area.includes(e.woj)}
+function isActive(e){return e.status==="aktywne"||e.status==="wygasa"}
+function visible(){return events.filter(e=>inArea(e)&&(showOff||isActive(e))&&(showMedia||e.potwierdzenie!=="media"))}
+const CONF={GIW:"GIW",urzędowe:"regionalne",media:"niepotwierdzone"};
+function srcList(e){const z=e.zrodla&&e.zrodla.length?e.zrodla:(e.zrodlo?[{t:"Komunikat GIW",u:e.zrodlo,typ:"GIW"}]:[]);return z}
+function countByWoj(activeOnly){const c={};for(const e of events){if(activeOnly&&!isActive(e))continue;if(e.rodzaj!=="ognisko")continue;c[e.woj]=(c[e.woj]||0)+1}return c}
+function isNew(e){return lastVisit&&e.dodano&&e.dodano>lastVisit&&!seenIds.has(e.id)}
+
+function renderArea(){
+  $("areaLabel").textContent=!area.length?"Cała Polska":area.length===1?"woj. "+area[0]:area.length+" województwa";
+  const c=$("chips"),counts=countByWoj(true);c.textContent="";
+  const all=document.createElement("button");all.className="chip";all.textContent="Cała Polska";all.setAttribute("aria-pressed",String(!area.length));all.onclick=()=>{area=[];changed()};c.appendChild(all);
+  for(const w of WOJ){const b=document.createElement("button");b.className="chip";b.setAttribute("aria-pressed",String(area.includes(w)));b.innerHTML=esc(w)+(counts[w]?`<span class="n">${counts[w]}</span>`:"");b.onclick=()=>toggleArea(w);c.appendChild(b)}
+}
+function toggleArea(w){area=area.includes(w)?area.filter(x=>x!==w):[...area,w];changed()}
+const APP=window.PtasiAlertApp||null;
+function syncApp(){if(APP){try{APP.setWojewodztwa(JSON.stringify(area))}catch(e){}}}
+function changed(){store.set("pa_area",area);syncApp();render();fitArea()}
+function fitArea(){
+  const ls=area.flatMap(w=>wojPolys[w]||[]);
+  if(ls.length){map.fitBounds(L.featureGroup(ls).getBounds(),{padding:[16,16]})}
+  else if(!area.length)map.setView([52.0,19.4],6);
+}
+function renderSummary(list){
+  const act=list.filter(isActive),conf=act.filter(e=>e.potwierdzenie!=="media"),ogn=conf.filter(e=>e.rodzaj==="ognisko"&&e.typ!=="ptaki dzikie").length,dz=conf.filter(e=>e.typ==="ptaki dzikie").length,unc=act.filter(e=>e.potwierdzenie==="media").length,nw=list.filter(isNew).length;
+  $("summary").innerHTML=`<div class="sum ${ogn?"hot":""}"><b>${ogn}</b><span>aktywne ogniska u drobiu</span></div><div class="sum"><b>${dz}</b><span>przypadki u dzikich ptaków</span></div>${unc?`<div class="sum"><b>${unc}</b><span>niepotwierdzone doniesienia</span></div>`:""}${nw?`<span class="newbadge">${nw} nowe od ostatniej wizyty</span>`:""}`;
+}
+function place(e){return[e.miejscowosc,e.gmina&&e.gmina!==e.miejscowosc&&("gm. "+e.gmina),e.powiat&&("pow. "+e.powiat),e.woj&&(e.woj==="cała Polska"?e.woj:"woj. "+e.woj)].filter(Boolean).join(", ")}
+function title(e){
+  const t={hpai:"Grypa ptaków (HPAI)",nd:"Rzekomy pomór drobiu (ND)",dz:"Grypa ptaków u dzikich ptaków",info:"Komunikat GIW",off:e.choroba==="ND"?"Rzekomy pomór drobiu":"Grypa ptaków"}[kind(e)];
+  if(e.choroba==="LPAI")return"Nisko zjadliwa grypa ptaków (LPAI)";
+  return e.rodzaj==="komunikat"?(e.tytul_zrodla||t):t;
+}
+function osm(e){return`https://www.openstreetmap.org/?mlat=${e.lat}&mlon=${e.lon}#map=13/${e.lat}/${e.lon}`}
+function renderFeed(list){
+  const f=$("feed");
+  if(!events.length){f.innerHTML=`<div class="empty"><b>Brak danych</b>Dane pojawią się po pierwszym uruchomieniu aktualizacji.</div>`;return}
+  if(!list.length){f.innerHTML=`<div class="empty"><b>Spokojnie w wybranym obszarze</b>Brak aktywnych ognisk dla: ${esc(area.join(", ")||"Polski")}. Zaznacz „pokaż starsze” lub zmień obszar.</div>`;return}
+  f.innerHTML=list.map(e=>{const k=kind(e),hasPt=e.lat!=null&&e.lon!=null;
+    const facts=[];if(e.ptaki)facts.push(["Ptaki",e.ptaki]);if(e.liczba)facts.push(["Liczba",Number(e.liczba).toLocaleString("pl-PL")]);if(e.nr)facts.push(["Nr ogniska",e.nr]);
+    if(hasPt&&e.dokladnosc&&e.dokladnosc!=="miejscowosc")facts.push(["Położenie","przybliżone ("+e.dokladnosc+")"]);
+    const z=e.strefy||{},srcs=srcList(e);
+    const zones=(z.zapowietrzony?`<div class="zone z1"><b>Obszar zapowietrzony</b>${esc(z.zapowietrzony)}</div>`:"")+(z.zagrozony?`<div class="zone z2"><b>Obszar zagrożony</b>${esc(z.zagrozony)}</div>`:"")+(z.buforowy?`<div class="zone z3"><b>Obszar buforowy</b>${esc(z.buforowy)}</div>`:"");
+    const conf=e.potwierdzenie||"GIW";
+    return`<article class="card k-${k}${conf==="media"?" unconf":""}${selected===e.id?" sel":""}" data-id="${esc(e.id)}">
+      <div class="tags"><span class="tag dz">${esc(e.choroba||"")}</span><span class="tag c-${esc(conf)}">${esc(CONF[conf]||conf)}</span>${isNew(e)?'<span class="tag new">nowe</span>':""}${e.status?`<span class="tag st-${esc(e.status)}">${esc(e.status)}</span>`:""}<span class="date">${fmtDate(e.data)}</span></div>
+      <h3>${esc(title(e))}</h3><p class="place">${esc(place(e))}</p>
+      ${facts.length?`<dl class="facts">${facts.map(x=>`<div><dt>${esc(x[0])}: </dt><dd>${esc(x[1])}</dd></div>`).join("")}</dl>`:""}
+      ${zones||srcs.length>1?`<details class="more"><summary>${zones?"Strefy z rozporządzenia i źródła":"Wszystkie źródła ("+srcs.length+")"}</summary>${zones?`<div class="zones">${zones}</div>`:""}<div class="srcs">${srcs.map(x=>`<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.typ?x.typ+": ":"")}${esc(x.t||x.u)}</a>`).join("")}</div></details>`:""}
+      <div class="actions">${hasPt?'<button data-act="map">Pokaż na mapie</button>':""}${srcs[0]?`<a href="${esc(srcs[0].u)}" target="_blank" rel="noopener">Źródło ↗</a>`:""}${hasPt?`<a href="${osm(e)}" target="_blank" rel="noopener">OpenStreetMap ↗</a>`:""}</div>
+    </article>`}).join("");
+}
+const pins={};
+function renderMap(list){
+  zoneLayer.clearLayers();pinLayer.clearLayers();
+  const col={hpai:css("--red")||"#C2302E",nd:css("--orange")||"#C9701C",dz:css("--blue")||"#2C5DA6",info:"#B88A12",off:"#7C8985"};
+  for(const e of list){if(e.lat==null||e.lon==null)continue;const k=kind(e),ll=[e.lat,e.lon];
+    const unc=e.potwierdzenie==="media",exact=e.dokladnosc==="miejscowosc";
+    if(e.rodzaj==="ognisko"&&e.typ!=="ptaki dzikie"&&isActive(e)&&!unc&&exact){
+      L.circle(ll,{radius:10000,color:"#C9701C",weight:1.5,dashArray:"6 5",fillColor:"#D9822B",fillOpacity:.12,interactive:false}).addTo(zoneLayer);
+      L.circle(ll,{radius:3000,color:"#C2302E",weight:1.8,fillColor:"#C2302E",fillOpacity:.2,interactive:false}).addTo(zoneLayer);
+    }
+    const m=L.circleMarker(ll,unc?{radius:selected===e.id?9:7,color:col[k],weight:2.5,dashArray:"3 3",fillColor:"#ffffff",fillOpacity:.85}:{radius:selected===e.id?9:7,color:"#fff",weight:2,fillColor:col[k],fillOpacity:1}).addTo(pinLayer);
+    const s0=srcList(e)[0];
+    m.bindPopup(`<b>${esc(title(e))}</b><br>${esc(place(e))}<br>${fmtDate(e.data)} · ${esc(CONF[e.potwierdzenie||"GIW"]||"")}${e.liczba?" · "+Number(e.liczba).toLocaleString("pl-PL")+" szt.":""}${s0?`<br><a href="${esc(s0.u)}" target="_blank" rel="noopener">Źródło</a>`:""}${exact?"":"<br><i>Położenie przybliżone – strefy nie są rysowane.</i>"}`);
+    m.on("click",()=>{selected=e.id;renderFeed(visible());const c=document.querySelector(`.card[data-id="${CSS.escape(e.id)}"]`);if(c)c.scrollIntoView({behavior:"smooth",block:"nearest"})});
+    pins[e.id]=m;
+  }
+}
+function render(){const list=visible();renderArea();renderSummary(list);renderFeed(list);renderMap(list);styleWoj()}
+
+$("feed").addEventListener("click",ev=>{const b=ev.target.closest("button[data-act]");if(!b)return;const id=b.closest(".card").dataset.id;const e=events.find(x=>x.id===id);if(!e)return;
+  selected=id;renderFeed(visible());map.setView([e.lat,e.lon],11);if(pins[id])pins[id].openPopup();document.querySelector(".mapcard").scrollIntoView({behavior:"smooth",block:"nearest"})});
+$("showOff").onchange=e=>{showOff=e.target.checked;store.set("pa_off",showOff);render()};
+$("showMedia").onchange=e=>{showMedia=e.target.checked;store.set("pa_media",showMedia);render()};
+$("areaBtn").onclick=()=>{const p=$("areaPanel");p.hidden=!p.hidden;$("areaBtn").setAttribute("aria-expanded",String(!p.hidden))};
+if(APP){
+  try{
+    $("appSet").hidden=false;
+    $("appNotify").checked=APP.isNotifyOn();$("appMedia").checked=APP.isMediaOn();
+    $("appVer").textContent="Wersja "+APP.version()+".";
+    const perm=()=>{$("appPerm").hidden=APP.notificationsAllowed()};perm();
+    $("appNotify").onchange=e=>APP.setNotifyOn(e.target.checked);
+    $("appMedia").onchange=e=>APP.setMediaOn(e.target.checked);
+    $("appTest").onclick=()=>{APP.testNotification();setTimeout(perm,500)};
+    $("appCheck").onclick=()=>{APP.checkNow();$("appCheck").textContent="Sprawdzam…";setTimeout(()=>$("appCheck").textContent="Sprawdź teraz",4000)};
+    if(!store.get("pa_area",null)){try{const a=JSON.parse(APP.getWojewodztwa()).filter(w=>WOJ.includes(w));if(a.length){area=a}}catch(e){}}
+    syncApp();
+  }catch(e){}
+}else if(/github\.io$/.test(location.hostname)){
+  const owner=location.hostname.split(".")[0],repo=(location.pathname.split("/")[1]||"");
+  if(repo){const a=$("apkLink");a.href=`https://github.com/${owner}/${repo}/releases/latest/download/ptasi-alert.apk`;a.hidden=false}
+}
+$("closeArea").onclick=()=>{$("areaPanel").hidden=true;$("areaBtn").setAttribute("aria-expanded","false")};
+
+fetch("data/inspektoraty.json?t="+Date.now()).then(r=>r.ok?r.json():null).then(d=>{if(d)$("srcinfo").innerHTML=`<b>Sprawdzane źródła:</b> Główny Inspektorat Weterynarii, ${(d.wiw||[]).length} inspektoratów wojewódzkich, ${(d.piw||[]).length} inspektoratów powiatowych, urzędy wojewódzkie i wiadomości lokalne.`}).catch(()=>{});
+fetch("data/zdarzenia.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+  events=(d.zdarzenia||[]).slice().sort((a,b)=>{const ra=isActive(a)?0:1,rb=isActive(b)?0:1;return ra-rb||String(b.data).localeCompare(String(a.data))});
+  if(d.aktualizacja){const t=new Date(d.aktualizacja);$("stamp").innerHTML=`Dane z <b>${esc(isNaN(t)?d.aktualizacja:t.toLocaleString("pl-PL",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"}))}</b>`}
+  render();if(area.length)setTimeout(fitArea,300);
+  const want=new URLSearchParams(location.search).get("e");
+  if(want){const e=events.find(x=>x.id===want);if(e){if(!inArea(e)||!visible().includes(e)){showOff=true;$("showOff").checked=true;if(!inArea(e)){area=[];renderArea()}render()}
+    selected=e.id;renderFeed(visible());if(e.lat!=null){setTimeout(()=>{map.setView([e.lat,e.lon],11);if(pins[e.id])pins[e.id].openPopup()},350)}
+    setTimeout(()=>{const c=document.querySelector(`.card[data-id="${CSS.escape(e.id)}"]`);if(c)c.scrollIntoView({block:"nearest"})},400)}}
+  store.set("pa_last_visit",d.aktualizacja||new Date().toISOString());
+  store.set("pa_seen",events.map(e=>e.id).slice(0,500));
+}).catch(()=>{$("stamp").textContent="Brak danych";$("feed").innerHTML=`<div class="empty"><b>Nie udało się wczytać danych</b>Plik data/zdarzenia.json jeszcze nie istnieje. Uruchom aktualizację w zakładce Actions.</div>`});
+})();
+</script>
+</body>
+</html>

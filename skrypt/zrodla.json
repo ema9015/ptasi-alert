@@ -1,0 +1,113 @@
+{
+ "opis": "Dodatkowe strony sprawdzane przy każdej aktualizacji – głównie urzędy wojewódzkie (rozporządzenia wojewodów). Strony wszystkich wojewódzkich i powiatowych inspektoratów weterynarii program znajduje sam (plik data/inspektoraty.json). Możesz tu dopisać dowolną stronę, np. starostwa lub gminy. 'zweryfikowane': false = adres niesprawdzony; jeśli w danych pojawi się błąd dla tego źródła, popraw adres albo dopisz \"wylaczone\": true.",
+ "zrodla": [
+  {
+   "nazwa": "Wojewoda Wielkopolski – rozporządzenia",
+   "woj": "wielkopolskie",
+   "url": "https://poznan.uw.gov.pl/rozporzadzenia-wojewody",
+   "zweryfikowane": true
+  },
+  {
+   "nazwa": "Wojewoda Lubuski – rozporządzenia",
+   "woj": "lubuskie",
+   "url": "https://bip.lubuskie.uw.gov.pl/wojewoda/rozporzadzenia_wojewody",
+   "zweryfikowane": true
+  },
+  {
+   "nazwa": "Wojewoda Świętokrzyski – komunikaty",
+   "woj": "świętokrzyskie",
+   "url": "https://www.kielce.uw.gov.pl/pl/biuro-prasowe/komunikaty",
+   "zweryfikowane": true
+  },
+  {
+   "nazwa": "Dziennik Urzędowy Woj. Warmińsko-Mazurskiego",
+   "woj": "warmińsko-mazurskie",
+   "url": "https://edzienniki.olsztyn.uw.gov.pl/",
+   "zweryfikowane": true
+  },
+  {
+   "nazwa": "MODR – komunikaty HPAI/ND (Małopolska)",
+   "woj": "małopolskie",
+   "url": "https://www.modr.pl/wysoce-zjadliwa-grypa-ptakow-hpai-komunikaty",
+   "zweryfikowane": true
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Opole",
+   "woj": "opolskie",
+   "url": "https://www.gov.pl/web/uw-opolski",
+   "zweryfikowane": true
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Warszawa",
+   "woj": "mazowieckie",
+   "url": "https://www.gov.pl/web/uw-mazowiecki",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Kraków",
+   "woj": "małopolskie",
+   "url": "https://www.gov.pl/web/uw-malopolski",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Katowice",
+   "woj": "śląskie",
+   "url": "https://www.gov.pl/web/uw-slaski",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Łódź",
+   "woj": "łódzkie",
+   "url": "https://www.gov.pl/web/uw-lodzki",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Lublin",
+   "woj": "lubelskie",
+   "url": "https://www.gov.pl/web/uw-lubelski",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Rzeszów",
+   "woj": "podkarpackie",
+   "url": "https://www.gov.pl/web/uw-podkarpacki",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Bydgoszcz",
+   "woj": "kujawsko-pomorskie",
+   "url": "https://www.gov.pl/web/uw-kujawsko-pomorski",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Szczecin",
+   "woj": "zachodniopomorskie",
+   "url": "https://www.gov.pl/web/uw-zachodniopomorski",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Olsztyn",
+   "woj": "warmińsko-mazurskie",
+   "url": "https://www.gov.pl/web/uw-warminsko-mazurski",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Wrocław",
+   "woj": "dolnośląskie",
+   "url": "https://www.gov.pl/web/uw-dolnoslaski",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Gdańsk",
+   "woj": "pomorskie",
+   "url": "https://www.gov.pl/web/uw-pomorski",
+   "zweryfikowane": false
+  },
+  {
+   "nazwa": "Urząd Wojewódzki Białystok",
+   "woj": "podlaskie",
+   "url": "https://www.gov.pl/web/uw-podlaski",
+   "zweryfikowane": false
+  }
+ ]
+}

@@ -119,5 +119,31 @@
   14.9663609,
   "województwo lubuskie"
  ],
- "powiat inspektorat, województwo lubuskie": null
+ "powiat inspektorat, województwo lubuskie": null,
+ "powiat lekarz, województwo mazowieckie": null,
+ "powiat lekarza": [
+  52.298329,
+  17.8552928,
+  "województwo wielkopolskie"
+ ],
+ "powiat inspektorat, województwo mazowieckie": null,
+ "powiat lekarza, województwo mazowieckie": null,
+ "powiat inspektoracie": null,
+ "powiat żuromiński, województwo mazowieckie": [
+  53.016369,
+  19.878079,
+  "województwo mazowieckie"
+ ],
+ "Osówka, gmina Żuromin, powiat mławski, województwo mazowieckie": null,
+ "Osówka, województwo mazowieckie": [
+  53.1114,
+  19.91749,
+  "województwo mazowieckie"
+ ],
+ "powiat lekarz, województwo świętokrzyskie": null,
+ "powiat warszawski, województwo mazowieckie": [
+  52.2689122,
+  20.6084781,
+  "województwo mazowieckie"
+ ]
 }

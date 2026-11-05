@@ -1,29 +1,55 @@
 {
- "aktualizacja": "2026-11-05T11:07+01:00",
+ "aktualizacja": "2026-11-05T12:11+01:00",
  "dni_aktywne": 45,
  "bledy": [
-  "nie znaleziono strony WIW: lubelskie",
-  "nie znaleziono strony WIW: łódzkie",
-  "nie znaleziono strony WIW: małopolskie",
-  "nie znaleziono strony WIW: świętokrzyskie",
-  "nie znaleziono strony WIW: zachodniopomorskie",
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "https://edzienniki.bydgoszcz.uw.gov.pl/WDU_C/2026/4957/akt.pdf: <urlopen error timed out>",
-  "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/rzekomy-pomor-drobiu-nd: HTTP Error 503: Service Unavailable",
-  "https://gdansk.wiw.gov.pl/wysoce-zjadliwa-grypa-ptakow-(hpai): <urlopen error [Errno -2] Name or service not known>",
-  "https://gdansk.wiw.gov.pl/wysoce-zjadliwa-grypa-ptakow-ulotki: <urlopen error [Errno -2] Name or service not known>",
-  "https://olsztyn.wiw.gov.pl/upload/AKTUALNOSCI/2026/INFORMACJA_DLA_HODOWC&Oacute;W_DROBIU.pdf: HTTP Error 400: Bad Request",
-  "https://piwnowasol.pl/grypa-ptaków.html: 'ascii' codec can't encode character '\\xf3' in position 15: ordinal not in range(128)",
-  "https://piwnowasol.pl/rzekomy-pomór-drobiu.html: 'ascii' codec can't encode character '\\xf3' in position 16: ordinal not in range(128)",
-  "https://piwnowasol.pl/news/96/61/Komunikat-Głównego-Lekarza-Weterynarii-dotyczący-zagrożenia-grypą-ptaków-w-związku-z-jesiennymi-migracjami-dzikiego-ptactwa..html: 'ascii' codec can't encode characters in position 27-28: ordinal not in range(128)",
-  "https://piwnowasol.pl/news/95/61/Komunikat-Lubuskiego-Wojewódzkiego-Lekarza-Weterynarii-dotyczący-zagrożenia-grypą-ptaków-oraz-rzekomym-pomorem-drobiu-ND.html: 'ascii' codec can't encode character '\\xf3' in position 42: ordinal not in range(128)",
-  "wiadomości: HTTP Error 503: Service Unavailable",
-  "wiadomości: HTTP Error 503: Service Unavailable",
-  "wiadomości: HTTP Error 503: Service Unavailable",
-  "wiadomości: HTTP Error 503: Service Unavailable"
+  "WIW (podkarpackie): <urlopen error _ssl.c:994: The handshake operation timed out>",
+  "https://piwgarwolin.pl/wp-content/uploads/2026/09/Zasady__ktorych_nalezy_przestrzega___w_celu_ochrony_gospodarstwa_przed_wirusem_wysoce_zjadliwej_grypy_ptakow_HPAI-1-scaled.jpg: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'piwgarwolin.pl'. (_ssl.c:1011)>",
+  "https://edziennik.mazowieckie.pl/legalact/2026/4617/: The read operation timed out",
+  "https://edziennik.mazowieckie.pl/legalact/2026/675/: The read operation timed out",
+  "https://edziennik.mazowieckie.pl/legalact/2025/9734/: The read operation timed out",
+  "https://edziennik.mazowieckie.pl/legalact/2024/13181/: The read operation timed out",
+  "https://edziennik.mazowieckie.pl/legalact/2023/717/: The read operation timed out",
+  "http://www.ostrowmaz.piw.gov.pl/informacje/rozporządzenie WM w sprawie HPAI.pdf: URL can't contain control characters. '/informacje/rozporządzenie WM w sprawie HPAI.pdf' (found at least ' ')",
+  "http://www.ostrowmaz.piw.gov.pl/informacje/Rozporządzenie_nr_13.pdf: 'ascii' codec can't encode character '\\u0105' in position 23: ordinal not in range(128)",
+  "http://www.ostrowmaz.piw.gov.pl/informacje/Analiza_grypa ptaków_PIWet_20 listopada 2020.pdf: URL can't contain control characters. '/informacje/Analiza_grypa ptaków_PIWet_20 listopada 2020.pdf' (found at least ' ')",
+  "http://www.ostrowmaz.piw.gov.pl/informacje/Pismo MWLW ws zagrożenia grypą ptaków.pdf: URL can't contain control characters. '/informacje/Pismo MWLW ws zagrożenia grypą ptaków.pdf' (found at least ' ')",
+  "http://www.ostrowmaz.piw.gov.pl/informacje/analiza z PIWet - grypa ptaków 2020.pdf: URL can't contain control characters. '/informacje/analiza z PIWet - grypa ptaków 2020.pdf' (found at least ' ')",
+  "http://www.piw.radom.pl/images/pliki/ROZPORZĄDZENIE_13.11.pdf: 'ascii' codec can't encode character '\\u0104' in position 25: ordinal not in range(128)",
+  "https://www.piw-szydlowiec.pl/container/artykuly/Ulotka - HPAI.jpg: URL can't contain control characters. '/container/artykuly/Ulotka - HPAI.jpg' (found at least ' ')"
  ],
  "zdarzenia": [
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2027-12-31",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa \r\n 15 październik 2026",
+   "zrodlo": "http://www.piwsokolow.com/aktualnosci/448,komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa \r\n 15 październik 2026",
+     "u": "http://www.piwsokolow.com/aktualnosci/448,komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa.html",
+     "typ": "www.piwsokolow.com"
+    }
+   ],
+   "id": "reg-da7652eb31-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
   {
    "miejscowosc": null,
    "gmina": null,
@@ -746,6 +772,816 @@
   },
   {
    "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI – zasady bioasekuracji",
+   "zrodlo": "https://piwbialobrzegi.com.pl/hpai-zasady-bioasekuracji/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI – zasady bioasekuracji",
+     "u": "https://piwbialobrzegi.com.pl/hpai-zasady-bioasekuracji/",
+     "typ": "www.piwbialobrzegi.com.pl"
+    }
+   ],
+   "id": "reg-e2d1131792-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "http://www.piw-ciechanow.pl/a,193,komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "http://www.piw-ciechanow.pl/a,193,komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+     "typ": "www.piw-ciechanow.pl"
+    }
+   ],
+   "id": "reg-96ca0172e5-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "ptaki dzikie",
+   "tytul_zrodla": "W związku z trwającymi, sezonowymi migracjami dzikich ptaków, które zwiększają ryzyko wystąpienia grypy ptaków, Powiatowy Lekarz Weterynarii przypomina o konieczności przestrzegania wymogów bioasekuracji.",
+   "zrodlo": "https://piwgrojec.pl/?p=1766",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "W związku z trwającymi, sezonowymi migracjami dzikich ptaków, które zwiększają ryzyko wystąpienia grypy ptaków, Powiatowy Lekarz Weterynarii przypomina o konieczności przestrzegania wymogów bioasekura",
+     "u": "https://piwgrojec.pl/?p=1766",
+     "typ": "piwgrojec.pl"
+    }
+   ],
+   "id": "reg-57763fded7-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zapraszamy hodowców drobiu na szkolenie w dniu 5 listopada 2026 r.",
+   "zrodlo": "https://www.piwkozienice.pl/zapraszamy-hodowcow-drobiu-na-szkolenie-w-dniu-5-listopada-2026-r/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zapraszamy hodowców drobiu na szkolenie w dniu 5 listopada 2026 r.",
+     "u": "https://www.piwkozienice.pl/zapraszamy-hodowcow-drobiu-na-szkolenie-w-dniu-5-listopada-2026-r/",
+     "typ": "www.piwkozienice.pl"
+    }
+   ],
+   "id": "reg-8e19f1d8b2-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób na własny \nużytek",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zaproszenie na szkolenie 05.11.26r. bioasekuracja drobiu",
+   "zrodlo": "https://www.piwkozienice.pl/wp-content/uploads/2022/12/Zaproszenie-na-szkolenie-05.11.26r.-bioasekuracja-drobiu.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zaproszenie na szkolenie 05.11.26r. bioasekuracja drobiu",
+     "u": "https://www.piwkozienice.pl/wp-content/uploads/2022/12/Zaproszenie-na-szkolenie-05.11.26r.-bioasekuracja-drobiu.pdf",
+     "typ": "www.piwkozienice.pl"
+    }
+   ],
+   "id": "reg-af7d48fa12-1",
+   "lat": 52.1080323,
+   "lon": 19.9415837,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "ulotka informacyjna ptasia grypa opracowanie EFSA",
+   "zrodlo": "https://www.piwkozienice.pl/wp-content/uploads/2026/10/ulotka-informacyjna-ptasia-grypa-opracowanie-EFSA.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ulotka informacyjna ptasia grypa opracowanie EFSA",
+     "u": "https://www.piwkozienice.pl/wp-content/uploads/2026/10/ulotka-informacyjna-ptasia-grypa-opracowanie-EFSA.pdf",
+     "typ": "www.piwkozienice.pl"
+    }
+   ],
+   "id": "reg-5b250de027-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoracie",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "PIW w Łosicach - Grypa ptaków ",
+   "zrodlo": "http://www.piwlosice.pl/index.php/zdrowie-i-ochrona-zwierzat/grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "PIW w Łosicach - Grypa ptaków ",
+     "u": "http://www.piwlosice.pl/index.php/zdrowie-i-ochrona-zwierzat/grypa-ptakow",
+     "typ": "www.piwlosice.pl"
+    }
+   ],
+   "id": "reg-5423782b0c-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków AI Wojewódzki Inspektorat Weterynarii z siedzibą w Siedlcach \r",
+   "zrodlo": "https://www.mazowsze.wiw.gov.pl/wiw/informacje-weterynaryjne/zdrowie-i-ochrona-zwierzat/grypa-ptakow-ai",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków AI Wojewódzki Inspektorat Weterynarii z siedzibą w Siedlcach \r",
+     "u": "https://www.mazowsze.wiw.gov.pl/wiw/informacje-weterynaryjne/zdrowie-i-ochrona-zwierzat/grypa-ptakow-ai",
+     "typ": "www.piw.ostroleka.pl"
+    }
+   ],
+   "id": "reg-43d3ac7f2d-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa ",
+   "zrodlo": "http://www.piw.ostroleka.pl/index.php/9-uncategorised/183-komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa ",
+     "u": "http://www.piw.ostroleka.pl/index.php/9-uncategorised/183-komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+     "typ": "www.piw.ostroleka.pl"
+    }
+   ],
+   "id": "reg-8db514b904-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Wniosek - wykre�lenie z rejestru podmiot�w",
+   "zrodlo": "http://www.piwplock.pl/dokumenty/Wniosek_wykreslenie_fermy_drobiu.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Wniosek - wykre�lenie z rejestru podmiot�w",
+     "u": "http://www.piwplock.pl/dokumenty/Wniosek_wykreslenie_fermy_drobiu.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-15cd0ab423-1",
+   "lat": 52.298329,
+   "lon": 17.8552928,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Wniosek - przemieszczenie drobiu.pdf",
+   "zrodlo": "http://www.piwplock.pl/dokumenty/Wniosek_przemieszczenie_drobiu.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Wniosek - przemieszczenie drobiu.pdf",
+     "u": "http://www.piwplock.pl/dokumenty/Wniosek_przemieszczenie_drobiu.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-d0a58228e9-1",
+   "lat": 52.1080323,
+   "lon": 19.9415837,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacja PLW - HPAI.pdf",
+   "zrodlo": "http://www.piwplock.pl/pobierz/Ogloszenie_09122022.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Informacja PLW - HPAI.pdf",
+     "u": "http://www.piwplock.pl/pobierz/Ogloszenie_09122022.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-a1c37459e7-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat PLW w sprawie grypy ptak�w.pdf",
+   "zrodlo": "http://www.piwplock.pl/pobierz/KomunikatPLW_17112021.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat PLW w sprawie grypy ptak�w.pdf",
+     "u": "http://www.piwplock.pl/pobierz/KomunikatPLW_17112021.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-3f91ab7cd0-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Pamiętaj, żeby zawsze zakładać odzież i obuwie",
+   "zrodlo": "http://www.piwplock.pl/pobierz/UlotkaHPAI_16062021.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Pamiętaj, żeby zawsze zakładać odzież i obuwie",
+     "u": "http://www.piwplock.pl/pobierz/UlotkaHPAI_16062021.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-9e0c97fa8f-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Informacja dla hodowc�w drobiu.pdf",
+   "zrodlo": "http://www.piwplock.pl/pobierz/Informacja_dla_hodowcow_drobiu_15092017.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Informacja dla hodowc�w drobiu.pdf",
+     "u": "http://www.piwplock.pl/pobierz/Informacja_dla_hodowcow_drobiu_15092017.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-dcafd274d8-1",
+   "lat": 52.1080323,
+   "lon": 19.9415837,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "",
+   "zrodlo": "http://www.piwplock.pl/pobierz/Ulotka_HPAI_15092017.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "",
+     "u": "http://www.piwplock.pl/pobierz/Ulotka_HPAI_15092017.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-1919de8374-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Bioasekuracja w fermie drobiu.pdf",
+   "zrodlo": "http://www.piwplock.pl/dokumenty/Bioasekuracja_w_fermie_drobiu.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Bioasekuracja w fermie drobiu.pdf",
+     "u": "http://www.piwplock.pl/dokumenty/Bioasekuracja_w_fermie_drobiu.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-6bf2fe829c-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "�PNG\r",
+   "zrodlo": "http://piw-plonsk.mojbip.pl/1.html?file=311",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "�PNG\r",
+     "u": "http://piw-plonsk.mojbip.pl/1.html?file=311",
+     "typ": "piw-plonsk.mojbip.pl"
+    }
+   ],
+   "id": "reg-b1a368ab76-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarz",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "LPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Wytyczne dla hodowców i właścicieli i pracowników ferm zwierząt oraz dla osób mających kontakt ze zwierzętami wrażliwymi na zakażenie wirusami grypy ptaków.",
+   "zrodlo": "http://piw-plonsk.mojbip.pl/1.html?file=237",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Wytyczne dla hodowców i właścicieli i pracowników ferm zwierząt oraz dla osób mających kontakt ze zwierzętami wrażliwymi na zakażenie wirusami grypy ptaków.",
+     "u": "http://piw-plonsk.mojbip.pl/1.html?file=237",
+     "typ": "piw-plonsk.mojbip.pl"
+    }
+   ],
+   "id": "reg-5cd6eeb3dc-1",
+   "lat": 52.1080323,
+   "lon": 19.9415837,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków ulotka",
+   "zrodlo": "http://piw-plonsk.mojbip.pl/1.html?file=217",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków ulotka",
+     "u": "http://piw-plonsk.mojbip.pl/1.html?file=217",
+     "typ": "piw-plonsk.mojbip.pl"
+    }
+   ],
+   "id": "reg-56c56691da-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "19 . 10.2026\n Zasady ochrony drobiu przed chorobą",
+   "zrodlo": "https://www.mazowsze.wiw.gov.pl/wiw/informacje-weterynaryjne/zdrowie-i-ochrona-zwierzat/grypa-ptakow-ai/informacje-dla-hodowcow/20610,Zasady-ochrony-drobiu-przed-choroba.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "19 . 10.2026\n Zasady ochrony drobiu przed chorobą",
+     "u": "https://www.mazowsze.wiw.gov.pl/wiw/informacje-weterynaryjne/zdrowie-i-ochrona-zwierzat/grypa-ptakow-ai/informacje-dla-hodowcow/20610,Zasady-ochrony-drobiu-przed-choroba.html",
+     "typ": "www.piwprzasnysz.pl"
+    }
+   ],
+   "id": "reg-cfffa32e65-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "PIW Przysucha » HPAI \r",
+   "zrodlo": "https://piwprzysucha.pl/category/hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "PIW Przysucha » HPAI \r",
+     "u": "https://piwprzysucha.pl/category/hpai/",
+     "typ": "www.piwprzysucha.pl"
+    }
+   ],
+   "id": "reg-a7b292a7a7-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Powiatowy Inspektorat Weterynarii w Radomiu\r",
+   "zrodlo": "http://www.piw.radom.pl/10-wiecej/26-grypa-ptakow.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Powiatowy Inspektorat Weterynarii w Radomiu\r",
+     "u": "http://www.piw.radom.pl/10-wiecej/26-grypa-ptakow.html",
+     "typ": "www.piw.radom.pl"
+    }
+   ],
+   "id": "reg-a7884aa814-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Drób – Powiatowy Inspektorat Weterynarii w Sierpcu ",
+   "zrodlo": "https://sierpcpiw.eu/index.php/drob/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Drób – Powiatowy Inspektorat Weterynarii w Sierpcu ",
+     "u": "https://sierpcpiw.eu/index.php/drob/",
+     "typ": "sierpcpiw.eu"
+    }
+   ],
+   "id": "reg-7b1d6e258c-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "http://www.piw-szydlowiec.pl/art,102,komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "http://www.piw-szydlowiec.pl/art,102,komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa",
+     "typ": "www.piw-szydlowiec.pl"
+    }
+   ],
+   "id": "reg-e8da944563-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "ZASADY, KTÓRYCH NALEŻY PRZESTRZEGAĆ W CELU OCHRONY GOSPODARSTWA PRZED WIRUSEM WYSOCE ZJADLIWEJ GRYPY PTAKÓW",
+   "zrodlo": "http://www.piw-szydlowiec.pl/art,101,zasady-ktorych-nalezy-przestrzegac-w-celu-ochrony-gospodarstwa-przed-wirusem-wysoce-zjadliwej-grypy-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ZASADY, KTÓRYCH NALEŻY PRZESTRZEGAĆ W CELU OCHRONY GOSPODARSTWA PRZED WIRUSEM WYSOCE ZJADLIWEJ GRYPY PTAKÓW",
+     "u": "http://www.piw-szydlowiec.pl/art,101,zasady-ktorych-nalezy-przestrzegac-w-celu-ochrony-gospodarstwa-przed-wirusem-wysoce-zjadliwej-grypy-ptakow",
+     "typ": "www.piw-szydlowiec.pl"
+    }
+   ],
+   "id": "reg-f771fd147f-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": "drób",
+   "nr": null,
+   "data": "2026-11-05",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Grypa ptaków - Powiatowy Inspektorat Weterynarii z/s w Orońsku | Biuletyn Informacji Publicznej \r",
+   "zrodlo": "http://www.piw-szydlowiec.pl/p,2,grypa-ptakow",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Grypa ptaków - Powiatowy Inspektorat Weterynarii z/s w Orońsku | Biuletyn Informacji Publicznej \r",
+     "u": "http://www.piw-szydlowiec.pl/p,2,grypa-ptakow",
+     "typ": "www.piw-szydlowiec.pl"
+    }
+   ],
+   "id": "reg-93e93581cc-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
    "gmina": "Bartoszyce",
    "powiat": "bartoszycki",
    "woj": "warmińsko-mazurskie",
@@ -862,6 +1698,36 @@
    "lon": 22.57,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-27",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://piwsochaczew.pl/2026/10/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://piwsochaczew.pl/2026/10/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa/",
+     "typ": "www.piwsochaczew.pl"
+    }
+   ],
+   "id": "reg-2570ff1660-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T12:11+01:00",
    "status": "aktywne"
   },
   {
@@ -1107,6 +1973,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-15",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Migracje ptaków - większe ryzyko HPAI!",
+   "zrodlo": "https://www.wawa.piw.gov.pl/2026/10/15/przestrzegaj-wymogow-bioasekuracji/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Migracje ptaków - większe ryzyko HPAI!",
+     "u": "https://www.wawa.piw.gov.pl/2026/10/15/przestrzegaj-wymogow-bioasekuracji/",
+     "typ": "www.wawa.piw.gov.pl"
+    }
+   ],
+   "id": "reg-901975ec8b-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "inspektoraty",
    "woj": "lubuskie",
    "liczba": null,
@@ -1132,6 +2028,66 @@
    "lon": 15.51,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T11:06+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-14",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "http://piwgarwolin.pl/?p=4126",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "http://piwgarwolin.pl/?p=4126",
+     "typ": "piwgarwolin.pl"
+    }
+   ],
+   "id": "reg-e03d185f38-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-12",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+   "zrodlo": "https://www.piwkozienice.pl/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa",
+     "u": "https://www.piwkozienice.pl/komunikat-glownego-lekarza-weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa/",
+     "typ": "www.piwkozienice.pl"
+    }
+   ],
+   "id": "reg-7618420222-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
    "status": "aktywne"
   },
   {
@@ -1227,6 +2183,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-09-30",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zasady ochrony gospodarstwa przed HPAI",
+   "zrodlo": "http://piwgarwolin.pl/?p=4121",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zasady ochrony gospodarstwa przed HPAI",
+     "u": "http://piwgarwolin.pl/?p=4121",
+     "typ": "piwgarwolin.pl"
+    }
+   ],
+   "id": "reg-b45dd140a2-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "wygasa"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "inspektoraty",
    "woj": "lubuskie",
    "liczba": null,
@@ -1313,6 +2299,36 @@
    "dokladnosc": "miejscowosc",
    "dodano": "2026-11-05T11:06+01:00",
    "status": "wygasa"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-08-04",
+   "choroba": "inne",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zdrowie i Profilaktyka \n Odrobaczanie szczeniaka - kiedy, czym i jak często? Harmonogram, preparaty, koszty\n Odkryj, jak skutecznie odrobaczać szczeniaka! Poznaj harmonogram, preparaty i koszty, aby zapewnić swojemu pupilowi zdro...\n 04.08.2026",
+   "zrodlo": "https://www.wiw.mazowsze.pl/zdrowie-i-profilaktyka/odrobaczanie-szczeniaka-kiedy-czym-i-jak-czesto/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zdrowie i Profilaktyka \n Odrobaczanie szczeniaka - kiedy, czym i jak często? Harmonogram, preparaty, koszty\n Odkryj, jak skutecznie odrobaczać szczeniaka! Poznaj harmonogram, preparaty i koszty, aby z",
+     "u": "https://www.wiw.mazowsze.pl/zdrowie-i-profilaktyka/odrobaczanie-szczeniaka-kiedy-czym-i-jak-czesto/",
+     "typ": "bip.piwprzysucha.pl"
+    }
+   ],
+   "id": "reg-e476dddcb0-1",
+   "lat": null,
+   "lon": null,
+   "dokladnosc": null,
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "zniesione"
   },
   {
    "miejscowosc": null,
@@ -1825,6 +2841,69 @@
    "status": "zniesione"
   },
   {
+   "miejscowosc": "Osówka",
+   "gmina": "Żuromin",
+   "powiat": "mławski",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-04-15",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie Wojewody Mazowieckiego z dnia 15 kwietnia 2026 r. zmieniające rozporządzenie w sprawie zwalczania wysoce zjadliwej grypy ptaków (HPAI) na terenie powiatu mławskiego, żuromińskiego, sierpeckiego, płońskiego i ciechanowskiego.",
+   "zrodlo": "http://piw-plonsk.mojbip.pl/1.html?file=296",
+   "rodzaj": "komunikat",
+   "strefy": {
+    "zagrozony": "1) w powiecie żuromińskim: a) w gminie Siemiątkowo, miejscowości: Antoniewo, Nowa Wieś, Sokołowy Kąt, Budy Koziebrodzkie, Gutkowo, Krzeczanowo, Ossowa, Pijawnia, Rostowa, Siemiątkowo, Siemiątkowo -Rogale, Wojciechowo, Łaszewo, Łaszewo Wietrznik, Budy Osieckie Nowe, Budy Osieckie Stare, b) w gminie Żuromin, miejscowości: Brudnice, Będzymin, Kliczewo Małe, Kliczewo Duże, Kruszewo, Raczyny, Rozwozin, Rzężawy, Wólka Kliczewska, Tadajówka, c) w gminie Kuczbork -Osada, miejscowości: Olszewko, Chodubka, Gościszka, Kuczbork, Nidzg ora, Bagienice Duże, Bagienice Małe, Bagienice Nowe, Chojnowo, Gościszka Baraki, Kozielsk, Krzywki Bratki, Kuczbork Osada, Mianowo, Nowa Wieś, Osowa, Sarnowo, Szronka, Dzi…"
+   },
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie Wojewody Mazowieckiego z dnia 15 kwietnia 2026 r. zmieniające rozporządzenie w sprawie zwalczania wysoce zjadliwej grypy ptaków (HPAI) na terenie powiatu mławskiego, żuromińskiego, sier",
+     "u": "http://piw-plonsk.mojbip.pl/1.html?file=296",
+     "typ": "piw-plonsk.mojbip.pl"
+    }
+   ],
+   "id": "reg-ee843a769b-1",
+   "lat": 53.1114,
+   "lon": 19.91749,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "lekarza",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-03-11",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zg�oszenie drobiu przydomowego.pdf",
+   "zrodlo": "http://www.piwplock.pl/dokumenty/Druk_zgloszenie_drob_przydomowy.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zg�oszenie drobiu przydomowego.pdf",
+     "u": "http://www.piwplock.pl/dokumenty/Druk_zgloszenie_drob_przydomowy.pdf",
+     "typ": "www.piwplock.pl"
+    }
+   ],
+   "id": "reg-985134e0e4-1",
+   "lat": 52.298329,
+   "lon": 17.8552928,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "zniesione"
+  },
+  {
    "miejscowosc": null,
    "gmina": null,
    "powiat": "lekarza",
@@ -1917,6 +2996,36 @@
   {
    "miejscowosc": null,
    "gmina": null,
+   "powiat": "lekarz",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-02-09",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "PIW Białobrzegi » HPAI \r",
+   "zrodlo": "https://piwbialobrzegi.com.pl/category/hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "PIW Białobrzegi » HPAI \r",
+     "u": "https://piwbialobrzegi.com.pl/category/hpai/",
+     "typ": "www.piwbialobrzegi.com.pl"
+    }
+   ],
+   "id": "reg-c3bb009b9f-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T12:11+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
    "powiat": "inspektorat",
    "woj": "kujawsko-pomorskie",
    "liczba": null,
@@ -1976,6 +3085,36 @@
    "lon": 19.72,
    "dokladnosc": "miejscowosc",
    "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": null,
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-11-17",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Rozporządzenie Wojewody Mazowieckiego w sprawie zwalczania wysoce zjadliwej grypy ptaków (HPAI)",
+   "zrodlo": "http://www.ostrowmaz.piw.gov.pl/informacje/RozporzadzenieWojewodyHPAI17112025.pdf",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Rozporządzenie Wojewody Mazowieckiego w sprawie zwalczania wysoce zjadliwej grypy ptaków (HPAI)",
+     "u": "http://www.ostrowmaz.piw.gov.pl/informacje/RozporzadzenieWojewodyHPAI17112025.pdf",
+     "typ": "www.ostrowmaz.piw.gov.pl"
+    }
+   ],
+   "id": "reg-47cce637b8-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-05T12:11+01:00",
    "status": "zniesione"
   },
   {

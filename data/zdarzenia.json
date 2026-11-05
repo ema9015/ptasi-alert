@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-05T23:23+01:00",
+ "aktualizacja": "2026-11-06T00:14+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -5027,7 +5027,7 @@
    "lon": 19.9415837,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T11:07+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,

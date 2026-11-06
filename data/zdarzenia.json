@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-06T12:28+01:00",
+ "aktualizacja": "2026-11-06T13:26+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -64,6 +64,36 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-06",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Plakaty informacyjne HPAI – Powiatowy Inspektorat Weterynarii w Warszawie ",
+   "zrodlo": "https://www.wawa.piw.gov.pl/2026/11/06/plakaty-informacyjne-hpai/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Plakaty informacyjne HPAI – Powiatowy Inspektorat Weterynarii w Warszawie ",
+     "u": "https://www.wawa.piw.gov.pl/2026/11/06/plakaty-informacyjne-hpai/",
+     "typ": "www.wawa.piw.gov.pl"
+    }
+   ],
+   "id": "reg-2eaa13bb05-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-06T13:26+01:00",
    "status": "aktywne"
   },
   {

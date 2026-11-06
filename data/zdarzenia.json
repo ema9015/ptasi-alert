@@ -1,7 +1,8 @@
 {
- "aktualizacja": "2026-11-06T06:30+01:00",
+ "aktualizacja": "2026-11-06T07:45+01:00",
  "dni_aktywne": 45,
  "bledy": [
+  "lista GIW str. 1: HTTP Error 503: Service Unavailable",
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],

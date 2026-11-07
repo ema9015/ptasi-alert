@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-07T05:21+01:00",
+ "aktualizacja": "2026-11-07T06:18+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -64,6 +64,36 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-07",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "HPAI - Ptasia grypa Powiatowy Inspektorat Weterynarii w Kaliszu \r",
+   "zrodlo": "https://www.bip.piwkalisz.pl/pik/batony/468,1-HPAI.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "HPAI - Ptasia grypa Powiatowy Inspektorat Weterynarii w Kaliszu \r",
+     "u": "https://www.bip.piwkalisz.pl/pik/batony/468,1-HPAI.html",
+     "typ": "Strona internetowa Powiatowego Inspektoratu w Kaliszu"
+    }
+   ],
+   "id": "reg-229f39b5e0-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-07T06:18+01:00",
    "status": "aktywne"
   },
   {

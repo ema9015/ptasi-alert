@@ -1,9 +1,10 @@
 {
- "aktualizacja": "2026-11-08T19:58+01:00",
+ "aktualizacja": "2026-11-08T20:43+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
+  "WIW (podkarpackie): The read operation timed out"
  ],
  "zdarzenia": [
   {

@@ -1,10 +1,10 @@
 {
- "aktualizacja": "2026-11-09T16:55+01:00",
+ "aktualizacja": "2026-11-09T18:00+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "WIW (podkarpackie): <urlopen error timed out>"
+  "WIW (podkarpackie): <urlopen error _ssl.c:994: The handshake operation timed out>"
  ],
  "zdarzenia": [
   {
@@ -65,6 +65,36 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-09",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Stop grypie ptaków: chroń swoje gospodarstwo!",
+   "zrodlo": "https://piwmakow.pl/stop-grypie-ptakow-chron-swoje-gospodarstwo/",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Stop grypie ptaków: chroń swoje gospodarstwo!",
+     "u": "https://piwmakow.pl/stop-grypie-ptakow-chron-swoje-gospodarstwo/",
+     "typ": "piwmakow.pl"
+    }
+   ],
+   "id": "reg-aade1d7288-1",
+   "lat": 52.23,
+   "lon": 21.01,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-09T18:00+01:00",
    "status": "aktywne"
   },
   {

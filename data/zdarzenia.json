@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-10T16:02+01:00",
+ "aktualizacja": "2026-11-10T17:00+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -7325,6 +7325,40 @@
    "lon": 19.72,
    "dokladnosc": "miejscowosc",
    "dodano": "2026-11-05T11:07+01:00",
+   "status": "zniesione"
+  },
+  {
+   "miejscowosc": "Dębówka",
+   "gmina": "Lutocin",
+   "powiat": "żuromiński",
+   "woj": "mazowieckie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2025-11-21",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "ROZPORZĄDZENIE Nr 4/2026 POWIATOWEGO LEKARZA WETERYNARII W RYPINIE z dnia 18 maja 2026 r.",
+   "zrodlo": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=313:rozporzdzenie-nr-42026-powiatowego-lekarza-weterynarii-w-rypinie-z-dnia-18-maja-2026-r&amp;catid=27:hpai&amp;Itemid=37",
+   "rodzaj": "komunikat",
+   "strefy": {
+    "zapowietrzony": "w powiecie rypińskim, w gminie Skrwilno, miejscowości: Czarnia Duża; Transport zwierząt i produktów pochodzących od zwierząt lub ze zwierząt wrażliwych na wysoce zjadliwą grypę ptaków przez obszar, o którym mowa w ust. 1, ust. 2 i ust. 3, jest realizowany: 1) bez zatrzymywania lub rozładunku na obszarze objętym ograniczeniami; 2) w pierwszej kolejności z wykorzystaniem głównych autostrad lub głównych połączeń kolejowych; 3) unikając przejazdu w pobliżu zakładów, w których utrzymywane są ptaki. 5. Na obszarze, o którym mowa w ust. 1, ust. 2 i ust. 3 nakazuje się wprowadzić dodatkowe środki bezpieczeństwa biologicznego polegające na niezwłocznym przeprowadzeniu dodatkowej dezynfekcji zakładu, …",
+    "zagrozony": "w powiecie rypińskim, w gminie Skrwilno, miejscowości: Czarnia Mała, Mościska, Okalewo, Otocznia, Rak, Ruda, Skrwilno, Szczawno, Szustek, Zambrzyca, Szucie, Baba” Za obszar zagrożony wystąpieniem wysoce zjadliwej grypy ptaków (HPAI) od 20 maja 2026 roku, zwany dalej obszarem zagrożonym, uznaje się teren obejmujący: w powiecie rypińskim, w gminie Skrwilno, miejscowości: Czarnia Duża, Czarnia Mała, Mościska, Okalewo, Otocznia, Rak, Ruda, Skrwilno, Szczawno, Szustek, Zambrzyca, Szucie, Baba” Za obszar zapowietrzony wystąpieniem wysoce zjadliwej grypy ptaków (HPAI) do 19 maja 2026 roku, zwany dalej obszarem zapowietrzonym, uznaje się teren obejmujący: w powiecie rypińskim, w gminie Skrwilno, mie…"
+   },
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "ROZPORZĄDZENIE Nr 4/2026 POWIATOWEGO LEKARZA WETERYNARII W RYPINIE z dnia 18 maja 2026 r.",
+     "u": "http://www.piwrypin.pl/index.php?option=com_content&amp;view=article&amp;id=313:rozporzdzenie-nr-42026-powiatowego-lekarza-weterynarii-w-rypinie-z-dnia-18-maja-2026-r&amp;catid=27:hpai&amp;Itemid=37",
+     "typ": "www.piwrypin.pl"
+    }
+   ],
+   "id": "reg-b64e6f0d8f-1",
+   "lat": 53.0005556,
+   "lon": 19.7486111,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-10T17:00+01:00",
    "status": "zniesione"
   },
   {

@@ -1,10 +1,9 @@
 {
- "aktualizacja": "2026-11-10T23:59+01:00",
+ "aktualizacja": "2026-11-11T00:37+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "WIW (pomorskie): <urlopen error timed out>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {
@@ -5388,7 +5387,7 @@
    "lon": 16.8730785,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T11:06+01:00",
-   "status": "wygasa"
+   "status": "zniesione"
   },
   {
    "miejscowosc": "Przyczyna Dolna",

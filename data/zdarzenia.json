@@ -1,19 +1,9 @@
 {
- "aktualizacja": "2026-11-10T09:54+01:00",
+ "aktualizacja": "2026-11-10T10:52+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "Urząd Wojewódzki Opole: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Warszawa: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Kraków: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Katowice: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Łódź: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Lublin: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Rzeszów: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Bydgoszcz: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Szczecin: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Olsztyn: <urlopen error [Errno 101] Network is unreachable>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {
@@ -74,6 +64,36 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:30+01:00",
+   "status": "aktywne"
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-10",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Zapobiegaj rozprzestrzenianiu się ptasiej grypy!",
+   "zrodlo": "https://piw.bielsko.pl/wb/aktualnosci-i-komunikaty/wysoce-zjadliwa-grypa-ptakow-h/23120,Zapobiegaj-rozprzestrzenianiu-sie-ptasiej-grypy.html",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Zapobiegaj rozprzestrzenianiu się ptasiej grypy!",
+     "u": "https://piw.bielsko.pl/wb/aktualnosci-i-komunikaty/wysoce-zjadliwa-grypa-ptakow-h/23120,Zapobiegaj-rozprzestrzenianiu-sie-ptasiej-grypy.html",
+     "typ": "piw.bielsko.pl"
+    }
+   ],
+   "id": "reg-5a381a5ddd-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-10T10:52+01:00",
    "status": "aktywne"
   },
   {

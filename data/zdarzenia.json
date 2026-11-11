@@ -1,7 +1,12 @@
 {
- "aktualizacja": "2026-11-11T23:17+01:00",
+ "aktualizacja": "2026-11-12T00:22+01:00",
  "dni_aktywne": 45,
  "bledy": [
+  "nie znaleziono strony WIW: lubelskie",
+  "nie znaleziono strony WIW: łódzkie",
+  "nie znaleziono strony WIW: małopolskie",
+  "nie znaleziono strony WIW: świętokrzyskie",
+  "nie znaleziono strony WIW: zachodniopomorskie",
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
@@ -5087,7 +5092,7 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T12:11+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
@@ -5117,7 +5122,7 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:31+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,

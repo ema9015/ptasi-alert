@@ -1,8 +1,7 @@
 {
- "aktualizacja": "2026-11-12T09:27+01:00",
+ "aktualizacja": "2026-11-12T09:56+01:00",
  "dni_aktywne": 45,
  "bledy": [
-  "lista GIW str. 1: HTTP Error 503: Service Unavailable",
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
@@ -515,7 +514,8 @@
    "lon": 18.01,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T11:07+01:00",
-   "status": "aktywne"
+   "status": "aktywne",
+   "obszar": null
   },
   {
    "miejscowosc": null,
@@ -995,7 +995,8 @@
    "lon": 21.01,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T12:11+01:00",
-   "status": "aktywne"
+   "status": "aktywne",
+   "obszar": null
   },
   {
    "miejscowosc": null,
@@ -2285,7 +2286,8 @@
    "lon": 19.02,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T13:09+01:00",
-   "status": "aktywne"
+   "status": "aktywne",
+   "obszar": null
   },
   {
    "miejscowosc": null,
@@ -2855,7 +2857,8 @@
    "lon": 16.93,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T14:30+01:00",
-   "status": "aktywne"
+   "status": "aktywne",
+   "obszar": null
   },
   {
    "miejscowosc": null,
@@ -3908,7 +3911,8 @@
    "lon": 16.93,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T14:31+01:00",
-   "status": "aktywne"
+   "status": "aktywne",
+   "obszar": null
   },
   {
    "miejscowosc": null,
@@ -4308,7 +4312,8 @@
    "lon": 19.02,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T13:09+01:00",
-   "status": "aktywne"
+   "status": "aktywne",
+   "obszar": null
   },
   {
    "miejscowosc": "Wisła Mała\n Aktualności \n 22",
@@ -4368,7 +4373,8 @@
    "lon": 20.6760816,
    "dokladnosc": "gmina",
    "dodano": "2026-11-05T11:06+01:00",
-   "status": "aktywne"
+   "status": "aktywne",
+   "obszar": "powiat bartoszycki, województwo warmińsko-mazurskie"
   },
   {
    "miejscowosc": null,
@@ -5058,7 +5064,8 @@
    "lon": 19.02,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T13:09+01:00",
-   "status": "aktywne"
+   "status": "aktywne",
+   "obszar": null
   },
   {
    "miejscowosc": null,

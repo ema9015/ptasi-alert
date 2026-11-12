@@ -28,6 +28,7 @@ Test bez sieci i bez wysyłania:  python skrypt/aktualizuj.py --test
 
 import html as htmlmod
 import json
+import math
 import os
 import re
 import smtplib
@@ -46,6 +47,7 @@ F_EVENTS = os.path.join(DATA, "zdarzenia.json")
 F_STATE = os.path.join(DATA, "stan.json")
 F_GEO = os.path.join(DATA, "geokod.json")
 F_WOJ = os.path.join(DATA, "wojewodztwa.geojson")
+F_OBSZARY = os.path.join(DATA, "obszary.json")
 
 UA = "PtasiAlert/1.0 (+https://github.com; monitor chorob drobiu)"
 GIW = "https://www.wetgiw.gov.pl"
@@ -299,6 +301,23 @@ def extract_zones(body):
     return z
 
 
+ZAKAZ_RE = re.compile(r"zakaz\w*|zabrania\w*|nie wolno|wstrzymu\w*", re.I)
+TEMAT_ZAKAZU_RE = re.compile(r"handl\w*|sprzeda\w*|rozwo\w*|przemieszcz\w*|targ\w*|wystaw\w*|transport\w*|ubojni\w*|skup\w*|obrot\w*", re.I)
+
+
+def extract_restrictions(body):
+    """Zdania o zakazach dotyczących handlu, sprzedaży, rozwożenia i przemieszczania drobiu."""
+    out = []
+    for s in re.split(r"(?<=[.;])\s+|\n", body):
+        if ZAKAZ_RE.search(s) and TEMAT_ZAKAZU_RE.search(s):
+            c = _clean(s, 300)
+            if c and c not in out:
+                out.append(c)
+        if len(out) >= 6:
+            break
+    return out
+
+
 def parse_detail(title, text, list_url, strict=False):
     """Zwraca listę zdarzeń z jednego komunikatu (może opisywać kilka ognisk).
     strict=True (rozporządzenia): ognisko tylko ze zdań o „stwierdzeniu”, bo dalej są długie listy miejscowości w strefach."""
@@ -335,7 +354,10 @@ def parse_detail(title, text, list_url, strict=False):
                     "woj": doc_woj, "liczba": n, "ptaki": ptaki, "nr": find_nr(title + " " + body[:300]),
                     "data": doc_date})
     zones = extract_zones(body) if strict else {}
+    restr = extract_restrictions(body)
     for o in out:
+        if restr:
+            o["ograniczenia"] = restr
         o.update({"choroba": dz, "typ": kd, "tytul_zrodla": title, "zrodlo": list_url,
                   "rodzaj": "ognisko" if kd != "komunikat" else "komunikat"})
         if zones:
@@ -343,6 +365,85 @@ def parse_detail(title, text, list_url, strict=False):
         if o["rodzaj"] == "komunikat" and not o["woj"]:
             o["woj"] = "cała Polska"
     return out
+
+
+# ---------------------------------------------------------------- obszary (jaśniejsze tło pod kropką)
+def _hull(points):
+    """Otoczka wypukła (łańcuch monotoniczny), punkty (lat, lon)."""
+    pts = sorted(set(points))
+    if len(pts) < 3:
+        return pts
+
+    def cross(o, a, b):
+        return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
+    lower, upper = [], []
+    for p in pts:
+        while len(lower) >= 2 and cross(lower[-2], lower[-1], p) <= 0:
+            lower.pop()
+        lower.append(p)
+    for p in reversed(pts):
+        while len(upper) >= 2 and cross(upper[-2], upper[-1], p) <= 0:
+            upper.pop()
+        upper.append(p)
+    return lower[:-1] + upper[:-1]
+
+
+def villages_in_zone(strefy):
+    """Nazwy miejscowości wymienione w opisie stref z rozporządzenia."""
+    names = []
+    for key in ("zapowietrzony", "zagrozony"):
+        m = re.search(r"miejscowo\w*:\s*(.+)", (strefy or {}).get(key, ""), re.I | re.S)
+        if not m:
+            continue
+        for n in re.split(r",|\s+i\s+", m.group(1)):
+            n = n.strip(" .;")
+            if 2 <= len(n) <= 60 and n[:1].isupper() and n not in names:
+                names.append(n)
+    return names
+
+
+def strefa_obrys(ev, geo, offline=False, limit=25, promien_m=2000):
+    """Obrys strefy: otoczka wokół miejscowości z rozporządzenia (każda miejscowość rozszerzona o promień)."""
+    if offline or not ev.get("strefy"):
+        return None
+    pts = []
+    for n in villages_in_zone(ev["strefy"])[:limit]:
+        lat, lon, acc = geocode({"miejscowosc": n, "gmina": ev.get("gmina"), "powiat": ev.get("powiat"),
+                                 "woj": ev.get("woj")}, geo, offline=offline)
+        if lat is None or acc != "miejscowosc":
+            continue
+        dlat = promien_m / 111320
+        dlon = promien_m / (111320 * max(math.cos(math.radians(lat)), 0.2))
+        for k in range(8):
+            ang = math.pi * k / 4
+            pts.append((lat + dlat * math.sin(ang), lon + dlon * math.cos(ang)))
+    if len(pts) < 3:
+        return None
+    return [[round(a, 4), round(b, 4)] for a, b in _hull(pts)]
+
+
+def obszar_powiatu(ev, cache, fetcher=fetch, offline=False):
+    """Granica powiatu z OpenStreetMap (Nominatim). Zwraca klucz w obszary.json albo None."""
+    if offline or not ev.get("powiat") or not ev.get("woj") or ev["woj"] == "cała Polska":
+        return None
+    key = f"powiat {ev['powiat']}, województwo {ev['woj']}"
+    if key in cache:
+        return key if cache[key] else None
+    url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(
+        {"q": key, "format": "json", "limit": 3, "countrycodes": "pl", "polygon_geojson": 1,
+         "polygon_threshold": 0.005})
+    geom = None
+    try:
+        for r in json.loads(fetcher(url, timeout=30)):
+            g = r.get("geojson") or {}
+            if g.get("type") in ("Polygon", "MultiPolygon"):
+                geom = g
+                break
+    except Exception:  # noqa: BLE001
+        geom = None
+    cache[key] = geom
+    time.sleep(1.1)
+    return key if geom else None
 
 
 # ---------------------------------------------------------------- geokodowanie
@@ -748,7 +849,7 @@ def merge_into(events, ev):
         if old["id"] != ev["id"] and same_outbreak(old, ev):
             urls = {z["u"] for z in old.get("zrodla", [])}
             old.setdefault("zrodla", []).extend(z for z in ev.get("zrodla", []) if z["u"] not in urls)
-            for k in ["miejscowosc", "gmina", "powiat", "woj", "liczba", "ptaki", "nr", "strefy"]:
+            for k in ["miejscowosc", "gmina", "powiat", "woj", "liczba", "ptaki", "nr", "strefy", "ograniczenia"]:
                 if not old.get(k) and ev.get(k):
                     old[k] = ev[k]
             if RANK.get(ev.get("potwierdzenie"), 0) > RANK.get(old.get("potwierdzenie"), 0):
@@ -874,8 +975,15 @@ def run(fetcher=fetch, fetcher_raw=fetch_raw, offline=False, today=None, sources
             new_ids.append(ev["id"])
 
     keep = {}
+    obszary = load(F_OBSZARY, {})
     for ev in events.values():
         ev["status"] = status_for(ev, today, dni_aktywne)
+        if ev.get("rodzaj") == "ognisko" and ev["status"] in ("aktywne", "wygasa") and ev.get("potwierdzenie") != "media":
+            if "strefa_obrys" not in ev and ev.get("strefy") and not offline:
+                ev["strefa_obrys"] = strefa_obrys(ev, geo, offline=offline)
+            if "obszar" not in ev and ev.get("dokladnosc") != "miejscowosc":
+                ev["obszar"] = obszar_powiatu(ev, obszary, fetcher=fetcher, offline=offline)
+
         try:
             if (today - date.fromisoformat(ev["data"])).days > 400:
                 continue
@@ -891,6 +999,8 @@ def run(fetcher=fetch, fetcher_raw=fetch_raw, offline=False, today=None, sources
                   "ostatnie_uruchomienie": datetime.now(TZ).isoformat(timespec="minutes")})
     save(F_STATE, state)
     save(F_GEO, geo)
+    if not offline:
+        save(F_OBSZARY, obszary)
     ensure_boundaries(offline=offline)
 
     fresh = [keep[i] for i in new_ids if i in keep and keep[i]["status"] == "aktywne" and wanted(keep[i], woj_filter)]

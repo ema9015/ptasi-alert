@@ -1,10 +1,9 @@
 {
- "aktualizacja": "2026-11-12T03:46+01:00",
+ "aktualizacja": "2026-11-12T04:50+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "Dziennik Urzędowy Woj. Warmińsko-Mazurskiego: <urlopen error [Errno -3] Temporary failure in name resolution>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {

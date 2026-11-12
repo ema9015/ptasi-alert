@@ -1,9 +1,10 @@
 {
- "aktualizacja": "2026-11-12T18:50+01:00",
+ "aktualizacja": "2026-11-12T19:27+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
+  "WIW (podkarpackie): <urlopen error _ssl.c:994: The handshake operation timed out>"
  ],
  "zdarzenia": [
   {
@@ -14,7 +15,7 @@
    "liczba": null,
    "ptaki": null,
    "nr": null,
-   "data": "2027-12-31",
+   "data": "2026-11-12",
    "choroba": "HPAI",
    "typ": "komunikat",
    "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa \r\n 15 październik 2026",
@@ -44,7 +45,7 @@
    "liczba": null,
    "ptaki": null,
    "nr": null,
-   "data": "2027-01-01",
+   "data": "2026-11-12",
    "choroba": "HPAI",
    "typ": "komunikat",
    "tytul_zrodla": "Zapobieganie grypie ptaków – kampania EFSA #No bird flu (Stop grypie ptaków – chroń swoje gospodarstwo)",
@@ -977,10 +978,10 @@
    "nr": null,
    "data": "2026-11-05",
    "choroba": "HPAI",
-   "typ": "ptaki dzikie",
+   "typ": "komunikat",
    "tytul_zrodla": "W związku z trwającymi, sezonowymi migracjami dzikich ptaków, które zwiększają ryzyko wystąpienia grypy ptaków, Powiatowy Lekarz Weterynarii przypomina o konieczności przestrzegania wymogów bioasekuracji.",
    "zrodlo": "https://piwgrojec.pl/?p=1766",
-   "rodzaj": "ognisko",
+   "rodzaj": "komunikat",
    "potwierdzenie": "urzędowe",
    "zrodlo_rodzaj": "PIW",
    "zrodla": [
@@ -5046,10 +5047,10 @@
    "nr": null,
    "data": "2026-10-13",
    "choroba": "HPAI",
-   "typ": "ptaki dzikie",
+   "typ": "komunikat",
    "tytul_zrodla": "Komunikat Głównego Lekarza Weterynarii dotyczący zagrożenia grypą ptaków w związku z jesiennymi migracjami dzikiego ptactwa\n W związku z trwającymi, sezonowymi migracjami dzikich ptaków, które zwiększają ryzyko wystąpienia grypy ptaków, Główny Lekarz Weterynarii przypomina o konieczności przestrzegania wymogów bioasekuracji.",
    "zrodlo": "https://piw.bielsko.pl/wb/aktualnosci-i-komunikaty/wysoce-zjadliwa-grypa-ptakow-h/22834,Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiaz.html",
-   "rodzaj": "ognisko",
+   "rodzaj": "komunikat",
    "potwierdzenie": "urzędowe",
    "zrodlo_rodzaj": "PIW",
    "zrodla": [

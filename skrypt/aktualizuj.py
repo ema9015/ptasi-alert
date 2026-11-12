@@ -330,6 +330,10 @@ def parse_detail(title, text, list_url, strict=False):
     full = title + "\n" + body
     dz = disease(full)
     kd = kind_of(title + " " + body[:400])
+    # ogólne kampanie i apele nie są ogniskami, nawet gdy wspominają o ogniskach
+    if re.search(r"kampani|zapobieg|profilaktyk|chron swoje|edukacj|apel|#|rozprzestrzeniu sie", fold(title + " " + body[:400])) \
+            and not re.search(r"stwierdz|wykry|potwierdz", fold(body[:1500])):
+        kd = "komunikat"
     doc_woj, doc_pow = find_woj(full), find_powiat(full)
     doc_date = find_date(body) or None
 
@@ -964,6 +968,8 @@ def run(fetcher=fetch, fetcher_raw=fetch_raw, offline=False, today=None, sources
     new_ids = []
     for ev in incoming:
         if not ev.get("data"):
+            ev["data"] = today.isoformat()
+        if ev["data"] > today.isoformat():  # data z przyszłości to błąd odczytu
             ev["data"] = today.isoformat()
         lat, lon, acc = geocode(ev, geo, offline=offline)
         if ev.get("potwierdzenie") == "media" and lat is None:

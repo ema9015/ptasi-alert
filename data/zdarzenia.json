@@ -1,23 +1,9 @@
 {
- "aktualizacja": "2026-11-12T23:28+01:00",
+ "aktualizacja": "2026-11-13T00:16+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "Urząd Wojewódzki Opole: Remote end closed connection without response",
-  "Urząd Wojewódzki Warszawa: Remote end closed connection without response",
-  "Urząd Wojewódzki Kraków: Remote end closed connection without response",
-  "Urząd Wojewódzki Katowice: Remote end closed connection without response",
-  "Urząd Wojewódzki Łódź: Remote end closed connection without response",
-  "Urząd Wojewódzki Lublin: Remote end closed connection without response",
-  "Urząd Wojewódzki Rzeszów: Remote end closed connection without response",
-  "Urząd Wojewódzki Bydgoszcz: Remote end closed connection without response",
-  "Urząd Wojewódzki Szczecin: Remote end closed connection without response",
-  "Urząd Wojewódzki Olsztyn: Remote end closed connection without response",
-  "Urząd Wojewódzki Wrocław: Remote end closed connection without response",
-  "Urząd Wojewódzki Gdańsk: Remote end closed connection without response",
-  "Urząd Wojewódzki Białystok: Remote end closed connection without response",
-  "WIW (podlaskie): <urlopen error [Errno -3] Temporary failure in name resolution>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {
@@ -5078,7 +5064,7 @@
    "lon": 19.02,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T13:09+01:00",
-   "status": "aktywne",
+   "status": "wygasa",
    "obszar": null
   },
   {

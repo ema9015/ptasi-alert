@@ -188,6 +188,9 @@ def disease(t):
     return "inne"
 
 
+GENERAL_RE = r"kampani|zapobieg|profilaktyk|chron swoje|edukacj|apel|#|rozprzestrzeniu sie|zagrozen\w* grypa|migracj|glownego lekarza"
+
+
 def kind_of(t):
     f = fold(t)
     if "ptakow dzikich" in f or "ptakow dziko" in f or "dzikich ptak" in f:
@@ -331,7 +334,7 @@ def parse_detail(title, text, list_url, strict=False):
     dz = disease(full)
     kd = kind_of(title + " " + body[:400])
     # ogólne kampanie i apele nie są ogniskami, nawet gdy wspominają o ogniskach
-    if re.search(r"kampani|zapobieg|profilaktyk|chron swoje|edukacj|apel|#|rozprzestrzeniu sie", fold(title + " " + body[:400])) \
+    if re.search(GENERAL_RE, fold(title + " " + body[:400])) \
             and not re.search(r"stwierdz|wykry|potwierdz", fold(body[:1500])):
         kd = "komunikat"
     doc_woj, doc_pow = find_woj(full), find_powiat(full)
@@ -983,6 +986,11 @@ def run(fetcher=fetch, fetcher_raw=fetch_raw, offline=False, today=None, sources
     keep = {}
     obszary = load(F_OBSZARY, {})
     for ev in events.values():
+        if ev.get("data") and ev["data"] > today.isoformat():  # data z przyszłości to błąd odczytu
+            ev["data"] = today.isoformat()
+        tyt = fold(ev.get("tytul_zrodla") or "")
+        if ev.get("rodzaj") == "ognisko" and re.search(GENERAL_RE, tyt) and not re.search(r"stwierdz|wykry|potwierdz", tyt):
+            ev["rodzaj"] = ev["typ"] = "komunikat"  # ogólna kampania albo apel, nie ognisko
         ev["status"] = status_for(ev, today, dni_aktywne)
         if ev.get("rodzaj") == "ognisko" and ev["status"] in ("aktywne", "wygasa") and ev.get("potwierdzenie") != "media":
             if "strefa_obrys" not in ev and ev.get("strefy") and not offline:

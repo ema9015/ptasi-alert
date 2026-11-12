@@ -1,12 +1,7 @@
 {
- "aktualizacja": "2026-11-12T00:22+01:00",
+ "aktualizacja": "2026-11-12T01:18+01:00",
  "dni_aktywne": 45,
  "bledy": [
-  "nie znaleziono strony WIW: lubelskie",
-  "nie znaleziono strony WIW: łódzkie",
-  "nie znaleziono strony WIW: małopolskie",
-  "nie znaleziono strony WIW: świętokrzyskie",
-  "nie znaleziono strony WIW: zachodniopomorskie",
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],

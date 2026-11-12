@@ -95,6 +95,9 @@ a{color:var(--accent)} button{font:inherit;color:inherit}
 .zone{border-radius:8px;padding:8px 10px;background:var(--surface-2)}
 .zone b{display:block;font:600 11px/1.2 var(--f-mono);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
 .zone.z1 b{color:var(--red)} .zone.z2 b{color:var(--orange)} .zone.z3 b{color:var(--amber)}
+.restr{margin:8px 0;padding:8px 10px;border-left:3px solid var(--red);background:var(--surface-2);border-radius:6px;font-size:13px}
+.restr b{display:block;font:600 11px/1.2 var(--f-mono);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;color:var(--red)}
+.restr ul{margin:2px 0 0 18px;padding:0}
 .srcs{display:flex;flex-direction:column;gap:2px;font-size:13px;margin-top:8px}
 .srcs a{overflow-wrap:anywhere}
 details.more summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent);margin-top:8px}
@@ -184,7 +187,8 @@ const fmtDate=d=>{const t=new Date((d||"")+"T12:00:00");return isNaN(t)?(d||""):
 const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const store={get(k,d){try{const v=localStorage.getItem(k);return v===null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 
-let events=[], area=store.get("pa_area",[]).filter(w=>WOJ.includes(w)), showOff=store.get("pa_off",false), showMedia=store.get("pa_media",true), selected=null;
+let events=[], area=store.get("pa_area",[]).filter(w=>WOJ.includes(w)), showOff=store.get("pa_off",false), showMedia=store.get("pa_media",true), selected=null, obszary={};
+const AREA_STYLE={color:"#D9822B",weight:1,dashArray:"4 4",fillColor:"#E8A25A",fillOpacity:0.14,interactive:false};
 const lastVisit=store.get("pa_last_visit",null);
 const seenIds=new Set(store.get("pa_seen",[]));
 $("showOff").checked=showOff;$("showMedia").checked=showMedia;
@@ -265,6 +269,7 @@ function renderFeed(list){
     return`<article class="card k-${k}${conf==="media"?" unconf":""}${selected===e.id?" sel":""}" data-id="${esc(e.id)}">
       <div class="tags"><span class="tag dz">${esc(e.choroba||"")}</span><span class="tag c-${esc(conf)}">${esc(CONF[conf]||conf)}</span>${isNew(e)?'<span class="tag new">nowe</span>':""}${e.status?`<span class="tag st-${esc(e.status)}">${esc(e.status)}</span>`:""}<span class="date">${fmtDate(e.data)}</span></div>
       <h3>${esc(title(e))}</h3><p class="place">${esc(place(e))}</p>
+      ${(e.ograniczenia&&e.ograniczenia.length)?`<div class="restr"><b>Zakazy w komunikacie</b><ul>${e.ograniczenia.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:""}
       ${facts.length?`<dl class="facts">${facts.map(x=>`<div><dt>${esc(x[0])}: </dt><dd>${esc(x[1])}</dd></div>`).join("")}</dl>`:""}
       ${zones||srcs.length>1?`<details class="more"><summary>${zones?"Strefy z rozporządzenia i źródła":"Wszystkie źródła ("+srcs.length+")"}</summary>${zones?`<div class="zones">${zones}</div>`:""}<div class="srcs">${srcs.map(x=>`<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.typ?x.typ+": ":"")}${esc(x.t||x.u)}</a>`).join("")}</div></details>`:""}
       <div class="actions">${hasPt?'<button data-act="map">Pokaż na mapie</button>':""}${srcs[0]?`<a href="${esc(srcs[0].u)}" target="_blank" rel="noopener">Źródło ↗</a>`:""}${hasPt?`<a href="${osm(e)}" target="_blank" rel="noopener">OpenStreetMap ↗</a>`:""}</div>
@@ -274,6 +279,11 @@ const pins={};
 function renderMap(list){
   zoneLayer.clearLayers();pinLayer.clearLayers();
   const col={hpai:css("--red")||"#C2302E",nd:css("--orange")||"#C9701C",dz:css("--blue")||"#2C5DA6",info:"#B88A12",off:"#7C8985"};
+  for(const e of list){
+    if(e.rodzaj!=="ognisko"||!isActive(e)||e.potwierdzenie==="media")continue;
+    if(e.strefa_obrys&&e.strefa_obrys.length>=3){L.polygon(e.strefa_obrys,AREA_STYLE).addTo(zoneLayer)}
+    else if(e.obszar&&obszary[e.obszar]&&e.dokladnosc!=="miejscowosc"){L.geoJSON({type:"Feature",geometry:obszary[e.obszar]},{style:()=>AREA_STYLE,interactive:false}).addTo(zoneLayer)}
+  }
   for(const e of list){if(e.lat==null||e.lon==null)continue;const k=kind(e),ll=[e.lat,e.lon];
     const unc=e.potwierdzenie==="media",exact=e.dokladnosc==="miejscowosc";
     if(e.rodzaj==="ognisko"&&e.typ!=="ptaki dzikie"&&isActive(e)&&!unc&&exact){
@@ -282,7 +292,7 @@ function renderMap(list){
     }
     const m=L.circleMarker(ll,unc?{radius:selected===e.id?9:7,color:col[k],weight:2.5,dashArray:"3 3",fillColor:"#ffffff",fillOpacity:.85}:{radius:selected===e.id?9:7,color:"#fff",weight:2,fillColor:col[k],fillOpacity:1}).addTo(pinLayer);
     const s0=srcList(e)[0];
-    m.bindPopup(`<b>${esc(title(e))}</b><br>${esc(place(e))}<br>${fmtDate(e.data)} · ${esc(CONF[e.potwierdzenie||"GIW"]||"")}${e.liczba?" · "+Number(e.liczba).toLocaleString("pl-PL")+" szt.":""}${s0?`<br><a href="${esc(s0.u)}" target="_blank" rel="noopener">Źródło</a>`:""}${exact?"":"<br><i>Położenie przybliżone – strefy nie są rysowane.</i>"}`);
+    m.bindPopup(`<b>${esc(title(e))}</b><br>${esc(place(e))}<br>${fmtDate(e.data)} · ${esc(CONF[e.potwierdzenie||"GIW"]||"")}${e.liczba?" · "+Number(e.liczba).toLocaleString("pl-PL")+" szt.":""}${(e.ograniczenia&&e.ograniczenia.length)?`<br><b>Zakaz:</b> ${esc(e.ograniczenia[0])}`:""}${s0?`<br><a href="${esc(s0.u)}" target="_blank" rel="noopener">Źródło</a>`:""}${exact?"":"<br><i>Położenie przybliżone – strefy nie są rysowane.</i>"}`);
     m.on("click",()=>{selected=e.id;renderFeed(visible());const c=document.querySelector(`.card[data-id="${CSS.escape(e.id)}"]`);if(c)c.scrollIntoView({behavior:"smooth",block:"nearest"})});
     pins[e.id]=m;
   }
@@ -313,6 +323,7 @@ if(APP){
 }
 $("closeArea").onclick=()=>{$("areaPanel").hidden=true;$("areaBtn").setAttribute("aria-expanded","false")};
 
+fetch("data/obszary.json?t="+Date.now()).then(r=>r.ok?r.json():{}).then(d=>{obszary=d||{};render()}).catch(()=>{});
 fetch("data/inspektoraty.json?t="+Date.now()).then(r=>r.ok?r.json():null).then(d=>{if(d)$("srcinfo").innerHTML=`<b>Sprawdzane źródła:</b> Główny Inspektorat Weterynarii, ${(d.wiw||[]).length} inspektoratów wojewódzkich, ${(d.piw||[]).length} inspektoratów powiatowych, urzędy wojewódzkie i wiadomości lokalne.`}).catch(()=>{});
 fetch("data/zdarzenia.json?t="+Date.now()).then(r=>r.json()).then(d=>{
   events=(d.zdarzenia||[]).slice().sort((a,b)=>{const ra=isActive(a)?0:1,rb=isActive(b)?0:1;return ra-rb||String(b.data).localeCompare(String(a.data))});

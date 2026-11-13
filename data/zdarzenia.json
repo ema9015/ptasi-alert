@@ -1,10 +1,9 @@
 {
- "aktualizacja": "2026-11-13T04:20+01:00",
+ "aktualizacja": "2026-11-13T05:29+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "WIW (wielkopolskie): HTTP Error 500: Internal Server Error"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {

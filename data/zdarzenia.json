@@ -1,8 +1,9 @@
 {
- "aktualizacja": "2026-11-15T17:11+01:00",
+ "aktualizacja": "2026-11-15T17:55+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
+  "Wojewoda Lubuski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
   "Urząd Wojewódzki Opole: <urlopen error [Errno 101] Network is unreachable>",
   "Urząd Wojewódzki Warszawa: <urlopen error [Errno 101] Network is unreachable>",
@@ -17,7 +18,9 @@
   "Urząd Wojewódzki Wrocław: <urlopen error [Errno 101] Network is unreachable>",
   "Urząd Wojewódzki Gdańsk: <urlopen error [Errno 101] Network is unreachable>",
   "Urząd Wojewódzki Białystok: <urlopen error [Errno 101] Network is unreachable>",
-  "WIW (podkarpackie): <urlopen error _ssl.c:994: The handshake operation timed out>"
+  "WIW (lubuskie): <urlopen error timed out>",
+  "WIW (opolskie): <urlopen error timed out>",
+  "WIW (podkarpackie): The read operation timed out"
  ],
  "zdarzenia": [
   {

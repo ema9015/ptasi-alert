@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-15T19:20+01:00",
+ "aktualizacja": "2026-11-15T20:18+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -17,12 +17,39 @@
   "Urząd Wojewódzki Wrocław: <urlopen error [Errno 101] Network is unreachable>",
   "Urząd Wojewódzki Gdańsk: <urlopen error [Errno 101] Network is unreachable>",
   "Urząd Wojewódzki Białystok: <urlopen error [Errno 101] Network is unreachable>",
-  "wiadomości: HTTP Error 503: Service Unavailable",
-  "wiadomości: HTTP Error 503: Service Unavailable",
-  "wiadomości: HTTP Error 503: Service Unavailable",
-  "wiadomości: HTTP Error 503: Service Unavailable"
+  "WIW (podkarpackie): The read operation timed out"
  ],
  "zdarzenia": [
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektorat",
+   "woj": "cała Polska",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-15",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Powiatowy Inspektorat Weterynarii w Toruniu - Informacje dla osób podróżujących z psem, kotem, fretką ",
+   "zrodlo": "http://www.piw.torun.pl/index.php/hpai/107-aktualnosci/226-informacje-dla-osob-podrozujacych-z-psem-kotem-fretka",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "PIW",
+   "zrodla": [
+    {
+     "t": "Powiatowy Inspektorat Weterynarii w Toruniu - Informacje dla osób podróżujących z psem, kotem, fretką ",
+     "u": "http://www.piw.torun.pl/index.php/hpai/107-aktualnosci/226-informacje-dla-osob-podrozujacych-z-psem-kotem-fretka",
+     "typ": "www.piw.torun.pl"
+    }
+   ],
+   "id": "reg-8e62e6375e-1",
+   "lat": 51.2470929,
+   "lon": 22.5535534,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-15T20:18+01:00",
+   "status": "aktywne"
+  },
   {
    "miejscowosc": null,
    "gmina": null,

@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-17T04:50+01:00",
+ "aktualizacja": "2026-11-17T05:55+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -16,8 +16,7 @@
   "Urząd Wojewódzki Olsztyn: <urlopen error [Errno 101] Network is unreachable>",
   "Urząd Wojewódzki Wrocław: <urlopen error [Errno 101] Network is unreachable>",
   "Urząd Wojewódzki Gdańsk: <urlopen error [Errno 101] Network is unreachable>",
-  "Urząd Wojewódzki Białystok: <urlopen error [Errno 101] Network is unreachable>",
-  "wiadomości: HTTP Error 429: Too Many Requests"
+  "Urząd Wojewódzki Białystok: <urlopen error [Errno 101] Network is unreachable>"
  ],
  "zdarzenia": [
   {

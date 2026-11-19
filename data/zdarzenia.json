@@ -1,9 +1,10 @@
 {
- "aktualizacja": "2026-11-19T11:41+01:00",
+ "aktualizacja": "2026-11-19T12:40+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
+  "wiadomości: HTTP Error 429: Too Many Requests"
  ],
  "zdarzenia": [
   {

@@ -1,11 +1,42 @@
 {
- "aktualizacja": "2026-11-20T07:00+01:00",
+ "aktualizacja": "2026-11-20T08:17+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
+  {
+   "miejscowosc": null,
+   "gmina": "Miasto Działdowo",
+   "powiat": "działdowski",
+   "woj": "warmińsko-mazurskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-19",
+   "choroba": "ND",
+   "typ": "drob",
+   "tytul_zrodla": "Komunikat Warmińsko-Mazurskiego Wojewódzkiego Lekarza Weterynarii o stwierdzeniu w 2026 r. drugiego ogniska rzekomego pomoru drobiu na terenie województwa warmińsko-mazurskiego",
+   "zrodlo": "https://olsztyn.wiw.gov.pl/wiadomosc/komunikat-warminsko-mazurskiego-wojewodzkiego-lekarza-weterynarii-o-stwierdzeniu-w-2026-r-drugiego-ogniska-rzekomego-pomoru-drobiu-na-terenie-wojewodztwa-warminsko-mazurskiego-5835",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Warmińsko-Mazurskiego Wojewódzkiego Lekarza Weterynarii o stwierdzeniu w 2026 r. drugiego ogniska rzekomego pomoru drobiu na terenie województwa warmińsko-mazurskiego",
+     "u": "https://olsztyn.wiw.gov.pl/wiadomosc/komunikat-warminsko-mazurskiego-wojewodzkiego-lekarza-weterynarii-o-stwierdzeniu-w-2026-r-drugiego-ogniska-rzekomego-pomoru-drobiu-na-terenie-wojewodztwa-warminsko-mazurskiego-5835",
+     "typ": "WIW (warmińsko-mazurskie)"
+    }
+   ],
+   "id": "reg-42e175a72d-1",
+   "lat": 53.2892581,
+   "lon": 19.9806749,
+   "dokladnosc": "powiat",
+   "dodano": "2026-11-20T08:16+01:00",
+   "status": "aktywne",
+   "obszar": "powiat działdowski, województwo warmińsko-mazurskie"
+  },
   {
    "miejscowosc": null,
    "gmina": null,

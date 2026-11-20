@@ -1,10 +1,9 @@
 {
- "aktualizacja": "2026-11-20T00:30+01:00",
+ "aktualizacja": "2026-11-20T01:28+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "WIW (wielkopolskie): <urlopen error [Errno 111] Connection refused>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {

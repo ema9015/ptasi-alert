@@ -1,10 +1,10 @@
 {
- "aktualizacja": "2026-11-21T23:56+01:00",
+ "aktualizacja": "2026-11-22T00:36+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "WIW (pomorskie): <urlopen error [Errno 111] Connection refused>"
+  "WIW (dolnośląskie): HTTP Error 500: Internal Server Error"
  ],
  "zdarzenia": [
   {
@@ -7582,36 +7582,6 @@
    "lon": 15.9029475,
    "dokladnosc": "miejscowosc",
    "dodano": "2026-11-05T19:49+01:00",
-   "status": "zniesione"
-  },
-  {
-   "miejscowosc": "Świętno",
-   "gmina": "Wolsztyn",
-   "powiat": "wolsztyński",
-   "woj": "wielkopolskie",
-   "liczba": null,
-   "ptaki": null,
-   "nr": null,
-   "data": "2025-10-17",
-   "choroba": "HPAI",
-   "typ": "drob",
-   "tytul_zrodla": "Rzekomy pomór drobiu (ND) – potwierdzone pierwsze ognisko w stadzie wielkotowarowym w Wielkopolsce w 2025 roku",
-   "zrodlo": "https://piwgostyn.pl/rzekomy-pomor-drobiu-nd-potwierdzone-pierwsze-ognisko-w-stadzie-wielkotowarowym-w-wielkopolsce-w-2025-roku/",
-   "rodzaj": "ognisko",
-   "potwierdzenie": "urzędowe",
-   "zrodlo_rodzaj": "PIW",
-   "zrodla": [
-    {
-     "t": "Rzekomy pomór drobiu (ND) – potwierdzone pierwsze ognisko w stadzie wielkotowarowym w Wielkopolsce w 2025 roku",
-     "u": "https://piwgostyn.pl/rzekomy-pomor-drobiu-nd-potwierdzone-pierwsze-ognisko-w-stadzie-wielkotowarowym-w-wielkopolsce-w-2025-roku/",
-     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
-    }
-   ],
-   "id": "reg-bd228d4d77-1",
-   "lat": 52.0090209,
-   "lon": 16.0507342,
-   "dokladnosc": "miejscowosc",
-   "dodano": "2026-11-05T14:30+01:00",
    "status": "zniesione"
   }
  ]

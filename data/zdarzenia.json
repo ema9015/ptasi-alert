@@ -1,12 +1,10 @@
 {
- "aktualizacja": "2026-11-21T22:22+01:00",
+ "aktualizacja": "2026-11-21T23:12+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "WIW (mazowieckie): <urlopen error timed out>",
-  "WIW (opolskie): <urlopen error timed out>",
-  "WIW (śląskie): <urlopen error timed out>"
+  "MODR – komunikaty HPAI/ND (Małopolska): <urlopen error [Errno 111] Connection refused>"
  ],
  "zdarzenia": [
   {

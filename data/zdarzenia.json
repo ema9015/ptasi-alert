@@ -1,11 +1,39 @@
 {
- "aktualizacja": "2026-11-22T03:39+01:00",
+ "aktualizacja": "2026-11-22T04:37+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
+  {
+   "choroba": "HPAI",
+   "typ": "drob",
+   "rodzaj": "ognisko",
+   "woj": "wielkopolskie",
+   "powiat": null,
+   "gmina": "Lipno",
+   "miejscowosc": null,
+   "potwierdzenie": "media",
+   "tytul_zrodla": "Prawie dwa tysiące gęsi do utylizacji. Grypa ptaków w gminie Lipno - AgroNews - Wiadomości rolnicze - Ceny rolne",
+   "liczba": null,
+   "ptaki": null,
+   "data": "2026-11-21",
+   "zrodla": [
+    {
+     "t": "Prawie dwa tysiące gęsi do utylizacji. Grypa ptaków w gminie Lipno - AgroNews - Wiadomości rolnicze - Ceny rolne",
+     "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSFFPRU43UEF5anpUVFBMa0tNYUhQZEFpY1RUODg3WW5QRC1Kb1dMVHJRMzRxU1NEeWh2N1haRDhpUEw1cnN0NTBFeWRpS3V3Yno3VWZwd3MwclV4Tnk3cDYwY19PYW40OGkwOHJfNC16ZzBnNmpLNHctbTF6NFVpUndlUVhLU1djWklWeHoySzJkdFg3LXlsWDViZ0VHWVk?oc=5",
+     "typ": "AgroNews - Wiadomości rolnicze - Ceny rolne"
+    }
+   ],
+   "id": "news-fda150f380",
+   "lat": 51.9145785,
+   "lon": 16.5593135,
+   "dokladnosc": "gmina",
+   "dodano": "2026-11-22T04:37+01:00",
+   "zrodlo": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSFFPRU43UEF5anpUVFBMa0tNYUhQZEFpY1RUODg3WW5QRC1Kb1dMVHJRMzRxU1NEeWh2N1haRDhpUEw1cnN0NTBFeWRpS3V3Yno3VWZwd3MwclV4Tnk3cDYwY19PYW40OGkwOHJfNC16ZzBnNmpLNHctbTF6NFVpUndlUVhLU1djWklWeHoySzJkdFg3LXlsWDViZ0VHWVk?oc=5",
+   "status": "aktywne"
+  },
   {
    "miejscowosc": null,
    "gmina": "Miasto Działdowo",

@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-23T17:38+01:00",
+ "aktualizacja": "2026-11-23T18:41+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -27,6 +27,11 @@
      "t": "Komunikat Warmińsko-Mazurskiego Wojewódzkiego Lekarza Weterynarii o stwierdzeniu w 2026 r. dwudziestego ogniska grypy ptaków u drobiu na terenie województwa warmińsko-mazurskiego",
      "u": "https://olsztyn.wiw.gov.pl/wiadomosc/komunikat-warminsko-mazurskiego-wojewodzkiego-lekarza-weterynarii-o-stwierdzeniu-w-2026-r-dwudziestego-ogniska-grypy-ptakow-u-drobiu-na-terenie-wojewodztwa-warminsko-mazurskiego",
      "typ": "WIW (warmińsko-mazurskie)"
+    },
+    {
+     "t": "Warmińsko-mazurskie: Ognisko grypy ptaków na fermie indyków w powiecie nowomiejskim - wnp.pl",
+     "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVEk0TzhtRm1aVDk1S21LWXNZRmpnS3VWUWprUXdDbF9pV21BYVJEQlpySmFaTlQ4QnRaVk9jaFhBb3Ryb2U4RXMxU2VRNjRZckhQcFJzZ1pTNUpxOUtvaGJDdVpWa0lxaUdaNXpZckl4cVlrdHgya3hJWWVfUVZGVTE0ZGRBWXVzRjQyenF6M3E2VXNRNWkwSG1IaDQ0QzhJOGpmelQ3VDk0TVNGRmNFbk5VcWlCLVM0T2tMcw?oc=5",
+     "typ": "wnp.pl"
     }
    ],
    "id": "reg-44fa433cee-1",

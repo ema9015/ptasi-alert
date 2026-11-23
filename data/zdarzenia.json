@@ -1,12 +1,42 @@
 {
- "aktualizacja": "2026-11-23T08:52+01:00",
+ "aktualizacja": "2026-11-23T10:19+01:00",
  "dni_aktywne": 45,
  "bledy": [
-  "lista GIW str. 2: HTTP Error 503: Service Unavailable",
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
+  "wiadomości: HTTP Error 429: Too Many Requests"
  ],
  "zdarzenia": [
+  {
+   "miejscowosc": "Lipinki",
+   "gmina": "Biskupiec",
+   "powiat": "nowomiejski",
+   "woj": "warmińsko-mazurskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-11-23",
+   "choroba": "HPAI",
+   "typ": "drob",
+   "tytul_zrodla": "Komunikat Warmińsko-Mazurskiego Wojewódzkiego Lekarza Weterynarii o stwierdzeniu w 2026 r. dwudziestego ogniska grypy ptaków u drobiu na terenie województwa warmińsko-mazurskiego",
+   "zrodlo": "https://olsztyn.wiw.gov.pl/wiadomosc/komunikat-warminsko-mazurskiego-wojewodzkiego-lekarza-weterynarii-o-stwierdzeniu-w-2026-r-dwudziestego-ogniska-grypy-ptakow-u-drobiu-na-terenie-wojewodztwa-warminsko-mazurskiego",
+   "rodzaj": "ognisko",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat Warmińsko-Mazurskiego Wojewódzkiego Lekarza Weterynarii o stwierdzeniu w 2026 r. dwudziestego ogniska grypy ptaków u drobiu na terenie województwa warmińsko-mazurskiego",
+     "u": "https://olsztyn.wiw.gov.pl/wiadomosc/komunikat-warminsko-mazurskiego-wojewodzkiego-lekarza-weterynarii-o-stwierdzeniu-w-2026-r-dwudziestego-ogniska-grypy-ptakow-u-drobiu-na-terenie-wojewodztwa-warminsko-mazurskiego",
+     "typ": "WIW (warmińsko-mazurskie)"
+    }
+   ],
+   "id": "reg-44fa433cee-1",
+   "lat": 53.4666667,
+   "lon": 19.3166667,
+   "dokladnosc": "miejscowosc",
+   "dodano": "2026-11-23T10:19+01:00",
+   "status": "aktywne"
+  },
   {
    "choroba": "HPAI",
    "typ": "drob",

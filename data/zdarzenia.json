@@ -1,8 +1,8 @@
 {
- "aktualizacja": "2026-11-24T00:47+01:00",
+ "aktualizacja": "2026-11-24T01:59+01:00",
  "dni_aktywne": 45,
  "bledy": [
-  "lista GIW str. 1: HTTP Error 503: Service Unavailable",
+  "lista GIW str. 2: HTTP Error 503: Service Unavailable",
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
   "Urząd Wojewódzki Opole: <urlopen error [Errno 101] Network is unreachable>",
@@ -51,6 +51,11 @@
      "t": "Ognisko grypy ptaków w powiecie nowomiejskim. Blisko 19 tysięcy indyków do utylizacji - Radio Olsztyn",
      "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZWZRLUJwdW44ajkwLXhHVVlCd19QM1dDTEJDbndvTzViNXd1M295QmhKdlBqbFZ4elp4aERiM09uVE9ZZnZXUHItZDNKbVhlbmhPdkVOa1ZjeXlCMVBWZ1luampycUp2VzZZaTdxT1RrSERmTDVUeUoxa3hsYl9DWGV6V1JZMVRJRlQ4ZDNYY3l3Z25OdXNYQWVsck02VFlRcUhqTEQ1YXhfZ1hmQ0hyWjQ2Rkw4Wjdj?oc=5",
      "typ": "Radio Olsztyn"
+    },
+    {
+     "t": "Warmińsko-mazurskie: ognisko grypy ptaków na fermie indyków w powiecie nowomiejskim - RadioMaryja.pl",
+     "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPS0tjZzJWVEJtNmlfM0tNTkZkN1lRUXB6bzJ5bzJpcDg3ZjFPbVJVcWxHUV9Xc1pselBCYnNVU3JtM0lOU0Y0VmlyUUg4MEZjZUlKMHdoVGNORlczQlNwMktNVDdNeHlXbjZWVDd2cU9UdmoyVTJfdHJDeUZ5TVNCM3pSMzlYRl9IdS1uVU5NWkZZS3ctSXdrRTNiV3NCRmpkZHNXTTRxX0w1TFJ0YnpqMGJCN0tEdVYxcVNmeFVn?oc=5",
+     "typ": "RadioMaryja.pl"
     }
    ],
    "id": "reg-44fa433cee-1",

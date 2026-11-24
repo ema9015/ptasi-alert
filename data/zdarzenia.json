@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-24T10:27+01:00",
+ "aktualizacja": "2026-11-24T11:30+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -42,6 +42,11 @@
      "t": "Warmińsko-mazurskie: ognisko grypy ptaków na fermie indyków w powiecie nowomiejskim - RadioMaryja.pl",
      "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPS0tjZzJWVEJtNmlfM0tNTkZkN1lRUXB6bzJ5bzJpcDg3ZjFPbVJVcWxHUV9Xc1pselBCYnNVU3JtM0lOU0Y0VmlyUUg4MEZjZUlKMHdoVGNORlczQlNwMktNVDdNeHlXbjZWVDd2cU9UdmoyVTJfdHJDeUZ5TVNCM3pSMzlYRl9IdS1uVU5NWkZZS3ctSXdrRTNiV3NCRmpkZHNXTTRxX0w1TFJ0YnpqMGJCN0tEdVYxcVNmeFVn?oc=5",
      "typ": "RadioMaryja.pl"
+    },
+    {
+     "t": "Ognisko grypy ptaków na fermie indyków w powiecie nowomiejskim - TVP Olsztyn",
+     "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWHRBY2xGRWM1MXBIN0k2ZFFadDA3b1V4RDFuRGd2VDVfdW9nNmJQYkpBNTRsNWtCLVY3RkZUdVpJOVJKdzktS2tWanZZSXpWQTVwUzB1Q2NrRGhjVklyb01mUHBNUHFWaGpQVXNJbXdPazhoUGtZR2JlajJyNlQ4ZXZlWnczWjE2NE1aNV9CRGI3UEtMOW1sYzVB?oc=5",
+     "typ": "TVP Olsztyn"
     }
    ],
    "id": "reg-44fa433cee-1",

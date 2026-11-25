@@ -1,7 +1,12 @@
 {
- "aktualizacja": "2026-11-25T23:29+01:00",
+ "aktualizacja": "2026-11-26T00:26+01:00",
  "dni_aktywne": 45,
  "bledy": [
+  "nie znaleziono strony WIW: lubelskie",
+  "nie znaleziono strony WIW: łódzkie",
+  "nie znaleziono strony WIW: małopolskie",
+  "nie znaleziono strony WIW: świętokrzyskie",
+  "nie znaleziono strony WIW: zachodniopomorskie",
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
   "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
@@ -4783,7 +4788,7 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T11:07+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
@@ -4813,7 +4818,7 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T11:07+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
@@ -5564,7 +5569,7 @@
    "lon": 16.3331334,
    "dokladnosc": "miejscowosc",
    "dodano": "2026-11-05T11:06+01:00",
-   "status": "wygasa"
+   "status": "zniesione"
   },
   {
    "miejscowosc": null,
@@ -7626,39 +7631,6 @@
    "lon": 17.09559,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:30+01:00",
-   "status": "zniesione"
-  },
-  {
-   "miejscowosc": "Konotop",
-   "gmina": "Sława",
-   "powiat": "wschowski",
-   "woj": "lubuskie",
-   "liczba": null,
-   "ptaki": "kury nioski",
-   "nr": null,
-   "data": "2025-10-21",
-   "choroba": "ND",
-   "typ": "komunikat",
-   "tytul_zrodla": "Rozporządzenie WL z dnia 21.10.2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów wschowskiego, nowosolskiego i zielonogórskiego",
-   "zrodlo": "https://bip.piwwschowa.pl/system/pobierz.php?id=235",
-   "rodzaj": "komunikat",
-   "strefy": {
-    "zagrozony": "1) w powiecie wschowskim, w gminie Sława, miejscowości: Łupice, Spokojna, Bagno, Szreniawa, Ciosaniec, Droniki; 2) w powiecie nowosolskim, w gminie Kolsko, miejscowości: Uście, Tatarki, Jesiona, Sławo cin, Tyrszeliny, Kolsko, część miejscowości Konotop na północ od drogi leśnej łączącej m. Głuszyca z drogą pożarową nr 6; 3) w powiecie zielonogórskim: a) w gminie Kargowa, miejscowości: Obra Dolna, Nowy Jaromierz, Stary Jaromierz, część miejscowości Karszyn na wschód od drogi gminnej z miejscowości Kargowa do miejscowości Siadcza, b) w gminie Bojadła, część miejscowości Susłów, na wschód od drogi pożarowej nr 18"
-   },
-   "potwierdzenie": "urzędowe",
-   "zrodlo_rodzaj": "PIW",
-   "zrodla": [
-    {
-     "t": "Rozporządzenie WL z dnia 21.10.2025 r. w sprawie zwalczania rzekomego pomoru drobiu (ND) na terenie powiatów wschowskiego, nowosolskiego i zielonogórskiego",
-     "u": "https://bip.piwwschowa.pl/system/pobierz.php?id=235",
-     "typ": "PIW Wschowa"
-    }
-   ],
-   "id": "reg-3428a7789d-1",
-   "lat": 51.9313035,
-   "lon": 15.9029475,
-   "dokladnosc": "miejscowosc",
-   "dodano": "2026-11-05T19:49+01:00",
    "status": "zniesione"
   }
  ]

@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-26T23:27+01:00",
+ "aktualizacja": "2026-11-27T00:28+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -4638,7 +4638,7 @@
    "lon": 22.57,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T11:06+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
@@ -4668,7 +4668,7 @@
    "lon": 21.01,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T12:11+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
@@ -4698,7 +4698,7 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T13:08+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
@@ -4728,7 +4728,7 @@
    "lon": 22.5535534,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T13:09+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
@@ -4758,7 +4758,7 @@
    "lon": 17.8248007,
    "dokladnosc": "powiat",
    "dodano": "2026-11-05T14:31+01:00",
-   "status": "aktywne"
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
@@ -7601,36 +7601,6 @@
    "lon": 16.93,
    "dokladnosc": "województwo",
    "dodano": "2026-11-05T14:29+01:00",
-   "status": "zniesione"
-  },
-  {
-   "miejscowosc": null,
-   "gmina": null,
-   "powiat": "gostyński",
-   "woj": "wielkopolskie",
-   "liczba": null,
-   "ptaki": null,
-   "nr": null,
-   "data": "2025-10-22",
-   "choroba": "HPAI",
-   "typ": "komunikat",
-   "tytul_zrodla": "Powiat gostyński obszarem wysokiego ryzyka wirusa wysoce zjadliwej grypy ptaków (HPAI)",
-   "zrodlo": "https://piwgostyn.pl/powiat-gostynski-obszarem-wysokiego-ryzyka-wirusa-wysoce-zjadliwej-grypy-ptakow-hpai/",
-   "rodzaj": "komunikat",
-   "potwierdzenie": "urzędowe",
-   "zrodlo_rodzaj": "PIW",
-   "zrodla": [
-    {
-     "t": "Powiat gostyński obszarem wysokiego ryzyka wirusa wysoce zjadliwej grypy ptaków (HPAI)",
-     "u": "https://piwgostyn.pl/powiat-gostynski-obszarem-wysokiego-ryzyka-wirusa-wysoce-zjadliwej-grypy-ptakow-hpai/",
-     "typ": "Strona internetowa Powiatowego Inspektoratu w Gostyniu"
-    }
-   ],
-   "id": "reg-3b0c46849b-1",
-   "lat": 51.8377719,
-   "lon": 17.09559,
-   "dokladnosc": "powiat",
-   "dodano": "2026-11-05T14:30+01:00",
    "status": "zniesione"
   }
  ]

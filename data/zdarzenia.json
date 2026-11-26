@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-26T19:04+01:00",
+ "aktualizacja": "2026-11-26T20:16+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
@@ -47,6 +47,11 @@
      "t": "Ognisko grypy ptaków na fermie indyków w powiecie nowomiejskim - TVP Olsztyn",
      "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWHRBY2xGRWM1MXBIN0k2ZFFadDA3b1V4RDFuRGd2VDVfdW9nNmJQYkpBNTRsNWtCLVY3RkZUdVpJOVJKdzktS2tWanZZSXpWQTVwUzB1Q2NrRGhjVklyb01mUHBNUHFWaGpQVXNJbXdPazhoUGtZR2JlajJyNlQ4ZXZlWnczWjE2NE1aNV9CRGI3UEtMOW1sYzVB?oc=5",
      "typ": "TVP Olsztyn"
+    },
+    {
+     "t": "Warmińsko-mazurskie: ognisko grypy ptaków na fermie indyków w powiecie nowomiejskim - SadyOgrody",
+     "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMk1fLWN0ZHlhRGJxUGp1T2ttOGZCdDlBTVYwSG5mNE40NE16SUdUT1B3X3RlbFJQcjJjS0NHQ0o5c0J4Z0N6NGhBVkRqZENyZ0FvRno2azZQT0JNelpkT1V3a0ZKT1U1MEtxS3B4c0lKZDJ6UUdKdmNGVlpxZHgtS2RHQmdMa19YejVaM3E1MDJydTNwNzRYdmdoX0ZNNkNRT3BoazhtaUxqY0hmVUdaWmp1Wk1MYkdrNXlWUHI3NTR2MmV5QjRFVjE3Y3B2Zw?oc=5",
+     "typ": "SadyOgrody"
     }
    ],
    "id": "reg-44fa433cee-1",

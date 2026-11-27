@@ -1,5 +1,5 @@
 {
- "piw_offset": 0,
+ "piw_offset": 29,
  "przetworzone": [],
  "adresy": [
   "http://bialystok.wiw.gov.pl/a,27,nowe-zalecenia-dla-drobiarzy",
@@ -565,6 +565,7 @@
   "https://www.wetgiw.gov.pl/nadzor-weterynaryjny/zasady-ochrony-drobiu-przed-grypa-ptakow",
   "https://www.wiw.bydgoszcz.pl/115-lewe-menu/389-informacja-dla-hodowcow-drobiu",
   "https://www.wiw.bydgoszcz.pl/aktualnosci-hpai",
+  "https://www.wiw.bydgoszcz.pl/aktualnosci-hpai/738-komunikat-glw-13-10-2026",
   "https://www.wiw.mazowsze.pl/zdrowie-i-profilaktyka/odrobaczanie-szczeniaka-kiedy-czym-i-jak-czesto/",
   "https://www.wiw.poznan.pl/informacje-podstawowe/aktualnosci/Komunikat-Glownego-Lekarza-Weterynarii-dotyczacy-zagrozenia-grypa-ptakow-w-zwiazku-z-jesiennymi-migracjami-dzikiego-ptactwa-/idn:548",
   "https://www.wiw.poznan.pl/pliki/ZOOHIGIENA-W-ZAKLADACH-DROBIU-SALMONELLA---WYTYCZNE-GLOWNEGO-LEKARZA-WETERYNARII,1202.pdf",
@@ -623,6 +624,7 @@
   "CBMinwFBVV95cUxNa29Ha1NVTzBKY3doUlFLTEVxZHZzSmJwdWJldG1ybXpMZzNwSUpxVjJFbTRwUnNzN3ZJZk1la2F6X3NMMVJXcG83NWVKbnBkZGVLbU9KNjVCSXBWU1AycnlQUUpqSmU5bENUT1Y5TTRFWV90aU1ySG45bk05bEg1MFBGUW9tNGRoblcwWnRoajVOLXVJOHpQNzhzQ0hkOEE",
   "CBMinwFBVV95cUxPMjhFODJtNFFUdlRPc3ZtN1pUNmpGNzgySEpxVUZSSGIzbTNKc1lOT2twTTE1Y1ZWclBlYW5TclFnbEFSOTY3YVBMbFFMNVNhcUhjTWxhYWFyVzFHalBHblZvT09udGo5RHp2WmhtOW5pZGpnUTNCTDB0YjQ5NW5jWmFTUXhjeDRUUGtwaEY1LVBYNF9JTVlQaXYxUlJuZWM",
   "CBMinwFBVV95cUxQSFFPRU43UEF5anpUVFBMa0tNYUhQZEFpY1RUODg3WW5QRC1Kb1dMVHJRMzRxU1NEeWh2N1haRDhpUEw1cnN0NTBFeWRpS3V3Yno3VWZwd3MwclV4Tnk3cDYwY19PYW40OGkwOHJfNC16ZzBnNmpLNHctbTF6NFVpUndlUVhLU1djWklWeHoySzJkdFg3LXlsWDViZ0VHWVk",
+  "CBMioAFBVV95cUxPOTY4TzNOVEZXTzllcmZHeEFQajZ6d3JfUWF2RWVtRXhUQUJ2NWtLZVdrZ0hjX29fUTY2ZXIwUVBxaExfSGRadWg0Z1VOa3NDdmZybUZjT2dSS09iSkpFQTFGcU1sUWV2NFpYZVNlbzdFMXI2SWIwbUhJRUpHTlM1X19Ud1YtMkV4N2w4b2l6d1Noa1RZejNVQUpWNUJhU2du",
   "CBMioAFBVV95cUxPVE9SeUpzTlZWNDM2a3h2TFlraDgwUU9vbjFnYTdacjZwWjNtUnEzRXlta1pJSy1oUWs4ZnR4YjhnaHl4TWhGR0w2UDZOQmtLaUQwZlM2aGxYcDlxWjBVbWlPaWFweW9fUkdtOE1vM0huVkRhV0Y5SjdkWDlvbFlKa2Q1UE8zTGNUZl93LWtBbGwtMW1RNU0xRks0VEdndnB4",
   "CBMiogFBVV95cUxNYVUxSGxFUDBld3RYYnRYX1dfcXk0SGtCT01OQURCdXJvblFMa3NkX0JXT3IzRjFlV0t0cUZMTmVDWG5YdW1JQTZad2lBdHlTVFlsUkk2ZzBmQTgyOWVNXzVrR0x5X0dPa0tpVzVWZ2NtSDk1YVFNWHV2T3E2UWdpelU5RG1BcVdKWG5uMEY3S3RHamF1a3FFSk12d3VSckdwcGc",
   "CBMiowFBVV95cUxPc2IxX2gyQURtRDZkS2xSMm05ZlQtRVVpUlF1SWdXb2s2LTZnRXBTMVJaZUxlNU5JNmVFbmd1QWNxWHlNcDJCdmh2UFNuSjBYcl84LUpKb1FHZ3JZRkZaOF9mM2xKWXFOQ2dldW10VFpWYjV0Q0t3bHFQY2RPX04xQU1iWUJmRDVZdE05VUNyTEZBbVRnTmdaVTBjQ0hWYWY1Y280",
@@ -685,5 +687,5 @@
   "CBMiywFBVV95cUxPOXpVUldjc1EwUF9fd0gyQ3RiMHp6VXZxSEhJRlhRc04xaU1udjA5QS1xV1RQWjRpMGFpcWJJeUJ2ZXJ0NEN1RVJmM2tnd1B2YWFDbVJfdWJLSnRWN1VnVk52RW5aWVpEeTBPSG5VNlNSTjZlV0JaZlRHNkt6WWxTZkpSX3ZPQjJJNUZ2WTNUTk15MHVBNWl0Sy04NFpLUGVwRzM4S3RkWlVvRlNaa1AzNUlLbXR5V2xjc3AyWmZjM3ZmUUNtdmFJR01VWQ",
   "CBMizgFBVV95cUxOMk1fLWN0ZHlhRGJxUGp1T2ttOGZCdDlBTVYwSG5mNE40NE16SUdUT1B3X3RlbFJQcjJjS0NHQ0o5c0J4Z0N6NGhBVkRqZENyZ0FvRno2azZQT0JNelpkT1V3a0ZKT1U1MEtxS3B4c0lKZDJ6UUdKdmNGVlpxZHgtS2RHQmdMa19YejVaM3E1MDJydTNwNzRYdmdoX0ZNNkNRT3BoazhtaUxqY0hmVUdaWmp1Wk1MYkdrNXlWUHI3NTR2MmV5QjRFVjE3Y3B2Zw"
  ],
- "ostatnie_uruchomienie": "2026-11-27T13:11+01:00"
+ "ostatnie_uruchomienie": "2026-11-27T14:35+01:00"
 }

@@ -1,10 +1,9 @@
 {
- "aktualizacja": "2026-11-27T13:11+01:00",
+ "aktualizacja": "2026-11-27T14:35+01:00",
  "dni_aktywne": 45,
  "bledy": [
   "Wojewoda Wielkopolski – rozporządzenia: <urlopen error timed out>",
-  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>",
-  "wiadomości: HTTP Error 429: Too Many Requests"
+  "Wojewoda Świętokrzyski – komunikaty: <urlopen error timed out>"
  ],
  "zdarzenia": [
   {
@@ -5211,6 +5210,36 @@
    "dodano": "2026-11-05T13:09+01:00",
    "status": "wygasa",
    "obszar": null
+  },
+  {
+   "miejscowosc": null,
+   "gmina": null,
+   "powiat": "inspektoraty",
+   "woj": "pomorskie",
+   "liczba": null,
+   "ptaki": null,
+   "nr": null,
+   "data": "2026-10-13",
+   "choroba": "HPAI",
+   "typ": "komunikat",
+   "tytul_zrodla": "Komunikat GLW 13.10.2026",
+   "zrodlo": "https://www.wiw.bydgoszcz.pl/aktualnosci-hpai/738-komunikat-glw-13-10-2026",
+   "rodzaj": "komunikat",
+   "potwierdzenie": "urzędowe",
+   "zrodlo_rodzaj": "WIW",
+   "zrodla": [
+    {
+     "t": "Komunikat GLW 13.10.2026",
+     "u": "https://www.wiw.bydgoszcz.pl/aktualnosci-hpai/738-komunikat-glw-13-10-2026",
+     "typ": "WIW (kujawsko-pomorskie)"
+    }
+   ],
+   "id": "reg-85a596ccea-1",
+   "lat": 54.35,
+   "lon": 18.65,
+   "dokladnosc": "województwo",
+   "dodano": "2026-11-27T14:35+01:00",
+   "status": "wygasa"
   },
   {
    "miejscowosc": null,
